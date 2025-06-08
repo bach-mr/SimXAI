@@ -1731,248 +1731,248 @@
   },
   {
     "idx": 346,
-    "user_question": "What are some counterfactual examples for this input?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "What are some counterfactual examples for this input?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 347,
-    "user_question": "Can you provide counterfactual examples to change the prediction?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Can you provide counterfactual examples to change the prediction?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 348,
-    "user_question": "Show me examples that would change the model's output.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Show me examples that would change the model's output.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 349,
-    "user_question": "What are the counterfactual examples for this data point?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "What are the counterfactual examples for this data point?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 350,
-    "user_question": "Generate counterfactual examples for this input.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Generate counterfactual examples for this input.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 351,
-    "user_question": "I need counterfactual examples to alter the prediction.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "I need counterfactual examples to alter the prediction.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 352,
-    "user_question": "Can you show me some counterfactual examples?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Can you show me some counterfactual examples?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 353,
-    "user_question": "What counterfactual examples can change the output?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "What counterfactual examples can change the output?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 354,
-    "user_question": "Provide counterfactual examples for this sample.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Provide counterfactual examples for this sample.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 355,
-    "user_question": "Can you generate counterfactual examples?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Can you generate counterfactual examples?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 356,
-    "user_question": "Show me counterfactual examples for this data point.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Show me counterfactual examples for this data point.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 357,
-    "user_question": "What are the counterfactual examples that change the label?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "What are the counterfactual examples that change the label?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 358,
-    "user_question": "Generate counterfactual examples to alter the model's prediction.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Generate counterfactual examples to alter the model's prediction.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 359,
-    "user_question": "Can you provide counterfactual examples for this input?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Can you provide counterfactual examples for this input?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 360,
-    "user_question": "Show me examples that change the prediction.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Show me examples that change the prediction.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 361,
-    "user_question": "What are the counterfactual examples for this particular input?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "What are the counterfactual examples for this particular input?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 362,
-    "user_question": "Generate counterfactual examples for this sample.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Generate counterfactual examples for this sample.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 363,
-    "user_question": "I need counterfactual examples to change the label.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "I need counterfactual examples to change the label.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 364,
-    "user_question": "Can you show me some counterfactual examples for this data point?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Can you show me some counterfactual examples for this data point?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 365,
-    "user_question": "What counterfactual examples can alter the prediction?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "What counterfactual examples can alter the prediction?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 366,
-    "user_question": "Provide counterfactual examples for this particular input.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Provide counterfactual examples for this particular input.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 367,
-    "user_question": "Can you generate counterfactual examples for this sample?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Can you generate counterfactual examples for this sample?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 368,
-    "user_question": "Show me counterfactual examples for this data point.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Show me counterfactual examples for this data point.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 369,
-    "user_question": "What are the counterfactual examples that change the output?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "What are the counterfactual examples that change the output?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 370,
-    "user_question": "Generate counterfactual examples to alter the model's output.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Generate counterfactual examples to alter the model's output.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 371,
-    "user_question": "Can you provide counterfactual examples for this input?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Can you provide counterfactual examples for this input?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 372,
-    "user_question": "Show me examples that change the label.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Show me examples that change the label.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 373,
-    "user_question": "What are the counterfactual examples for this specific input?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "What are the counterfactual examples for this specific input?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 374,
-    "user_question": "Generate counterfactual examples for this sample.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Generate counterfactual examples for this sample.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 375,
-    "user_question": "I need counterfactual examples to alter the prediction.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "I need counterfactual examples to alter the prediction.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 376,
-    "user_question": "Can you show me some counterfactual examples for this data point?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Can you show me some counterfactual examples for this data point?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 377,
-    "user_question": "What counterfactual examples can change the prediction?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "What counterfactual examples can change the prediction?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 378,
-    "user_question": "Provide counterfactual examples for this specific input.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Provide counterfactual examples for this specific input.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 379,
-    "user_question": "Can you generate counterfactual examples for this sample?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Can you generate counterfactual examples for this sample?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 380,
-    "user_question": "Show me counterfactual examples for this data point.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Show me counterfactual examples for this data point.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 381,
-    "user_question": "What are the counterfactual examples that change the output?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "What are the counterfactual examples that change the output?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 382,
-    "user_question": "Generate counterfactual examples to alter the model's prediction.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Generate counterfactual examples to alter the model's prediction.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 383,
-    "user_question": "Can you provide counterfactual examples for this input?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Can you provide counterfactual examples for this input?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 384,
-    "user_question": "Show me examples that change the label.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Show me examples that change the label.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 385,
-    "user_question": "What are the counterfactual examples for this input?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "What are the counterfactual examples for this input?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 386,
-    "user_question": "Generate counterfactual examples for this sample.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Generate counterfactual examples for this sample.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 387,
-    "user_question": "I need counterfactual examples to change the prediction.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "I need counterfactual examples to change the prediction.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 388,
-    "user_question": "Can you show me some counterfactual examples?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Can you show me some counterfactual examples?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 389,
-    "user_question": "What counterfactual examples can change the output?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "What counterfactual examples can change the output?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 390,
-    "user_question": "Provide counterfactual examples for this input.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Provide counterfactual examples for this input.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 391,
-    "user_question": "Can you generate counterfactual examples?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Can you generate counterfactual examples?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 392,
-    "user_question": "Show me counterfactual examples for this data point.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Show me counterfactual examples for this data point.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 393,
-    "user_question": "What are the counterfactual examples that change the label?",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "What are the counterfactual examples that change the label?",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 394,
-    "user_question": "Generate counterfactual examples to alter the model's prediction.",
-    "parsed_text": "[cfe(input,label)]"
+    "user": "Generate counterfactual examples to alter the model's prediction.",
+    "parsed": "[cfe(input,label)]"
   },
   {
     "idx": 395,
@@ -2226,243 +2226,243 @@
   },
   {
     "idx": 445,
-    "user_question": "Can you provide counterfactual examples for this input?",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Can you provide counterfactual examples for this input?",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 446,
-    "user_question": "What are the counterfactual examples for this data point?",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "What are the counterfactual examples for this data point?",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 447,
-    "user_question": "Show me how to change the model prediction for this sample.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Show me how to change the model prediction for this sample.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 448,
-    "user_question": "I need counterfactual examples that alter the prediction.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "I need counterfactual examples that alter the prediction.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 449,
-    "user_question": "Generate counterfactual examples for this input.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Generate counterfactual examples for this input.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 450,
-    "user_question": "What changes would flip the predicted label?",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "What changes would flip the predicted label?",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 451,
-    "user_question": "Provide counterfactual examples to change the prediction.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Provide counterfactual examples to change the prediction.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 452,
-    "user_question": "I want to see counterfactual examples for this data.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "I want to see counterfactual examples for this data.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 453,
-    "user_question": "Can you show counterfactual examples affecting the prediction?",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Can you show counterfactual examples affecting the prediction?",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 454,
-    "user_question": "List the counterfactual examples for this input.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "List the counterfactual examples for this input.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 455,
-    "user_question": "How can I change the model prediction with counterfactual examples?",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "How can I change the model prediction with counterfactual examples?",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 456,
-    "user_question": "Show me counterfactual examples that would change the label.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Show me counterfactual examples that would change the label.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 457,
-    "user_question": "Give me counterfactual examples for this input.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Give me counterfactual examples for this input.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 458,
-    "user_question": "What are some counterfactual examples affecting the prediction?",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "What are some counterfactual examples affecting the prediction?",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 459,
-    "user_question": "I need to see counterfactual examples for this data point.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "I need to see counterfactual examples for this data point.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 460,
-    "user_question": "Provide counterfactual examples to alter the predicted label.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Provide counterfactual examples to alter the predicted label.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 461,
-    "user_question": "Can you generate counterfactual examples for this input?",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Can you generate counterfactual examples for this input?",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 462,
-    "user_question": "Show me how to change the prediction with counterfactual examples.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Show me how to change the prediction with counterfactual examples.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 463,
-    "user_question": "List counterfactual examples for this sample.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "List counterfactual examples for this sample.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 464,
-    "user_question": "How can I alter the model prediction using counterfactual examples?",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "How can I alter the model prediction using counterfactual examples?",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 465,
-    "user_question": "Provide counterfactual examples that change the prediction.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Provide counterfactual examples that change the prediction.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 466,
-    "user_question": "I want to see counterfactual examples for this input.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "I want to see counterfactual examples for this input.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 467,
-    "user_question": "What are the counterfactual examples that affect the prediction?",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "What are the counterfactual examples that affect the prediction?",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 468,
-    "user_question": "Show me counterfactual examples to flip the predicted label.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Show me counterfactual examples to flip the predicted label.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 469,
-    "user_question": "Generate counterfactual examples that alter the prediction.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Generate counterfactual examples that alter the prediction.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 470,
-    "user_question": "Provide counterfactual examples for this data point.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Provide counterfactual examples for this data point.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 471,
-    "user_question": "Can you list counterfactual examples that change the label?",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Can you list counterfactual examples that change the label?",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 472,
-    "user_question": "How do I change the model prediction with counterfactual examples?",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "How do I change the model prediction with counterfactual examples?",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 473,
-    "user_question": "Show me counterfactual examples for this input.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Show me counterfactual examples for this input.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 474,
-    "user_question": "I need counterfactual examples to alter the prediction.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "I need counterfactual examples to alter the prediction.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 475,
-    "user_question": "Generate counterfactual examples affecting the predicted label.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Generate counterfactual examples affecting the predicted label.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 476,
-    "user_question": "Provide counterfactual examples that flip the prediction.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Provide counterfactual examples that flip the prediction.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 477,
-    "user_question": "List counterfactual examples for this sample.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "List counterfactual examples for this sample.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 478,
-    "user_question": "How can counterfactual examples change the model prediction?",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "How can counterfactual examples change the model prediction?",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 479,
-    "user_question": "Show me counterfactual examples that alter the label.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Show me counterfactual examples that alter the label.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 480,
-    "user_question": "I want to see counterfactual examples for this input.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "I want to see counterfactual examples for this input.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 481,
-    "user_question": "What are the counterfactual examples affecting the prediction?",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "What are the counterfactual examples affecting the prediction?",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 482,
-    "user_question": "Provide counterfactual examples to change the predicted label.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Provide counterfactual examples to change the predicted label.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 483,
-    "user_question": "Can you generate counterfactual examples for this data point?",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Can you generate counterfactual examples for this data point?",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 484,
-    "user_question": "Show me how to alter the prediction with counterfactual examples.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Show me how to alter the prediction with counterfactual examples.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 485,
-    "user_question": "List counterfactual examples that change the label.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "List counterfactual examples that change the label.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 486,
-    "user_question": "How do I use counterfactual examples to change the model prediction?",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "How do I use counterfactual examples to change the model prediction?",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 487,
-    "user_question": "Generate counterfactual examples for this input.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Generate counterfactual examples for this input.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 488,
-    "user_question": "Provide counterfactual examples affecting the predicted label.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Provide counterfactual examples affecting the predicted label.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 489,
-    "user_question": "Can you show me counterfactual examples that flip the prediction?",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Can you show me counterfactual examples that flip the prediction?",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 490,
-    "user_question": "I need counterfactual examples to change the prediction.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "I need counterfactual examples to change the prediction.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 491,
-    "user_question": "Show me counterfactual examples for this sample.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "Show me counterfactual examples for this sample.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 492,
-    "user_question": "List counterfactual examples that alter the model prediction.",
-    "parsed_text": "[cfe(input, label)]"
+    "user": "List counterfactual examples that alter the model prediction.",
+    "parsed": "[cfe(input, label)]"
   },
   {
     "idx": 493,

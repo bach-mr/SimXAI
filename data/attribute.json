@@ -181,53 +181,53 @@
   },
   {
     "idx": 36,
-    "user question": "Which features contribute most to this prediction?",
-    "parsed text": "[SHAP(input,label)]"
+    "user": "Which features contribute most to this prediction?",
+    "parsed": "[SHAP(input,label)]"
   },
   {
     "idx": 37,
-    "user question": "Can you show me the important words for this input using SHAP?",
-    "parsed text": "[SHAP(input,label)]"
+    "user": "Can you show me the important words for this input using SHAP?",
+    "parsed": "[SHAP(input,label)]"
   },
   {
     "idx": 38,
-    "user question": "How do I compute feature importances for this example?",
-    "parsed text": "[SHAP(input,label)]"
+    "user": "How do I compute feature importances for this example?",
+    "parsed": "[SHAP(input,label)]"
   },
   {
     "idx": 39,
-    "user question": "Apply SHAP to explain which tokens drove the model’s output.",
-    "parsed text": "[SHAP(input,label)]"
+    "user": "Apply SHAP to explain which tokens drove the model’s output.",
+    "parsed": "[SHAP(input,label)]"
   },
   {
     "idx": 40,
-    "user question": "What are the top contributing features here?",
-    "parsed text": "[SHAP(input,label)]"
+    "user": "What are the top contributing features here?",
+    "parsed": "[SHAP(input,label)]"
   },
   {
     "idx": 41,
-    "user question": "I’d like to see a SHAP breakdown of this sample—please highlight key words.",
-    "parsed text": "[SHAP(input,label)]"
+    "user": "I’d like to see a SHAP breakdown of this sample—please highlight key words.",
+    "parsed": "[SHAP(input,label)]"
   },
   {
     "idx": 42,
-    "user question": "Which parts of the input had the greatest impact on the label?",
-    "parsed text": "[SHAP(input,label)]"
+    "user": "Which parts of the input had the greatest impact on the label?",
+    "parsed": "[SHAP(input,label)]"
   },
   {
     "idx": 43,
-    "user question": "Generate a feature importance plot for this record using SHAP.",
-    "parsed text": "[SHAP(input,label)]"
+    "user": "Generate a feature importance plot for this record using SHAP.",
+    "parsed": "[SHAP(input,label)]"
   },
   {
     "idx": 44,
-    "user question": "Identify and rank the most influential words in this text.",
-    "parsed text": "[SHAP(input,label)]"
+    "user": "Identify and rank the most influential words in this text.",
+    "parsed": "[SHAP(input,label)]"
   },
   {
     "idx": 45,
-    "user question": "Use SHAP values to explain the prediction on this input.",
-    "parsed text": "[SHAP(input,label)]"
+    "user": "Use SHAP values to explain the prediction on this input.",
+    "parsed": "[SHAP(input,label)]"
   },
   {
     "idx": 46,
