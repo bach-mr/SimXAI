@@ -1,0 +1,566 @@
+[
+  {
+    "idx": 0,
+    "user_question": "Could you provide a counterfactual example for the review 'A stunning achievement in filmmaking'?",
+    "operation_name": "cfe",
+    "custom_input": "A stunning achievement in filmmaking"
+  },
+  {
+    "idx": 1,
+    "user_question": "Please generate a counterfactual for 'The movie was utterly disappointing and dull.'",
+    "operation_name": "cfe",
+    "custom_input": "The movie was utterly disappointing and dull."
+  },
+  {
+    "idx": 2,
+    "user_question": "Can you give a counterfactual example for 'An extraordinary performance by the lead actor'?",
+    "operation_name": "cfe",
+    "custom_input": "An extraordinary performance by the lead actor"
+  },
+  {
+    "idx": 3,
+    "user_question": "I'd like a counterfactual for the review 'The plot was predictable and unoriginal.'",
+    "operation_name": "cfe",
+    "custom_input": "The plot was predictable and unoriginal."
+  },
+  {
+    "idx": 4,
+    "user_question": "Could you please provide a counterfactual for 'An inspiring and heartwarming story'?",
+    "operation_name": "cfe",
+    "custom_input": "An inspiring and heartwarming story"
+  },
+  {
+    "idx": 5,
+    "user_question": "Please generate a counterfactual example for 'The special effects were subpar and distracting.'",
+    "operation_name": "cfe",
+    "custom_input": "The special effects were subpar and distracting."
+  },
+  {
+    "idx": 6,
+    "user_question": "Can you provide a counterfactual for 'A riveting tale that keeps you on the edge of your seat'?",
+    "operation_name": "cfe",
+    "custom_input": "A riveting tale that keeps you on the edge of your seat"
+  },
+  {
+    "idx": 7,
+    "user_question": "I'd like a counterfactual example for 'The acting was wooden and unconvincing.'",
+    "operation_name": "cfe",
+    "custom_input": "The acting was wooden and unconvincing."
+  },
+  {
+    "idx": 8,
+    "user_question": "Could you please generate a counterfactual for 'An unforgettable experience that touches the soul'?",
+    "operation_name": "cfe",
+    "custom_input": "An unforgettable experience that touches the soul"
+  },
+  {
+    "idx": 9,
+    "user_question": "Please provide a counterfactual example for 'The storyline was convoluted and hard to follow.'",
+    "operation_name": "cfe",
+    "custom_input": "The storyline was convoluted and hard to follow."
+  },
+  {
+    "idx": 10,
+    "user_question": "Can you give a counterfactual for 'A masterpiece that redefines the genre'?",
+    "operation_name": "cfe",
+    "custom_input": "A masterpiece that redefines the genre"
+  },
+  {
+    "idx": 11,
+    "user_question": "I'd like a counterfactual example for 'The film was a complete letdown from start to finish.'",
+    "operation_name": "cfe",
+    "custom_input": "The film was a complete letdown from start to finish."
+  },
+  {
+    "idx": 12,
+    "user_question": "Could you please provide a counterfactual for 'An exhilarating adventure that captivates the audience'?",
+    "operation_name": "cfe",
+    "custom_input": "An exhilarating adventure that captivates the audience"
+  },
+  {
+    "idx": 13,
+    "user_question": "Please generate a counterfactual example for 'The pacing was slow and the dialogue was uninspired.'",
+    "operation_name": "cfe",
+    "custom_input": "The pacing was slow and the dialogue was uninspired."
+  },
+  {
+    "idx": 14,
+    "user_question": "Can you provide a counterfactual for 'A thought-provoking film that challenges perceptions'?",
+    "operation_name": "cfe",
+    "custom_input": "A thought-provoking film that challenges perceptions"
+  },
+  {
+    "idx": 15,
+    "user_question": "I'd like a counterfactual example for 'The cinematography was amateurish and unappealing.'",
+    "operation_name": "cfe",
+    "custom_input": "The cinematography was amateurish and unappealing."
+  },
+  {
+    "idx": 16,
+    "user_question": "Could you please generate a counterfactual for 'An emotionally powerful narrative that resonates deeply'?",
+    "operation_name": "cfe",
+    "custom_input": "An emotionally powerful narrative that resonates deeply"
+  },
+  {
+    "idx": 17,
+    "user_question": "Please provide a counterfactual example for 'The film lacked coherence and was poorly executed.'",
+    "operation_name": "cfe",
+    "custom_input": "The film lacked coherence and was poorly executed."
+  },
+  {
+    "idx": 18,
+    "user_question": "Can you give a counterfactual for 'A delightful comedy that keeps you laughing throughout'?",
+    "operation_name": "cfe",
+    "custom_input": "A delightful comedy that keeps you laughing throughout"
+  },
+  {
+    "idx": 19,
+    "user_question": "I'd like a counterfactual example for 'The movie was tedious and overly long.'",
+    "operation_name": "cfe",
+    "custom_input": "The movie was tedious and overly long."
+  },
+  {
+    "idx": 20,
+    "user_question": "Could you please provide a counterfactual for 'An impressive blend of action and storytelling'?",
+    "operation_name": "cfe",
+    "custom_input": "An impressive blend of action and storytelling"
+  },
+  {
+    "idx": 21,
+    "user_question": "Please generate a counterfactual example for 'The characters were shallow and uninteresting.'",
+    "operation_name": "cfe",
+    "custom_input": "The characters were shallow and uninteresting."
+  },
+  {
+    "idx": 22,
+    "user_question": "Can you provide a counterfactual for 'A mesmerizing score that enhances the film's impact'?",
+    "operation_name": "cfe",
+    "custom_input": "A mesmerizing score that enhances the film's impact"
+  },
+  {
+    "idx": 23,
+    "user_question": "I'd like a counterfactual example for 'The ending was unsatisfying and abrupt.'",
+    "operation_name": "cfe",
+    "custom_input": "The ending was unsatisfying and abrupt."
+  },
+  {
+    "idx": 24,
+    "user_question": "Could you please generate a counterfactual for 'An innovative and original piece of cinema'?",
+    "operation_name": "cfe",
+    "custom_input": "An innovative and original piece of cinema"
+  },
+  {
+    "idx": 25,
+    "user_question": "Please provide a counterfactual example for 'The humor fell flat and felt forced.'",
+    "operation_name": "cfe",
+    "custom_input": "The humor fell flat and felt forced."
+  },
+  {
+    "idx": 26,
+    "user_question": "Can you give a counterfactual for 'A compelling drama with outstanding performances'?",
+    "operation_name": "cfe",
+    "custom_input": "A compelling drama with outstanding performances"
+  },
+  {
+    "idx": 27,
+    "user_question": "I'd like a counterfactual example for 'The soundtrack was forgettable and didn't add to the experience.'",
+    "operation_name": "cfe",
+    "custom_input": "The soundtrack was forgettable and didn't add to the experience."
+  },
+  {
+    "idx": 28,
+    "user_question": "Could you please provide a counterfactual for 'An uplifting story that leaves you inspired'?",
+    "operation_name": "cfe",
+    "custom_input": "An uplifting story that leaves you inspired"
+  },
+  {
+    "idx": 29,
+    "user_question": "Please generate a counterfactual example for 'The visual effects were outdated and unimpressive.'",
+    "operation_name": "cfe",
+    "custom_input": "The visual effects were outdated and unimpressive."
+  },
+  {
+    "idx": 30,
+    "user_question": "Can you provide a counterfactual for 'A mind-numbing display of visual effects with no substance'?",
+    "operation_name": "cfe",
+    "custom_input": "A mind-numbing display of visual effects with no substance"
+  },
+  {
+    "idx": 31,
+    "user_question": "I'd like a counterfactual example for 'An enchanting tale that captivates all ages.'",
+    "operation_name": "cfe",
+    "custom_input": "An enchanting tale that captivates all ages."
+  },
+  {
+    "idx": 32,
+    "user_question": "Could you please generate a counterfactual for 'The script was weak and full of clichés.'",
+    "operation_name": "cfe",
+    "custom_input": "The script was weak and full of clichés."
+  },
+  {
+    "idx": 33,
+    "user_question": "Please provide a counterfactual example for 'A breathtaking performance by the entire cast.'",
+    "operation_name": "cfe",
+    "custom_input": "A breathtaking performance by the entire cast."
+  },
+  {
+    "idx": 34,
+    "user_question": "Can you give a counterfactual for 'The movie failed to deliver any real excitement.'",
+    "operation_name": "cfe",
+    "custom_input": "The movie failed to deliver any real excitement."
+  },
+  {
+    "idx": 35,
+    "user_question": "I'd like a counterfactual example for 'An inspiring journey that moves the heart.'",
+    "operation_name": "cfe",
+    "custom_input": "An inspiring journey that moves the heart."
+  },
+  {
+    "idx": 36,
+    "user_question": "Could you please provide a counterfactual for 'The dialogue was stilted and unnatural.'",
+    "operation_name": "cfe",
+    "custom_input": "The dialogue was stilted and unnatural."
+  },
+  {
+    "idx": 37,
+    "user_question": "Please generate a counterfactual example for 'A cinematic triumph that sets new standards.'",
+    "operation_name": "cfe",
+    "custom_input": "A cinematic triumph that sets new standards."
+  },
+  {
+    "idx": 38,
+    "user_question": "Can you provide a counterfactual for 'An overhyped film that doesn't live up to expectations.'",
+    "operation_name": "cfe",
+    "custom_input": "An overhyped film that doesn't live up to expectations."
+  },
+  {
+    "idx": 39,
+    "user_question": "I'd like a counterfactual example for 'A delightful blend of humor and drama.'",
+    "operation_name": "cfe",
+    "custom_input": "A delightful blend of humor and drama."
+  },
+  {
+    "idx": 40,
+    "user_question": "Could you please generate a counterfactual for 'The action scenes were poorly choreographed and confusing.'",
+    "operation_name": "cfe",
+    "custom_input": "The action scenes were poorly choreographed and confusing."
+  },
+  {
+    "idx": 41,
+    "user_question": "Please provide a counterfactual example for 'An unforgettable classic that will stand the test of time.'",
+    "operation_name": "cfe",
+    "custom_input": "An unforgettable classic that will stand the test of time."
+  },
+  {
+    "idx": 42,
+    "user_question": "Can you give a counterfactual for 'The plot holes made the story impossible to follow.'",
+    "operation_name": "cfe",
+    "custom_input": "The plot holes made the story impossible to follow."
+  },
+  {
+    "idx": 43,
+    "user_question": "I'd like a counterfactual example for 'A visually stunning masterpiece that mesmerizes the viewer.'",
+    "operation_name": "cfe",
+    "custom_input": "A visually stunning masterpiece that mesmerizes the viewer."
+  },
+  {
+    "idx": 44,
+    "user_question": "Could you please provide a counterfactual for 'The humor was juvenile and unfunny.'",
+    "operation_name": "cfe",
+    "custom_input": "The humor was juvenile and unfunny."
+  },
+  {
+    "idx": 45,
+    "user_question": "Please generate a counterfactual example for 'An emotionally gripping film that stays with you long after it ends.'",
+    "operation_name": "cfe",
+    "custom_input": "An emotionally gripping film that stays with you long after it ends."
+  },
+  {
+    "idx": 46,
+    "user_question": "Can you provide a counterfactual for 'The acting was over-the-top and exaggerated.'",
+    "operation_name": "cfe",
+    "custom_input": "The acting was over-the-top and exaggerated."
+  },
+  {
+    "idx": 47,
+    "user_question": "I'd like a counterfactual example for 'A brilliant screenplay that weaves a complex narrative.'",
+    "operation_name": "cfe",
+    "custom_input": "A brilliant screenplay that weaves a complex narrative."
+  },
+  {
+    "idx": 48,
+    "user_question": "Could you please generate a counterfactual for 'The film was marred by its incoherent storyline.'",
+    "operation_name": "cfe",
+    "custom_input": "The film was marred by its incoherent storyline."
+  },
+  {
+    "idx": 49,
+    "user_question": "Please provide a counterfactual example for 'An uplifting film that celebrates life and love.'",
+    "operation_name": "cfe",
+    "custom_input": "An uplifting film that celebrates life and love."
+  },
+  {
+    "idx": 50,
+    "user_question": "Can you give a counterfactual for 'The movie was an exercise in tedium and boredom.'",
+    "operation_name": "cfe",
+    "custom_input": "The movie was an exercise in tedium and boredom."
+  },
+  {
+    "idx": 51,
+    "user_question": "I'd like a counterfactual example for 'A fascinating documentary that educates and entertains.'",
+    "operation_name": "cfe",
+    "custom_input": "A fascinating documentary that educates and entertains."
+  },
+  {
+    "idx": 52,
+    "user_question": "Could you please provide a counterfactual for 'The characters were one-dimensional and forgettable.'",
+    "operation_name": "cfe",
+    "custom_input": "The characters were one-dimensional and forgettable."
+  },
+  {
+    "idx": 53,
+    "user_question": "Please generate a counterfactual example for 'An exhilarating action film that never lets up.'",
+    "operation_name": "cfe",
+    "custom_input": "An exhilarating action film that never lets up."
+  },
+  {
+    "idx": 54,
+    "user_question": "Can you provide a counterfactual for 'The film's attempt at satire fell flat.'",
+    "operation_name": "cfe",
+    "custom_input": "The film's attempt at satire fell flat."
+  },
+  {
+    "idx": 55,
+    "user_question": "I'd like a counterfactual example for 'A charming romantic comedy with genuine chemistry.'",
+    "operation_name": "cfe",
+    "custom_input": "A charming romantic comedy with genuine chemistry."
+  },
+  {
+    "idx": 56,
+    "user_question": "Could you please generate a counterfactual for 'The movie was riddled with clichés and stereotypes.'",
+    "operation_name": "cfe",
+    "custom_input": "The movie was riddled with clichés and stereotypes."
+  },
+  {
+    "idx": 57,
+    "user_question": "Please provide a counterfactual example for 'An epic adventure that transports you to another world.'",
+    "operation_name": "cfe",
+    "custom_input": "An epic adventure that transports you to another world."
+  },
+  {
+    "idx": 58,
+    "user_question": "Can you give a counterfactual for 'The ending was predictable and unsatisfying.'",
+    "operation_name": "cfe",
+    "custom_input": "The ending was predictable and unsatisfying."
+  },
+  {
+    "idx": 59,
+    "user_question": "I'd like a counterfactual example for 'A powerful and thought-provoking drama.'",
+    "operation_name": "cfe",
+    "custom_input": "A powerful and thought-provoking drama."
+  },
+  {
+    "idx": 60,
+    "user_question": "Could you please provide a counterfactual for 'The film lacked originality and felt derivative.'",
+    "operation_name": "cfe",
+    "custom_input": "The film lacked originality and felt derivative."
+  },
+  {
+    "idx": 61,
+    "user_question": "Please generate a counterfactual example for 'An inspiring biopic that does justice to its subject.'",
+    "operation_name": "cfe",
+    "custom_input": "An inspiring biopic that does justice to its subject."
+  },
+  {
+    "idx": 62,
+    "user_question": "Can you provide a counterfactual for 'The cinematography was bland and uninteresting.'",
+    "operation_name": "cfe",
+    "custom_input": "The cinematography was bland and uninteresting."
+  },
+  {
+    "idx": 63,
+    "user_question": "I'd like a counterfactual example for 'A gripping thriller that keeps you guessing until the end.'",
+    "operation_name": "cfe",
+    "custom_input": "A gripping thriller that keeps you guessing until the end."
+  },
+  {
+    "idx": 64,
+    "user_question": "Could you please generate a counterfactual for 'The musical score was distracting and out of place.'",
+    "operation_name": "cfe",
+    "custom_input": "The musical score was distracting and out of place."
+  },
+  {
+    "idx": 65,
+    "user_question": "Please provide a counterfactual example for 'An unforgettable journey of self-discovery.'",
+    "operation_name": "cfe",
+    "custom_input": "An unforgettable journey of self-discovery."
+  },
+  {
+    "idx": 66,
+    "user_question": "Can you give a counterfactual for 'The film was a messy compilation of disjointed scenes.'",
+    "operation_name": "cfe",
+    "custom_input": "The film was a messy compilation of disjointed scenes."
+  },
+  {
+    "idx": 67,
+    "user_question": "I'd like a counterfactual example for 'A heartwarming story that resonates with audiences.'",
+    "operation_name": "cfe",
+    "custom_input": "A heartwarming story that resonates with audiences."
+  },
+  {
+    "idx": 68,
+    "user_question": "Could you please generate a counterfactual for 'The pacing was uneven and disrupted the flow.'",
+    "operation_name": "cfe",
+    "custom_input": "The pacing was uneven and disrupted the flow."
+  },
+  {
+    "idx": 69,
+    "user_question": "Please provide a counterfactual example for 'An innovative film that pushes the boundaries of storytelling.'",
+    "operation_name": "cfe",
+    "custom_input": "An innovative film that pushes the boundaries of storytelling."
+  },
+  {
+    "idx": 70,
+    "user_question": "Can you provide a counterfactual for 'The humor was inappropriate and detracted from the story.'",
+    "operation_name": "cfe",
+    "custom_input": "The humor was inappropriate and detracted from the story."
+  },
+  {
+    "idx": 71,
+    "user_question": "I'd like a counterfactual example for 'A spellbinding tale that enchants from beginning to end.'",
+    "operation_name": "cfe",
+    "custom_input": "A spellbinding tale that enchants from beginning to end."
+  },
+  {
+    "idx": 72,
+    "user_question": "Could you please generate a counterfactual for 'The film was overlong and could have been edited down.'",
+    "operation_name": "cfe",
+    "custom_input": "The film was overlong and could have been edited down."
+  },
+  {
+    "idx": 73,
+    "user_question": "Please provide a counterfactual example for 'An artistic triumph that challenges the viewer.'",
+    "operation_name": "cfe",
+    "custom_input": "An artistic triumph that challenges the viewer."
+  },
+  {
+    "idx": 74,
+    "user_question": "Can you give a counterfactual for 'The special effects were cheesy and unconvincing.'",
+    "operation_name": "cfe",
+    "custom_input": "The special effects were cheesy and unconvincing."
+  },
+  {
+    "idx": 75,
+    "user_question": "I'd like a counterfactual example for 'A compelling narrative that is both insightful and entertaining.'",
+    "operation_name": "cfe",
+    "custom_input": "A compelling narrative that is both insightful and entertaining."
+  },
+  {
+    "idx": 76,
+    "user_question": "Could you please provide a counterfactual for 'The dialogue was filled with unnatural exposition.'",
+    "operation_name": "cfe",
+    "custom_input": "The dialogue was filled with unnatural exposition."
+  },
+  {
+    "idx": 77,
+    "user_question": "Please generate a counterfactual example for 'An engrossing film that keeps you hooked throughout.'",
+    "operation_name": "cfe",
+    "custom_input": "An engrossing film that keeps you hooked throughout."
+  },
+  {
+    "idx": 78,
+    "user_question": "Can you provide a counterfactual for 'The film was forgettable and lacked impact.'",
+    "operation_name": "cfe",
+    "custom_input": "The film was forgettable and lacked impact."
+  },
+  {
+    "idx": 79,
+    "user_question": "I'd like a counterfactual example for 'A bold and daring film that defies conventions.'",
+    "operation_name": "cfe",
+    "custom_input": "A bold and daring film that defies conventions."
+  },
+  {
+    "idx": 80,
+    "user_question": "Can you identify a study that contradicts the idea that 'Immune memory in mild covid-19 patients and unexposed donors from india reveals persistent t cell responses after sars-cov-2 infection'?",
+    "operation_name": "cfe",
+    "custom_input": "Immune memory in mild covid-19 patients and unexposed donors from india reveals persistent t cell responses after sars-cov-2 infection"
+  },
+  {
+    "idx": 81,
+    "user_question": "Is there any research indicating that immune memory doesn't persist after SARS-CoV-2 infection, contrary to the findings in 'Immune memory in mild covid-19 patients and unexposed donors from india reveals persistent t cell responses after sars-cov-2 infection'?",
+    "operation_name": "cfe",
+    "custom_input": "Immune memory in mild covid-19 patients and unexposed donors from india reveals persistent t cell responses after sars-cov-2 infection"
+  },
+  {
+    "idx": 82,
+    "user_question": "Imagine a scenario where 'Immune memory in mild covid-19 patients and unexposed donors from india reveals persistent t cell responses after sars-cov-2 infection' is not true. What kind of study would demonstrate that?",
+    "operation_name": "cfe",
+    "custom_input": "Immune memory in mild covid-19 patients and unexposed donors from india reveals persistent t cell responses after sars-cov-2 infection"
+  },
+  {
+    "idx": 83,
+    "user_question": "If the conclusion of 'Immune memory in mild covid-19 patients and unexposed donors from india reveals persistent t cell responses after sars-cov-2 infection' was incorrect, what alternative findings would we expect to see?",
+    "operation_name": "cfe",
+    "custom_input": "Immune memory in mild covid-19 patients and unexposed donors from india reveals persistent t cell responses after sars-cov-2 infection"
+  },
+  {
+    "idx": 84,
+    "user_question": "To challenge the statement 'Immune memory in mild covid-19 patients and unexposed donors from india reveals persistent t cell responses after sars-cov-2 infection,' what kind of contrary evidence should we look for?",
+    "operation_name": "cfe",
+    "custom_input": "Immune memory in mild covid-19 patients and unexposed donors from india reveals persistent t cell responses after sars-cov-2 infection"
+  },
+  {
+    "idx": 85,
+    "user_question": "Can you construct a counterfactual example to challenge the claim that 'Simple probiotics might help inhibit covid-19 infection'?",
+    "operation_name": "cfe",
+    "custom_input": "Simple probiotics might help inhibit covid-19 infection"
+  },
+  {
+    "idx": 86,
+    "user_question": "Under what specific conditions would probiotics not contribute to covid-19 infection, opposing the claim 'Simple probiotics might help cause covid-19 infection'?",
+    "operation_name": "cfe",
+    "custom_input": "Simple probiotics might help cause covid-19 infection"
+  },
+  {
+    "idx": 87,
+    "user_question": "Can we find a counterfactual example to 'Uk bans parallel export and hoarding of lopinavir+ritonavir , chloroquine and hydroxychloroquine' where the medications are different but the UK is still imposing the ban?",
+    "operation_name": "cfe",
+    "custom_input": "Uk bans parallel export and hoarding of lopinavir+ritonavir , chloroquine and hydroxychloroquine"
+  },
+  {
+    "idx": 88,
+    "user_question": "I need a statement that resembles 'Uk bans parallel training and hoarding of lopinavir+ritonavir, chloroquine and hydroxychloroquine' but is a fabrication. Any ideas?",
+    "operation_name": "cfe",
+    "custom_input": "Uk bans parallel training and hoarding of lopinavir+ritonavir, chloroquine and hydroxychloroquine"
+  },
+  {
+    "idx": 89,
+    "user_question": "What's a similar case to the claim about 'Ukakes parallel export and hoarding of lopinavir+ritonavir, chloroquine and hydroxychloroquine' but focusing on different medications?",
+    "operation_name": "cfe",
+    "custom_input": "Ukakes parallel export and hoarding of lopinavir+ritonavir, chloroquine and hydroxychloroquine"
+  },
+  {
+    "idx": 90,
+    "user_question": "Imagine a situation where 'Ukolls did not engage in parallel export and hoarding of lopinavir+ritonavir, chloroquine and hydroxychloroquine'. Can you describe it?",
+    "operation_name": "cfe",
+    "custom_input": "Ukolls did not engage in parallel export and hoarding of lopinavir+ritonavir, chloroquine and hydroxychloroquine"
+  },
+  {
+    "idx": 91,
+    "user_question": "How might we rephrase 'Air quality influences the pandemic' to make it false or show a different perspective?",
+    "operation_name": "cfe",
+    "custom_input": "Air quality influences the pandemic"
+  },
+  {
+    "idx": 92,
+    "user_question": "Can we find a claim resembling 'Virus quality influences the pandemic - communiqués de presse' that focuses on the impact of a virus's attributes on the scope of a pandemic?",
+    "operation_name": "cfe",
+    "custom_input": "Virus quality influences the pandemic - communiqués de presse"
+  },
+  {
+    "idx": 93,
+    "user_question": "Looking for a claim like 'Virus quality influences the pandemic - communiqués de presse' - something that posits viral quality as a factor in the development of a pandemic.",
+    "operation_name": "cfe",
+    "custom_input": "Virus quality influences the pandemic - communiqués de presse"
+  }
+]
