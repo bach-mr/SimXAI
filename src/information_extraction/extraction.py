@@ -207,6 +207,8 @@ def intent_recognition_and_extraction(model, tokenizer, method, task, instance):
 
     print(response)
 
+    return response
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
