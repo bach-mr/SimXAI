@@ -1,0 +1,89 @@
+{
+  "model": {
+    "name": "ResNet50-CIFAR10",
+    "version": "1.0",
+    "date_of_release": "2025-01-01",
+    "authors": [
+      {
+        "name": "Jane Doe",
+        "contact": "jane.doe@example.com"
+      }
+    ],
+    "license": "MIT",
+    "repository_url": "https://github.com/example/resnet50-cifar10",
+
+    "details": {
+      "architecture": "ResNet50",
+      "framework": "PyTorch 2.0",
+      "parameters": "23.5M",
+      "training_hardware": "NVIDIA V100 (4 GPUs)",
+      "training_runtime": "12 hours",
+      "pretraining_dataset": "ImageNet",
+      "finetuning_dataset": "CIFAR-10",
+      "initialization": "Pretrained on ImageNet, fine-tuned on CIFAR-10"
+    },
+
+    "intended_use": {
+      "primary_purpose": "Image classification on CIFAR-10-like images",
+      "intended_users": ["Researchers", "ML practitioners"],
+      "intended_use_cases": ["Benchmarking", "Educational use"],
+      "not_intended_use_cases": ["Medical imaging", "Safety-critical applications"]
+    },
+
+    "performance": {
+      "benchmarks": [
+        {
+          "dataset": "CIFAR-10",
+          "metrics": {
+            "accuracy": 0.946,
+            "precision_macro": 0.945,
+            "recall_macro": 0.946,
+            "f1_macro": 0.945
+          },
+          "notes": "Balanced across 10 classes"
+        }
+      ],
+      "baseline_comparison": "Outperforms vanilla CNN (~85% accuracy)",
+      "known_failure_modes": ["Confuses cats vs dogs", "Poor generalization to CIFAR-100"]
+    },
+
+    "ethics": {
+      "bias_fairness": "No demographic bias evaluation, dataset contains objects not people",
+      "safety_risks": "None expected for educational/research use",
+      "privacy_risks": "No personal data involved",
+      "limitations": [
+        "Only trained on small images (32x32)",
+        "Does not generalize to real-world images"
+      ]
+    },
+
+    "training_data": {
+      "sources": ["80 million tiny images dataset (subset)"],
+      "preprocessing": "Resized to 32x32, normalized",
+      "annotation": "Manual labels",
+      "domain_coverage": "Objects (vehicles, animals, etc.)"
+    },
+
+    "distribution": {
+      "access": "https://huggingface.co/example/resnet50-cifar10",
+      "formats": ["PyTorch .pt", "ONNX"],
+      "size_on_disk": "98 MB",
+      "dependencies": ["torch>=2.0", "torchvision>=0.15"]
+    },
+
+    "maintenance": {
+      "update_policy": "Bug fixes only, no retraining planned",
+      "versioning": "Semantic versioning",
+      "known_issues": ["Model overfits on CIFAR-10 if fine-tuned longer"],
+      "future_plans": "Possibly adapt to CIFAR-100"
+    },
+
+    "references": {
+      "citations": [
+        "He, Kaiming, et al. 'Deep residual learning for image recognition.' CVPR 2016."
+      ],
+      "acknowledgments": "Based on PyTorch torchvision implementation",
+      "related_models": ["ResNet18", "ResNet101"]
+    }
+  }
+}
