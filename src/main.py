@@ -43,7 +43,9 @@ def main():
         "What are the most important features for this prediction?",
         "Why do you predict this sample?",
         "Explain the prediction using SHAP",
-        "What features matter most?"
+        "What features matter most?",
+        "Why do you predict it?"
+        
     ]
     
     # Generate responses

@@ -4,8 +4,10 @@ from typing import Optional
 @dataclass
 class ModelConfig:
     """Configuration for model loading."""
-    base_model_name: str = "meta-llama/Llama-3.1-8B-Instruct"
+    base_model_name: str = "meta-llama/Meta-Llama-3.1-8B-Instruct"  # HF model id
+    # base_model_name: str = "meta-llama/Llama-3.2-3B-Instruct"
     model_path: str = "./llama_finetuned/final"
+    use_lora: bool = True  # Set True to load LoRA adapters from model_path
 
 @dataclass
 class InferenceConfig:
@@ -14,4 +16,4 @@ class InferenceConfig:
     temperature: float = 1.0
     top_p: float = 1.0
     do_sample: bool = False
-    max_length: int = 128 
+    max_length: int = 128

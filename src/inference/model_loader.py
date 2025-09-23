@@ -1,4 +1,4 @@
-from src.model.base_model_loader import BaseModelLoader
+from model.base_model_loader import BaseModelLoader
 
 class InferenceModelLoader(BaseModelLoader):
     def __init__(self, base_model_name: str, model_path: str):
@@ -18,4 +18,4 @@ class InferenceModelLoader(BaseModelLoader):
         Returns:
             tuple: (model, tokenizer)
         """
-        return self.load_model_with_lora() 
+        return self.load_model_with_lora()

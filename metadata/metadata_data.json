@@ -1,0 +1,100 @@
+{
+  "dataset": {
+    "name": "CIFAR-10",
+    "version": "1.0",
+    "date_of_release": "2009-06-01",
+    "maintainers": [
+      {
+        "name": "Alex Krizhevsky",
+        "contact": "alex@cs.toronto.edu"
+      }
+    ],
+    "license": "MIT",
+    "doi_url": "https://www.cs.toronto.edu/~kriz/cifar.html",
+
+    "motivation": {
+      "purpose": "Benchmark dataset for image classification",
+      "intended_uses": [
+        "Supervised image classification",
+        "Representation learning"
+      ],
+      "not_intended_uses": [
+        "Medical decision-making",
+        "Safety-critical systems"
+      ],
+      "research_tasks": ["Image recognition", "Deep learning benchmarks"]
+    },
+
+    "composition": {
+      "num_instances": 60000,
+      "features": ["image", "label"],
+      "data_types": ["images"],
+      "labels": [
+        "airplane", "automobile", "bird", "cat", "deer",
+        "dog", "frog", "horse", "ship", "truck"
+      ],
+      "class_distribution": "Balanced (6000 per class)",
+      "format": "binary",
+      "example_instance": {
+        "image_file": "data_batch_1.bin",
+        "label": "cat"
+      }
+    },
+
+    "collection": {
+      "source": "80 million tiny images dataset",
+      "method": "Manual curation",
+      "timeframe": "2008–2009",
+      "sampling_strategy": "10 classes sampled from larger dataset",
+      "preprocessing": "Normalized to 32x32 color images",
+      "annotation_guidelines": "Assigned class labels per image manually"
+    },
+
+    "demographics_coverage": {
+      "population_represented": "Objects commonly encountered",
+      "geographic_coverage": "Global",
+      "linguistic_coverage": "N/A",
+      "demographic_attributes": "N/A",
+      "known_gaps_biases": "Not representative of real-world object distribution"
+    },
+
+    "ethics": {
+      "privacy": "No personal data",
+      "consent": "Images collected without explicit consent",
+      "sensitive_content": "No sensitive content expected",
+      "bias_fairness": "Does not represent long-tail object categories",
+      "restrictions": "Research use only"
+    },
+
+    "distribution": {
+      "access": "https://www.cs.toronto.edu/~kriz/cifar.html",
+      "storage_size": "163 MB",
+      "dependencies": ["Python >= 3.6", "torchvision"]
+    },
+
+    "maintenance": {
+      "update_policy": "No further updates expected",
+      "versioning": "Static dataset",
+      "known_issues": "Low-resolution images",
+      "future_plans": "No planned extensions"
+    },
+
+    "evaluation": {
+      "recommended_splits": {
+        "train": 50000,
+        "test": 10000
+      },
+      "baseline_performance": "80–95% accuracy depending on model",
+      "evaluation_metrics": ["Accuracy"],
+      "known_failure_modes": "Confusions between similar classes (cat vs dog)"
+    },
+
+    "references": {
+      "citations": [
+        "Krizhevsky, Alex, 2009. Learning Multiple Layers of Features from Tiny Images."
+      ],
+      "acknowledgments": "University of Toronto",
+      "related_datasets": ["ImageNet", "MNIST"]
+    }
+  }
+}
