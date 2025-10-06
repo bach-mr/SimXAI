@@ -1,0 +1,272 @@
+[
+  {
+    "idx": 0,
+    "user": "What is the scope of change permitted to still get the same prediction?",
+    "parsed": "still"
+  },
+  {
+    "idx": 1,
+    "user": "What range of input perturbations can I make and still get the same prediction?",
+    "parsed": "still"
+  },
+  {
+    "idx": 2,
+    "user": "How much can the input vary and still get the same prediction?",
+    "parsed": "still"
+  },
+  {
+    "idx": 3,
+    "user": "What is the maximum allowable change to the input features while still getting the same prediction?",
+    "parsed": "still"
+  },
+  {
+    "idx": 4,
+    "user": "How robust is the model's prediction to changes in the input data?",
+    "parsed": "still"
+  },
+  {
+    "idx": 5,
+    "user": "What is the stability margin for the current prediction?",
+    "parsed": "still"
+  },
+  {
+    "idx": 6,
+    "user": "To what extent can I modify the features without altering the outcome?",
+    "parsed": "still"
+  },
+  {
+    "idx": 7,
+    "user": "What range of input values will keep the prediction unchanged?",
+    "parsed": "still"
+  },
+  {
+    "idx": 8,
+    "user": "How much perturbation is tolerated before the prediction flips?",
+    "parsed": "still"
+  },
+  {
+    "idx": 9,
+    "user": "What is the boundary of the input space that yields this specific result?",
+    "parsed": "still"
+  },
+  {
+    "idx": 10,
+    "user": "What is the minimum change to the input that would force a different prediction?",
+    "parsed": "still"
+  },
+  {
+    "idx": 11,
+    "user": "How much can the input deviate from the current values while maintaining the same output?",
+    "parsed": "still"
+  },
+  {
+    "idx": 12,
+    "user": "What is the epsilon value around the input that preserves the model's decision?",
+    "parsed": "still"
+  },
+  {
+    "idx": 13,
+    "user": "Can I quantify the flexibility of the input features that still results in the same classification?",
+    "parsed": "still"
+  },
+  {
+    "idx": 14,
+    "user": "What is the smallest change that would reverse the prediction?",
+    "parsed": "still"
+  },
+  {
+    "idx": 15,
+    "user": "Define the region in the feature space where this prediction is dominant.",
+    "parsed": "still"
+  },
+  {
+    "idx": 16,
+    "user": "What's the tolerance level for input noise before the output changes?",
+    "parsed": "still"
+  },
+  {
+    "idx": 17,
+    "user": "Within what bounds must the input remain to hold the current prediction?",
+    "parsed": "still"
+  },
+  {
+    "idx": 18,
+    "user": "What's the maximum distortion of the input that doesn't change the outcome?",
+    "parsed": "still"
+  },
+  {
+    "idx": 19,
+    "user": "How sensitive is the prediction to small changes in the input data?",
+    "parsed": "still"
+  },
+  {
+    "idx": 20,
+    "user": "What is the threshold of change for the prediction to flip?",
+    "parsed": "still"
+  },
+  {
+    "idx": 21,
+    "user": "Can you provide the range of permissible input modifications for this result?",
+    "parsed": "still"
+  },
+  {
+    "idx": 22,
+    "user": "What defines the local stability of this prediction?",
+    "parsed": "still"
+  },
+  {
+    "idx": 23,
+    "user": "How large of an adjustment to the input can be made without changing the final result?",
+    "parsed": "still"
+  },
+  {
+    "idx": 24,
+    "user": "What is the neighborhood around the input point that shares the same outcome?",
+    "parsed": "still"
+  },
+  {
+    "idx": 25,
+    "user": "How much drift can the input have before the model's decision changes?",
+    "parsed": "still"
+  },
+  {
+    "idx": 26,
+    "user": "Determine the sensitivity of the model's output to changes in the input features.",
+    "parsed": "still"
+  },
+  {
+    "idx": 27,
+    "user": "What is the region of confidence in the feature space for this prediction?",
+    "parsed": "still"
+  },
+  {
+    "idx": 28,
+    "user": "By how much can I adjust each feature while preserving the predicted class?",
+    "parsed": "still"
+  },
+  {
+    "idx": 29,
+    "user": "What is the maximum distance in the input space that maintains the current output?",
+    "parsed": "still"
+  },
+  {
+    "idx": 30,
+    "user": "Identify the invariance of the prediction with respect to input modifications.",
+    "parsed": "still"
+  },
+  {
+    "idx": 31,
+    "user": "What small variations in the input will not lead to a change in the prediction?",
+    "parsed": "still"
+  },
+  {
+    "idx": 32,
+    "user": "How far can the input features move from their current values and still result in the same prediction?",
+    "parsed": "still"
+  },
+  {
+    "idx": 33,
+    "user": "Can you provide the boundaries of perturbation that keep the predicted outcome constant?",
+    "parsed": "still"
+  },
+  {
+    "idx": 34,
+    "user": "What's the extent of modification allowed for the input data to retain the original output?",
+    "parsed": "still"
+  },
+  {
+    "idx": 35,
+    "user": "How resistant is the prediction to changes in the input values?",
+    "parsed": "still"
+  },
+  {
+    "idx": 36,
+    "user": "What is the critical change in the input that triggers a new prediction?",
+    "parsed": "still"
+  },
+  {
+    "idx": 37,
+    "user": "Specify the maximum deviation for each feature that doesn't change the classification.",
+    "parsed": "still"
+  },
+  {
+    "idx": 38,
+    "user": "What range of values for the input features will generate this specific output?",
+    "parsed": "still"
+  },
+  {
+    "idx": 39,
+    "user": "What is the allowed variability in the input data to achieve the same result?",
+    "parsed": "still"
+  },
+  {
+    "idx": 40,
+    "user": "How much alteration can the data endure while the prediction holds true?",
+    "parsed": "still"
+  },
+  {
+    "idx": 41,
+    "user": "Define the safe zone of input values around the current instance.",
+    "parsed": "still"
+  },
+  {
+    "idx": 42,
+    "user": "What is the tolerance level of the input features for maintaining the current decision?",
+    "parsed": "still"
+  },
+  {
+    "idx": 43,
+    "user": "What is the size of the stability region for this model's prediction?",
+    "parsed": "still"
+  },
+  {
+    "idx": 44,
+    "user": "How much can the input be modified and still have the same model prediction?",
+    "parsed": "still"
+  },
+  {
+    "idx": 45,
+    "user": "What degree of change in the features will still yield this prediction?",
+    "parsed": "still"
+  },
+  {
+    "idx": 46,
+    "user": "What is the maximum change possible to the input while the prediction still holds?",
+    "parsed": "still"
+  },
+  {
+    "idx": 47,
+    "user": "Within what boundaries can the input fluctuate and still result in the current output?",
+    "parsed": "still"
+  },
+  {
+    "idx": 48,
+    "user": "What is the size of the region where the prediction still remains the same?",
+    "parsed": "still"
+  },
+  {
+    "idx": 49,
+    "user": "What perturbations can be applied to the input, and the prediction still be stable?",
+    "parsed": "still"
+  },
+  {
+    "idx": 50,
+    "user": "How far can the input features diverge and still be classified into the same category?",
+    "parsed": "still"
+  },
+  {
+    "idx": 51,
+    "user": "What is the scope of permissible alterations that still lead to this model result?",
+    "parsed": "still"
+  },
+  {
+    "idx": 52,
+    "user": "Can I define the limits of input change that still guarantee the current prediction?",
+    "parsed": "still"
+  },
+  {
+    "idx": 53,
+    "user": "What minor or major adjustments can I make, and the prediction still not change?",
+    "parsed": "still"
+  }
+]
