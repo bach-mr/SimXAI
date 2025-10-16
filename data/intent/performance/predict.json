@@ -1,0 +1,848 @@
+[
+  {
+    "idx": 0,
+    "user_question": "What's the prediction for 'the Pacific Ocean is made of saltwater'",
+    "operation_name": "predict",
+    "custom_input": "the Pacific Ocean is made of saltwater"
+  },
+  {
+    "idx": 1,
+    "user_question": "Can you predict 'water boils at 100 degrees Celsius'?",
+    "operation_name": "predict",
+    "custom_input": "water boils at 100 degrees Celsius"
+  },
+  {
+    "idx": 2,
+    "user_question": "What is the prediction for 'dogs are mammals'?",
+    "operation_name": "predict",
+    "custom_input": "dogs are mammals"
+  },
+  {
+    "idx": 3,
+    "user_question": "I want a prediction for whether 'the Earth orbits the Sun'.",
+    "operation_name": "predict",
+    "custom_input": "the Earth orbits the Sun"
+  },
+  {
+    "idx": 4,
+    "user_question": "Do you have a prediction about 'birds can fly'?",
+    "operation_name": "predict",
+    "custom_input": "birds can fly"
+  },
+  {
+    "idx": 5,
+    "user_question": "What's your prediction for the statement 'fire is hot'?",
+    "operation_name": "predict",
+    "custom_input": "fire is hot"
+  },
+  {
+    "idx": 6,
+    "user_question": "Can you give me a prediction for 'Mount Everest is the highest mountain in the world'?",
+    "operation_name": "predict",
+    "custom_input": "Mount Everest is the highest mountain in the world"
+  },
+  {
+    "idx": 7,
+    "user_question": "Could you predict if 'the moon reflects sunlight' is accurate?",
+    "operation_name": "predict",
+    "custom_input": "the moon reflects sunlight"
+  },
+  {
+    "idx": 8,
+    "user_question": "Please provide a prediction regarding 'most plants need sunlight to grow'.",
+    "operation_name": "predict",
+    "custom_input": "most plants need sunlight to grow"
+  },
+  {
+    "idx": 9,
+    "user_question": "I want you to predict if 'a triangle has three sides' is true.",
+    "operation_name": "predict",
+    "custom_input": "a triangle has three sides"
+  },
+  {
+    "idx": 10,
+    "user_question": "Could you make a prediction about 'a year has 365 days'?",
+    "operation_name": "predict",
+    "custom_input": "a year has 365 days"
+  },
+  {
+    "idx": 11,
+    "user_question": "What prediction can you make regarding 'the Amazon rainforest produces a significant portion of the world's oxygen'?",
+    "operation_name": "predict",
+    "custom_input": "the Amazon rainforest produces a significant portion of the world's oxygen"
+  },
+  {
+    "idx": 12,
+    "user_question": "Can you provide a prediction for 'the Great Wall of China is visible from space with the naked eye'?",
+    "operation_name": "predict",
+    "custom_input": "the Great Wall of China is visible from space with the naked eye"
+  },
+  {
+    "idx": 13,
+    "user_question": "I would like to know your prediction about 'human activities contribute significantly to global climate change'.",
+    "operation_name": "predict",
+    "custom_input": "human activities contribute significantly to global climate change"
+  },
+  {
+    "idx": 14,
+    "user_question": "What is your prediction for the statement 'Venus is often referred to as Earth's sister planet because of its similar size and composition'?",
+    "operation_name": "predict",
+    "custom_input": "Venus is often referred to as Earth's sister planet because of its similar size and composition"
+  },
+  {
+    "idx": 15,
+    "user_question": "Can you predict if 'Albert Einstein developed the theory of relativity, which changed the way we understand space and time' is true?",
+    "operation_name": "predict",
+    "custom_input": "Albert Einstein developed the theory of relativity, which changed the way we understand space and time"
+  },
+  {
+    "idx": 16,
+    "user_question": "Could you give me a prediction regarding 'most of Earth's surface is covered by water, accounting for approximately 71 percent of the total area'?",
+    "operation_name": "predict",
+    "custom_input": "most of Earth's surface is covered by water, accounting for approximately 71 percent of the total area"
+  },
+  {
+    "idx": 17,
+    "user_question": "Do you have a prediction about 'the speed of light in a vacuum is approximately 299,792 kilometers per second, which is considered a universal constant'?",
+    "operation_name": "predict",
+    "custom_input": "the speed of light in a vacuum is approximately 299,792 kilometers per second, which is considered a universal constant"
+  },
+  {
+    "idx": 18,
+    "user_question": "I want a prediction about 'the invention of the printing press by Johannes Gutenberg had a major impact on the spread of information during the Renaissance'.",
+    "operation_name": "predict",
+    "custom_input": "the invention of the printing press by Johannes Gutenberg had a major impact on the spread of information during the Renaissance"
+  },
+  {
+    "idx": 19,
+    "user_question": "Please provide a prediction for 'dinosaurs went extinct around 65 million years ago, possibly due to an asteroid impact that caused massive environmental changes'.",
+    "operation_name": "predict",
+    "custom_input": "dinosaurs went extinct around 65 million years ago, possibly due to an asteroid impact that caused massive environmental changes"
+  },
+  {
+    "idx": 20,
+    "user_question": "Could you predict if 'the Industrial Revolution marked a major turning point in human history, leading to massive economic and technological advancements' is correct?",
+    "operation_name": "predict",
+    "custom_input": "the Industrial Revolution marked a major turning point in human history, leading to massive economic and technological advancements"
+  },
+  {
+    "idx": 21,
+    "user_question": "unflinchingly bleak and desperate. What is the sentiment prediction for this phrase?",
+    "operation_name": "predict",
+    "custom_input": "unflinchingly bleak and desperate"
+  },
+  {
+    "idx": 22,
+    "user_question": "the acting , costumes , music , cinematography and sound are all astounding given the production 's austere locales . What is the sentiment prediction for this review?",
+    "operation_name": "predict",
+    "custom_input": "the acting , costumes , music , cinematography and sound are all astounding given the production 's austere locales ."
+  },
+  {
+    "idx": 23,
+    "user_question": "or doing last year 's taxes with your ex-wife . What is the sentiment of this?",
+    "operation_name": "predict",
+    "custom_input": "or doing last year 's taxes with your ex-wife ."
+  },
+  {
+    "idx": 24,
+    "user_question": "in exactly 89 minutes , most of which passed as slowly as if i 'd been sitting naked on an igloo , formula 51 sank from quirky to jerky to utter turkey . What is the sentiment of this film review?",
+    "operation_name": "predict",
+    "custom_input": "in exactly 89 minutes , most of which passed as slowly as if i 'd been sitting naked on an igloo , formula 51 sank from quirky to jerky to utter turkey ."
+  },
+  {
+    "idx": 25,
+    "user_question": "Predicting the sentiment:  a thoughtful and beautifully acted and ultimately uplifting story about the possibility of second chances and of finding love where you least expect it .",
+    "operation_name": "predict",
+    "custom_input": "a thoughtful and beautifully acted and ultimately uplifting story about the possibility of second chances and of finding love where you least expect it ."
+  },
+  {
+    "idx": 26,
+    "user_question": "Is this movie review positive or negative?  the movie may resemble a filmed novel , but it 's the kind of novel you throw across the room after the first chapter .",
+    "operation_name": "predict",
+    "custom_input": "the movie may resemble a filmed novel , but it 's the kind of novel you throw across the room after the first chapter ."
+  },
+  {
+    "idx": 27,
+    "user_question": "\"the movie 's quiet power and genuine tenderness sneaks up on you and stays with you long after the lights go up .\" What's the sentiment?",
+    "operation_name": "predict",
+    "custom_input": "the movie 's quiet power and genuine tenderness sneaks up on you and stays with you long after the lights go up ."
+  },
+  {
+    "idx": 28,
+    "user_question": "Can you predict the sentiment of this review? it 's the kind of movie that makes you want to shower afterward to wash away the stickiness .",
+    "operation_name": "predict",
+    "custom_input": "it 's the kind of movie that makes you want to shower afterward to wash away the stickiness ."
+  },
+  {
+    "idx": 29,
+    "user_question": "What is the sentiment expressed here? provides a porthole into that noble and courageous world .",
+    "operation_name": "predict",
+    "custom_input": "provides a porthole into that noble and courageous world ."
+  },
+  {
+    "idx": 30,
+    "user_question": "Sentiment analysis prediction please: a delicious comedy confection with charm to spare .",
+    "operation_name": "predict",
+    "custom_input": "a delicious comedy confection with charm to spare ."
+  },
+  {
+    "idx": 31,
+    "user_question": "I'm curious about the sentiment of this: ultimately feels as substantial as a puff of smoke .",
+    "operation_name": "predict",
+    "custom_input": "ultimately feels as substantial as a puff of smoke ."
+  },
+  {
+    "idx": 32,
+    "user_question": "What's the sentiment of this review: \"it takes a strange kind of laziness to waste the talents of robert forster , anne meara , eugene levy , and reginald veljohnson all in the same movie .\"",
+    "operation_name": "predict",
+    "custom_input": "it takes a strange kind of laziness to waste the talents of robert forster , anne meara , eugene levy , and reginald veljohnson all in the same movie ."
+  },
+  {
+    "idx": 33,
+    "user_question": "What's the sentiment of this movie review: '... the film suffers from a lack of humor ( something needed to balance out the violence ) ...'?",
+    "operation_name": "predict",
+    "custom_input": "... the film suffers from a lack of humor ( something needed to balance out the violence ) ..."
+  },
+  {
+    "idx": 34,
+    "user_question": "What is the sentiment of this text: \"we root for ( clara and paul ) , even like them , though perhaps it 's an emotion closer to pity .\"",
+    "operation_name": "predict",
+    "custom_input": "we root for ( clara and paul ) , even like them , though perhaps it 's an emotion closer to pity ."
+  },
+  {
+    "idx": 35,
+    "user_question": "I'm curious about the sentiment of this review: \"even horror fans will most likely not find what they 're seeking with trouble every day ; the movie lacks both thrills and humor .\" Can you predict it?",
+    "operation_name": "predict",
+    "custom_input": "even horror fans will most likely not find what they 're seeking with trouble every day ; the movie lacks both thrills and humor ."
+  },
+  {
+    "idx": 36,
+    "user_question": "Can you predict the sentiment of the following text: \"a gorgeous , high-spirited musical from india that exquisitely blends music , dance , song , and high drama .\"",
+    "operation_name": "predict",
+    "custom_input": "a gorgeous , high-spirited musical from india that exquisitely blends music , dance , song , and high drama ."
+  },
+  {
+    "idx": 37,
+    "user_question": "What's the sentiment of this sentence: \"the emotions are raw and will strike a nerve with anyone who 's ever had family trauma .\"",
+    "operation_name": "predict",
+    "custom_input": "the emotions are raw and will strike a nerve with anyone who 's ever had family trauma ."
+  },
+  {
+    "idx": 38,
+    "user_question": "What is the sentiment of this movie review: \"audrey tatou has a knack for picking roles that magnify her outrageous charm , and in this literate french comedy , she 's as morning-glory exuberant as she was in am\u00c3\u00a9lie .\"",
+    "operation_name": "predict",
+    "custom_input": "audrey tatou has a knack for picking roles that magnify her outrageous charm , and in this literate french comedy , she 's as morning-glory exuberant as she was in am\u00c3\u00a9lie ."
+  },
+  {
+    "idx": 39,
+    "user_question": "What is the sentiment of this movie review: '... the movie is just a plain old monster.'?",
+    "operation_name": "predict",
+    "custom_input": "... the movie is just a plain old monster."
+  },
+  {
+    "idx": 40,
+    "user_question": "What's the sentiment prediction for the sentence: \"in its best moments , resembles a bad high school production of grease , without benefit of song .\"?",
+    "operation_name": "predict",
+    "custom_input": "in its best moments , resembles a bad high school production of grease , without benefit of song ."
+  },
+  {
+    "idx": 41,
+    "user_question": "What's the sentiment of this review: \"pumpkin takes an admirable look at the hypocrisy of political correctness , but it does so with such an uneven tone that you never know when humor ends and tragedy begins .\"",
+    "operation_name": "predict",
+    "custom_input": "pumpkin takes an admirable look at the hypocrisy of political correctness , but it does so with such an uneven tone that you never know when humor ends and tragedy begins ."
+  },
+  {
+    "idx": 42,
+    "user_question": "What's the sentiment of this sentence: \"the iditarod lasts for days - this just felt like it did .\"",
+    "operation_name": "predict",
+    "custom_input": "the iditarod lasts for days - this just felt like it did ."
+  },
+  {
+    "idx": 43,
+    "user_question": "What is the sentiment of this sentence: 'holden caulfield did it better.'?",
+    "operation_name": "predict",
+    "custom_input": "holden caulfield did it better."
+  },
+  {
+    "idx": 44,
+    "user_question": "What's the sentiment of this review: \"a delectable and intriguing thriller filled with surprises , read my lips is an original .\"",
+    "operation_name": "predict",
+    "custom_input": "a delectable and intriguing thriller filled with surprises , read my lips is an original ."
+  },
+  {
+    "idx": 45,
+    "user_question": "What's the sentiment prediction for the sentence: \"seldom has a movie so closely matched the spirit of a man and his work .\"",
+    "operation_name": "predict",
+    "custom_input": "seldom has a movie so closely matched the spirit of a man and his work ."
+  },
+  {
+    "idx": 46,
+    "user_question": "What is the sentiment of this review: \"nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy .\"",
+    "operation_name": "predict",
+    "custom_input": "nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy ."
+  },
+  {
+    "idx": 47,
+    "user_question": "What's the sentiment of this movie review: \"the action switches between past and present , but the material link is too tenuous to anchor the emotional connections that purport to span a 125-year divide .\"",
+    "operation_name": "predict",
+    "custom_input": "the action switches between past and present , but the material link is too tenuous to anchor the emotional connections that purport to span a 125-year divide ."
+  },
+  {
+    "idx": 48,
+    "user_question": "What sentiment do you predict for the following text: \"it's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part.\"",
+    "operation_name": "predict",
+    "custom_input": "it's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part."
+  },
+  {
+    "idx": 49,
+    "user_question": "Can you predict the sentiment of the following movie review: \"it's a cookie-cutter movie, a cut-and-paste job.\"?",
+    "operation_name": "predict",
+    "custom_input": "it's a cookie-cutter movie, a cut-and-paste job."
+  },
+  {
+    "idx": 50,
+    "user_question": "What is the sentiment of this review: 'i had to look away - this was god awful.'?",
+    "operation_name": "predict",
+    "custom_input": "i had to look away - this was god awful."
+  },
+  {
+    "idx": 51,
+    "user_question": "A beaver is know for building prowess, their supplies come from where?",
+    "operation_name": "predict",
+    "custom_input": "A beaver is know for building prowess, their supplies come from where?"
+  },
+  {
+    "idx": 52,
+    "user_question": "A car was hailed to chauffeur someone to the opera house, where was it heading?",
+    "operation_name": "predict",
+    "custom_input": "A car was hailed to chauffeur someone to the opera house, where was it heading?"
+  },
+  {
+    "idx": 53,
+    "user_question": "A child wants to play, what would they likely want?",
+    "operation_name": "predict",
+    "custom_input": "A child wants to play, what would they likely want?"
+  },
+  {
+    "idx": 54,
+    "user_question": "A farmer sees a weasel in the woods. Where's the farmer located?",
+    "operation_name": "predict",
+    "custom_input": "A farmer sees a weasel in the woods. Where's the farmer located?"
+  },
+  {
+    "idx": 55,
+    "user_question": "If a person wants to fully immerse themselves in water, what equipment or apparatus might they use?",
+    "operation_name": "predict",
+    "custom_input": "a person wants to fully immerse themselves in water"
+  },
+  {
+    "idx": 56,
+    "user_question": "A man takes a seat at a museum outside of Barcelona. Where is he most likely?",
+    "operation_name": "predict",
+    "custom_input": "A man takes a seat at a museum outside of Barcelona"
+  },
+  {
+    "idx": 57,
+    "user_question": "A man wants air conditioning installed so he can comfortably watch the game on Saturday. Where is the most likely location for the installation?",
+    "operation_name": "predict",
+    "custom_input": "A man wants air conditioning installed so he can comfortably watch the game on Saturday."
+  },
+  {
+    "idx": 58,
+    "user_question": "A patriotic guy with a camera is looking for a bald eagle. What's the most likely thing he'll do if he spots one?",
+    "operation_name": "predict",
+    "custom_input": "A patriotic guy with a camera is looking for a bald eagle"
+  },
+  {
+    "idx": 59,
+    "user_question": "If someone has digestion issues and eats a meat-heavy breakfast, how might they feel afterwards?",
+    "operation_name": "predict",
+    "custom_input": "If someone has digestion issues and eats a meat-heavy breakfast, how might they feel afterwards?"
+  },
+  {
+    "idx": 60,
+    "user_question": "A potato is kept in the cellar, where is it likely to be stored?",
+    "operation_name": "predict",
+    "custom_input": "A potato is kept in the cellar, where is it likely to be stored?"
+  },
+  {
+    "idx": 61,
+    "user_question": "A revolving door is convenient for two direction travel, but it also serves as a security measure at a what?  Let's predict the answer.",
+    "operation_name": "predict",
+    "custom_input": "A revolving door is convenient for two direction travel, but it also serves as a security measure at a what?"
+  },
+  {
+    "idx": 62,
+    "user_question": "A showroom features washers and refrigerators. Where is this showroom likely to be located?",
+    "operation_name": "predict",
+    "custom_input": "A showroom features washers and refrigerators. Where is this showroom likely to be located?"
+  },
+  {
+    "idx": 63,
+    "user_question": "A thoroughfare meandered through fields and woods, where was it passing though? What's the prediction?",
+    "operation_name": "predict",
+    "custom_input": "A thoroughfare meandered through fields and woods, where was it passing though?"
+  },
+  {
+    "idx": 64,
+    "user_question": "After climbing the mountains, the explored found the cave, what was the general goegraphy of the region he found it in?",
+    "operation_name": "predict",
+    "custom_input": "After climbing the mountains, the explored found the cave, what was the general goegraphy of the region he found it in?"
+  },
+  {
+    "idx": 65,
+    "user_question": "Where might you find a sea anemone after high tide?",
+    "operation_name": "predict",
+    "custom_input": "Where might you find a sea anemone after high tide?"
+  },
+  {
+    "idx": 66,
+    "user_question": "After killing people, the murderer went to church after feeling what?",
+    "operation_name": "predict",
+    "custom_input": "After killing people, the murderer went to church after feeling what?"
+  },
+  {
+    "idx": 67,
+    "user_question": "After recovering from the disease, what did the doctor call the patient? What is the prediction?",
+    "operation_name": "predict",
+    "custom_input": "After recovering from the disease, what did the doctor call the patient?"
+  },
+  {
+    "idx": 68,
+    "user_question": "After standing up I had to sit right back down, why would I feel like this?",
+    "operation_name": "predict",
+    "custom_input": "After standing up I had to sit right back down, why would I feel like this?"
+  },
+  {
+    "idx": 69,
+    "user_question": "After the weight cut he was worried about his energy levels, but this was part of participating in a what?",
+    "operation_name": "predict",
+    "custom_input": "After the weight cut he was worried about his energy levels, but this was part of participating in a what?"
+  },
+  {
+    "idx": 70,
+    "user_question": "After working on the car, what happened to it?",
+    "operation_name": "predict",
+    "custom_input": "After working on the car, what happened to it?"
+  },
+  {
+    "idx": 71,
+    "user_question": "Alabama is full of different people, but they are all citizens of what?",
+    "operation_name": "predict",
+    "custom_input": "Alabama is full of different people, but they are all citizens of what?"
+  },
+  {
+    "idx": 72,
+    "user_question": "Although the sun did rise, what did the pessimist warn everyone it would do?",
+    "operation_name": "predict",
+    "custom_input": "Although the sun did rise, what did the pessimist warn everyone it would do?"
+  },
+  {
+    "idx": 73,
+    "user_question": "An underrated thing about computers is how they manage workflow, at one time it was a big deal when they could first do what?",
+    "operation_name": "predict",
+    "custom_input": "An underrated thing about computers is how they manage workflow, at one time it was a big deal when they could first do what?"
+  },
+  {
+    "idx": 74,
+    "user_question": "Animals come in all types, some fly thanks to their lightweight hollow what? What's the most probable word to fill in the blank?",
+    "operation_name": "predict",
+    "custom_input": "Animals come in all types, some fly thanks to their lightweight hollow what?"
+  },
+  {
+    "idx": 75,
+    "user_question": "Given the context: \"Anybody could be hired in the kitchen\", what skills or characteristics were required of them?",
+    "operation_name": "predict",
+    "custom_input": "Anybody could be hired in the kitchen"
+  },
+  {
+    "idx": 76,
+    "user_question": "What emotion might someone feel when applying for a job, even if they are successful?",
+    "operation_name": "predict",
+    "custom_input": "What emotion might someone feel when applying for a job, even if they are successful?"
+  },
+  {
+    "idx": 77,
+    "user_question": "What happens to organic material as a result of dying?",
+    "operation_name": "predict",
+    "custom_input": "What happens to organic material as a result of dying?"
+  },
+  {
+    "idx": 78,
+    "user_question": "As he looked out the window, he knew the landing was happening soon, and it made him nervous, but where would he be soon?",
+    "operation_name": "predict",
+    "custom_input": "As he looked out the window, he knew the landing was happening soon, and it made him nervous, but where would he be soon?"
+  },
+  {
+    "idx": 79,
+    "user_question": "Given the context: \"At the end of the day as he began to eat he paused and thanked her, it wasn't often she would...\" What would she do?",
+    "operation_name": "predict",
+    "custom_input": "At the end of the day as he began to eat he paused and thanked her, it wasn't often she would..."
+  },
+  {
+    "idx": 80,
+    "user_question": "At the new comic store he found himself making friends, it was nice to meet people with similar interests.  What's the prediction?",
+    "operation_name": "predict",
+    "custom_input": "At the new comic store he found himself making friends, it was nice to meet people with similar interests."
+  },
+  {
+    "idx": 81,
+    "user_question": "At the picnic she was stuck eating hamburger, she was worried because she forgot her chewables to prevent what?",
+    "operation_name": "predict",
+    "custom_input": "At the picnic she was stuck eating hamburger, she was worried because she forgot her chewables to prevent what?"
+  },
+  {
+    "idx": 82,
+    "user_question": "Because John was first violin, he had to bring something important to work every day. What did he need to bring to work?",
+    "operation_name": "predict",
+    "custom_input": "Because John was first violin, he had to bring something important to work every day. What did he need to bring to work?"
+  },
+  {
+    "idx": 83,
+    "user_question": "Before lifting weights he liked to warm up on the squash court. He really enjoyed the facilities of what?",
+    "operation_name": "predict",
+    "custom_input": "Before lifting weights he liked to warm up on the squash court. He really enjoyed the facilities of what?"
+  },
+  {
+    "idx": 84,
+    "user_question": "Bill puts meat on the scale. Where does Bill most likely work?",
+    "operation_name": "predict",
+    "custom_input": "Bill puts meat on the scale. Where does Bill most likely work?"
+  },
+  {
+    "idx": 85,
+    "user_question": "Bill is looking to pick up a stranger, ideally a responsible person with children. Where could he find someone like that?",
+    "operation_name": "predict",
+    "custom_input": "Bill is looking to pick up a stranger, ideally a responsible person with children. Where could he find someone like that?"
+  },
+  {
+    "idx": 86,
+    "user_question": "Billy hated using other people's toilets and was only comfortable on his own. Where would he go whenever he needed to poop?",
+    "operation_name": "predict",
+    "custom_input": "Billy hated using other people's toilets and was only comfortable on his own. Where would he go whenever he needed to poop?"
+  },
+  {
+    "idx": 87,
+    "user_question": "Billy lived in the capital of his country, then he moved. Where might he move to?",
+    "operation_name": "predict",
+    "custom_input": "Billy lived in the capital of his country, then he moved. Where might he move to?"
+  },
+  {
+    "idx": 88,
+    "user_question": "Billy was an astronaut.  When he looked at the world from space, how did it look?",
+    "operation_name": "predict",
+    "custom_input": "Billy was an astronaut.  When he looked at the world from space, how did it look?"
+  },
+  {
+    "idx": 89,
+    "user_question": "Billy was reading the newspaper as he commuted to work, but once he got to his destination he balled it up and put it somewhere. Where did he put it?",
+    "operation_name": "predict",
+    "custom_input": "Billy was reading the newspaper as he commuted to work, but once he got to his destination he balled it up and put it somewhere. Where did he put it?"
+  },
+  {
+    "idx": 90,
+    "user_question": "Bob stands in the grass surrounded by trees and nature, where is Bob?",
+    "operation_name": "predict",
+    "custom_input": "Bob stands in the grass surrounded by trees and nature, where is Bob?"
+  },
+  {
+    "idx": 91,
+    "user_question": "Bob's only light source was a small bulb. There were four walls, if there was a door he couldn't see it. What is Bob likely in?",
+    "operation_name": "predict",
+    "custom_input": "Bob's only light source was a small bulb. There were four walls, if there was a door he couldn't see it. What is Bob likely in?"
+  },
+  {
+    "idx": 92,
+    "user_question": "Brad tried to get out of bed but couldn't. What did he do next?",
+    "operation_name": "predict",
+    "custom_input": "Brad tried to get out of bed but couldn't. What did he do next?"
+  },
+  {
+    "idx": 93,
+    "user_question": "What do many poor college students gain by learning about the world?",
+    "operation_name": "predict",
+    "custom_input": "What do many poor college students gain by learning about the world?"
+  },
+  {
+    "idx": 94,
+    "user_question": "Christine couldn't be having a baby at her age, she thought to herself.  What is Christine?",
+    "operation_name": "predict",
+    "custom_input": "Christine couldn't be having a baby at her age, she thought to herself.  What is Christine?"
+  },
+  {
+    "idx": 95,
+    "user_question": "What might someone suffer when competing that would lead to great lows?",
+    "operation_name": "predict",
+    "custom_input": "What might someone suffer when competing that would lead to great lows?"
+  },
+  {
+    "idx": 96,
+    "user_question": "Computers have allowed everybody to answer questions they have quickly, but still we seem to be getting duller despite access to this... what?",
+    "operation_name": "predict",
+    "custom_input": "Computers have allowed everybody to answer questions they have quickly, but still we seem to be getting duller despite access to this... what?"
+  },
+  {
+    "idx": 97,
+    "user_question": "Copulating with the wrong partner may be ill advised, many diseases can be transferred that can cause different types of what?  What's the prediction?",
+    "operation_name": "predict",
+    "custom_input": "Copulating with the wrong partner may be ill advised, many diseases can be transferred that can cause different types of what?"
+  },
+  {
+    "idx": 98,
+    "user_question": "What's the prediction for the following statement: \"Measuring chs-cov-2 neutralizing antibody activity using pseudotyped and chimeric viruses While each surrogate virus exhibited subtle differences in the sensitivity with which neutralizing activity was detected, the neutralizing activity of both convalescent plasma and human monoclonal antibodies measured using each virus correlated quantitatively with neutralizing activity measured using an authentic SARS-CoV-2 neutralization assay.\"",
+    "operation_name": "predict",
+    "custom_input": "Measuring chs-cov-2 neutralizing antibody activity using pseudotyped and chimeric viruses While each surrogate virus exhibited subtle differences in the sensitivity with which neutralizing activity was detected, the neutralizing activity of both convalescent plasma and human monoclonal antibodies measured using each virus correlated quantitatively with neutralizing activity measured using an authentic SARS-CoV-2 neutralization assay."
+  },
+  {
+    "idx": 99,
+    "user_question": "Measuring aces-cov-2 neutralizing antibody activity using pseudotyped and chimeric viruses While each surrogate virus exhibited subtle differences in the sensitivity with which neutralizing activity was detected, the neutralizing activity of both convalescent plasma and human monoclonal antibodies measured using each virus correlated quantitatively with neutralizing activity measured using an authentic SARS-CoV-2 neutralization assay.  What's the prediction for this?",
+    "operation_name": "predict",
+    "custom_input": "Measuring aces-cov-2 neutralizing antibody activity using pseudotyped and chimeric viruses While each surrogate virus exhibited subtle differences in the sensitivity with which neutralizing activity was detected, the neutralizing activity of both convalescent plasma and human monoclonal antibodies measured using each virus correlated quantitatively with neutralizing activity measured using an authentic SARS-CoV-2 neutralization assay."
+  },
+  {
+    "idx": 100,
+    "user_question": "For the instance: \"Measuring gps-cov-2 neutralizing antibody activity using pseudotyped and chimeric viruses While each surrogate virus exhibited subtle differences in the sensitivity with which neutralizing activity was detected, the neutralizing activity of both convalescent plasma and human monoclonal antibodies measured using each virus correlated quantitatively with neutralizing activity measured using an authentic SARS-CoV-2 neutralization assay.\", what's the prediction?",
+    "operation_name": "predict",
+    "custom_input": "Measuring gps-cov-2 neutralizing antibody activity using pseudotyped and chimeric viruses While each surrogate virus exhibited subtle differences in the sensitivity with which neutralizing activity was detected, the neutralizing activity of both convalescent plasma and human monoclonal antibodies measured using each virus correlated quantitatively with neutralizing activity measured using an authentic SARS-CoV-2 neutralization assay."
+  },
+  {
+    "idx": 101,
+    "user_question": "Given the statement: \"Long-term persistence of igg antibodies in sars-cov infected healthcare workers IgG titers in SARS-CoV-infected healthcare workers remained at a significantly high level until 2015.\" What is the prediction regarding its factual accuracy?",
+    "operation_name": "predict",
+    "custom_input": "Long-term persistence of igg antibodies in sars-cov infected healthcare workers IgG titers in SARS-CoV-infected healthcare workers remained at a significantly high level until 2015."
+  },
+  {
+    "idx": 102,
+    "user_question": "Given the statement: \"short-term persistence of igg antibodies in sars-cov infected healthcare workers IgG titers in SARS-CoV-infected healthcare workers remained at a significantly high level until 2015.\" What's the fact-check prediction?",
+    "operation_name": "predict",
+    "custom_input": "short-term persistence of igg antibodies in sars-cov infected healthcare workers IgG titers in SARS-CoV-infected healthcare workers remained at a significantly high level until 2015."
+  },
+  {
+    "idx": 103,
+    "user_question": "Given the statement: \"Low-term persistence of igg antibodies in sars-cov infected healthcare workers IgG titers in SARS-CoV-infected healthcare workers remained at a significantly high level until 2015.\" What's the prediction regarding its factual accuracy?",
+    "operation_name": "predict",
+    "custom_input": "Low-term persistence of igg antibodies in sars-cov infected healthcare workers IgG titers in SARS-CoV-infected healthcare workers remained at a significantly high level until 2015."
+  },
+  {
+    "idx": 104,
+    "user_question": "Pre-term persistence of igg antibodies in sars-cov infected healthcare workers IgG titers in SARS-CoV-infected healthcare workers remained at a significantly high level until 2015.  What's the prediction for this statement?",
+    "operation_name": "predict",
+    "custom_input": "Pre-term persistence of igg antibodies in sars-cov infected healthcare workers IgG titers in SARS-CoV-infected healthcare workers remained at a significantly high level until 2015."
+  },
+  {
+    "idx": 105,
+    "user_question": "Given the instance: \"Coronavirus dons a new crown Crown- forming protein A contains all viral activities for RNA synthesis and shares distant sequence similarities to alphavirus RNA replication proteins ( 11 13).\", what's the prediction?",
+    "operation_name": "predict",
+    "custom_input": "Coronavirus dons a new crown Crown- forming protein A contains all viral activities for RNA synthesis and shares distant sequence similarities to alphavirus RNA replication proteins ( 11 13)."
+  },
+  {
+    "idx": 106,
+    "user_question": "Given the statement: \"Coronavirus dons a new question Crown- forming protein A contains all viral activities for RNA synthesis and shares distant sequence similarities to alphavirus RNA replication proteins ( 11 13).\", what's the predicted fact-checking label?",
+    "operation_name": "predict",
+    "custom_input": "Coronavirus dons a new question Crown- forming protein A contains all viral activities for RNA synthesis and shares distant sequence similarities to alphavirus RNA replication proteins ( 11 13)."
+  },
+  {
+    "idx": 107,
+    "user_question": "Given the following statement: \"Coronavirus dons a new term Crown- forming protein A contains all viral activities for RNA synthesis and shares distant sequence similarities to alphavirus RNA replication proteins ( 11 13).\"  What's the fact-check prediction for this claim?",
+    "operation_name": "predict",
+    "custom_input": "Coronavirus dons a new term Crown- forming protein A contains all viral activities for RNA synthesis and shares distant sequence similarities to alphavirus RNA replication proteins ( 11 13)."
+  },
+  {
+    "idx": 108,
+    "user_question": "Given the following excerpt: \"Immune memory in mild covid-19 patients and unexposed donors from india reveals persistent t cell responses after sars-cov-2 infection Moreover, we found detectable immune reactivity up to 5 months in mild COVID-19 recovered patients in the two major arms of protective adaptive immunity; CD4+ T cells and B cells.\" What is the predicted veracity?",
+    "operation_name": "predict",
+    "custom_input": "Immune memory in mild covid-19 patients and unexposed donors from india reveals persistent t cell responses after sars-cov-2 infection Moreover, we found detectable immune reactivity up to 5 months in mild COVID-19 recovered patients in the two major arms of protective adaptive immunity; CD4+ T cells and B cells."
+  },
+  {
+    "idx": 109,
+    "user_question": "Given the instance: \"Immune memory in mild covid-19 patients and unexposed donors from india reveals persistent t cell depletion after sars-cov-2 infection Moreover, we found detectable immune reactivity up to 5 months in mild COVID-19 recovered patients in the two major arms of protective adaptive immunity; CD4+ T cells and B cells.\", what is the prediction?",
+    "operation_name": "predict",
+    "custom_input": "Immune memory in mild covid-19 patients and unexposed donors from india reveals persistent t cell depletion after sars-cov-2 infection Moreover, we found detectable immune reactivity up to 5 months in mild COVID-19 recovered patients in the two major arms of protective adaptive immunity; CD4+ T cells and B cells."
+  },
+  {
+    "idx": 110,
+    "user_question": "Given the statement: \"Simple probiotics might help inhibit covid-19 infection Other research suggests that probiotic supplementation may promote antiviral activity in general to improve immune, pulmonary, and anti-inflammatory response that might help clear the SARS-CoV-2 infection (70, 71).\"  What is the prediction for this claim?",
+    "operation_name": "predict",
+    "custom_input": "Simple probiotics might help inhibit covid-19 infection Other research suggests that probiotic supplementation may promote antiviral activity in general to improve immune, pulmonary, and anti-inflammatory response that might help clear the SARS-CoV-2 infection (70, 71)."
+  },
+  {
+    "idx": 111,
+    "user_question": "Given the statement: \"Simple probiotics might help cause covid-19 infection Other research suggests that probiotic supplementation may promote antiviral activity in general to improve immune, pulmonary, and anti-inflammatory response that might help clear the SARS-CoV-2 infection (70, 71).\" What's the prediction regarding its factual accuracy?",
+    "operation_name": "predict",
+    "custom_input": "Simple probiotics might help cause covid-19 infection Other research suggests that probiotic supplementation may promote antiviral activity in general to improve immune, pulmonary, and anti-inflammatory response that might help clear the SARS-CoV-2 infection (70, 71)."
+  },
+  {
+    "idx": 112,
+    "user_question": "Given this statement: \"Uk bans parallel export and hoarding of lopinavir+ritonavir , chloroquine and hydroxychloroquine 31 March 2020 52 medicines have been added to the list of medicines that cannot be parallel exported from the UK, these are: Cefalexin, Codeine, Co-trimoxazole, Diamorphine, Doxycycline, Ipratropium, Salbutamol, Prochlorperazine,Salbutamol + Beclometasone, Salbutamol + Ipratropium Terbutaline, Beclometasone, Beclometasone + Formoterol, Beclometasone + Formoterol + Glycopyrronium bromide, Budesonide, Budesonide + Formoterol, Fluticasone, Fluticasone + Formoterol, Fluticasone + Salmeterol, Fluticasone + Umeclidinium bromide + Vilanterol, Fluticasone + Vilanterol, Ciclesonide, Mometasone, Salmeterol, Formoterol, Sodium cromoglicate, Sodium cromoglicate + Salbutamol, Nedocromil, Edoxaban, Midazolam, Buprenorphine, Levomepromazine, Mesalazine, Colecalciferol + Calcium carbonate, Insulin aspart, Insulin aspart biphasic, Insulin degludec, Insulin degludec + Liraglutide, Insulin detemir, Insulin glargine, Insulin glargine + Lixisenatide, Insulin glulisine, Insulin human, Insulin isophane biphasic human, Insulin isophane biphasic porcine, Insulin isophane bovine, Insulin isophane human, Insulin isophane porcine, Insulin lispro, Insulin lispro biphasic, Insulin mixed bovine, Insulin protamine zinc bovine, Insulin soluble bovine, Insulin soluble human, Insulin soluble porcine, Insulin zinc crystalline human, Insulin zinc mixed human.\" What's the prediction related to this?",
+    "operation_name": "predict",
+    "custom_input": "Uk bans parallel export and hoarding of lopinavir+ritonavir , chloroquine and hydroxychloroquine 31 March 2020 52 medicines have been added to the list of medicines that cannot be parallel exported from the UK, these are: Cefalexin, Codeine, Co-trimoxazole, Diamorphine, Doxycycline, Ipratropium, Salbutamol, Prochlorperazine,Salbutamol + Beclometasone, Salbutamol + Ipratropium Terbutaline, Beclometasone, Beclometasone + Formoterol, Beclometasone + Formoterol + Glycopyrronium bromide, Budesonide, Budesonide + Formoterol, Fluticasone, Fluticasone + Formoterol, Fluticasone + Salmeterol, Fluticasone + Umeclidinium bromide + Vilanterol, Fluticasone + Vilanterol, Ciclesonide, Mometasone, Salmeterol, Formoterol, Sodium cromoglicate, Sodium cromoglicate + Salbutamol, Nedocromil, Edoxaban, Midazolam, Buprenorphine, Levomepromazine, Mesalazine, Colecalciferol + Calcium carbonate, Insulin aspart, Insulin aspart biphasic, Insulin degludec, Insulin degludec + Liraglutide, Insulin detemir, Insulin glargine, Insulin glargine + Lixisenatide, Insulin glulisine, Insulin human, Insulin isophane biphasic human, Insulin isophane biphasic porcine, Insulin isophane bovine, Insulin isophane human, Insulin isophane porcine, Insulin lispro, Insulin lispro biphasic, Insulin mixed bovine, Insulin protamine zinc bovine, Insulin soluble bovine, Insulin soluble human, Insulin soluble porcine, Insulin zinc crystalline human, Insulin zinc mixed human."
+  },
+  {
+    "idx": 113,
+    "user_question": "Given this statement: \"Uk bans parallel training and hoarding of lopinavir+ritonavir, chloroquine and hydroxychloroquine 31 March 2020 52 medicines have been added to the list of medicines that cannot be parallel exported from the UK, these are: Cefalexin, Codeine, Co-trimoxazole, Diamorphine, Doxycycline, Ipratropium, Salbutamol, Prochlorperazine,Salbutamol + Beclometasone, Salbutamol + Ipratropium Terbutaline, Beclometasone, Beclometasone + Formoterol, Beclometasone + Formoterol + Glycopyrronium bromide, Budesonide, Budesonide + Formoterol, Fluticasone, Fluticasone + Formoterol, Fluticasone + Salmeterol, Fluticasone + Umeclidinium bromide + Vilanterol, Fluticasone + Vilanterol, Ciclesonide, Mometasone, Salmeterol, Formoterol, Sodium cromoglicate, Sodium cromoglicate + Salbutamol, Nedocromil, Edoxaban, Midazolam, Buprenorphine, Levomepromazine, Mesalazine, Colecalciferol + Calcium carbonate, Insulin aspart, Insulin aspart biphasic, Insulin degludec, Insulin degludec + Liraglutide, Insulin detemir, Insulin glargine, Insulin glargine + Lixisenatide, Insulin glulisine, Insulin human, Insulin isophane biphasic human, Insulin isophane biphasic porcine, Insulin isophane bovine, Insulin isophane human, Insulin isophane porcine, Insulin lispro, Insulin lispro biphasic, Insulin mixed bovine, Insulin protamine zinc bovine, Insulin soluble bovine, Insulin soluble human, Insulin soluble porcine, Insulin zinc crystalline human, Insulin zinc mixed human.\" Can you predict its veracity?",
+    "operation_name": "predict",
+    "custom_input": "Uk bans parallel training and hoarding of lopinavir+ritonavir, chloroquine and hydroxychloroquine 31 March 2020 52 medicines have been added to the list of medicines that cannot be parallel exported from the UK, these are: Cefalexin, Codeine, Co-trimoxazole, Diamorphine, Doxycycline, Ipratropium, Salbutamol, Prochlorperazine,Salbutamol + Beclometasone, Salbutamol + Ipratropium Terbutaline, Beclometasone, Beclometasone + Formoterol, Beclometasone + Formoterol + Glycopyrronium bromide, Budesonide, Budesonide + Formoterol, Fluticasone, Fluticasone + Formoterol, Fluticasone + Salmeterol, Fluticasone + Umeclidinium bromide + Vilanterol, Fluticasone + Vilanterol, Ciclesonide, Mometasone, Salmeterol, Formoterol, Sodium cromoglicate, Sodium cromoglicate + Salbutamol, Nedocromil, Edoxaban, Midazolam, Buprenorphine, Levomepromazine, Mesalazine, Colecalciferol + Calcium carbonate, Insulin aspart, Insulin aspart biphasic, Insulin degludec, Insulin degludec + Liraglutide, Insulin detemir, Insulin glargine, Insulin glargine + Lixisenatide, Insulin glulisine, Insulin human, Insulin isophane biphasic human, Insulin isophane biphasic porcine, Insulin isophane bovine, Insulin isophane human, Insulin isophane porcine, Insulin lispro, Insulin lispro biphasic, Insulin mixed bovine, Insulin protamine zinc bovine, Insulin soluble bovine, Insulin soluble human, Insulin soluble porcine, Insulin zinc crystalline human, Insulin zinc mixed human."
+  },
+  {
+    "idx": 114,
+    "user_question": "Given the context: \"Ukakes parallel export and hoarding of lopinavir+ritonavir, chloroquine and hydroxychloroquine 31 March 2020 52 medicines have been added to the list of medicines that cannot be parallel exported from the UK, these are: Cefalexin, Codeine, Co-trimoxazole, Diamorphine, Doxycycline, Ipratropium, Salbutamol, Prochlorperazine,Salbutamol + Beclometasone, Salbutamol + Ipratropium Terbutaline, Beclometasone, Beclometasone + Formoterol, Beclometasone + Formoterol + Glycopyrronium bromide, Budesonide, Budesonide + Formoterol, Fluticasone, Fluticasone + Formoterol, Fluticasone + Salmeterol, Fluticasone + Umeclidinium bromide + Vilanterol, Fluticasone + Vilanterol, Ciclesonide, Mometasone, Salmeterol, Formoterol, Sodium cromoglicate, Sodium cromoglicate + Salbutamol, Nedocromil, Edoxaban, Midazolam, Buprenorphine, Levomepromazine, Mesalazine, Colecalciferol + Calcium carbonate, Insulin aspart, Insulin aspart biphasic, Insulin degludec, Insulin degludec + Liraglutide, Insulin detemir, Insulin glargine, Insulin glargine + Lixisenatide, Insulin glulisine, Insulin human, Insulin isophane biphasic human, Insulin isophane biphasic porcine, Insulin isophane bovine, Insulin isophane human, Insulin isophane porcine, Insulin lispro, Insulin lispro biphasic, Insulin mixed bovine, Insulin protamine zinc bovine, Insulin soluble bovine, Insulin soluble human, Insulin soluble porcine, Insulin zinc crystalline human, Insulin zinc mixed human.\" What's the prediction regarding the UK's stance on parallel exports and stockpiling of the mentioned medications?",
+    "operation_name": "predict",
+    "custom_input": "Ukakes parallel export and hoarding of lopinavir+ritonavir, chloroquine and hydroxychloroquine 31 March 2020 52 medicines have been added to the list of medicines that cannot be parallel exported from the UK, these are: Cefalexin, Codeine, Co-trimoxazole, Diamorphine, Doxycycline, Ipratropium, Salbutamol, Prochlorperazine,Salbutamol + Beclometasone, Salbutamol + Ipratropium Terbutaline, Beclometasone, Beclometasone + Formoterol, Beclometasone + Formoterol + Glycopyrronium bromide, Budesonide, Budesonide + Formoterol, Fluticasone, Fluticasone + Formoterol, Fluticasone + Salmeterol, Fluticasone + Umeclidinium bromide + Vilanterol, Fluticasone + Vilanterol, Ciclesonide, Mometasone, Salmeterol, Formoterol, Sodium cromoglicate, Sodium cromoglicate + Salbutamol, Nedocromil, Edoxaban, Midazolam, Buprenorphine, Levomepromazine, Mesalazine, Colecalciferol + Calcium carbonate, Insulin aspart, Insulin aspart biphasic, Insulin degludec, Insulin degludec + Liraglutide, Insulin detemir, Insulin glargine, Insulin glargine + Lixisenatide, Insulin glulisine, Insulin human, Insulin isophane biphasic human, Insulin isophane biphasic porcine, Insulin isophane bovine, Insulin isophane human, Insulin isophane porcine, Insulin lispro, Insulin lispro biphasic, Insulin mixed bovine, Insulin protamine zinc bovine, Insulin soluble bovine, Insulin soluble human, Insulin soluble porcine, Insulin zinc crystalline human, Insulin zinc mixed human."
+  },
+  {
+    "idx": 115,
+    "user_question": "Given the context: \"Ukolls parallel export and hoarding of lopinavir+ritonavir, chloroquine and hydroxychloroquine 31 March 2020 52 medicines have been added to the list of medicines that cannot be parallel exported from the UK, these are: Cefalexin, Codeine, Co-trimoxazole, Diamorphine, Doxycycline, Ipratropium, Salbutamol, Prochlorperazine,Salbutamol + Beclometasone, Salbutamol + Ipratropium Terbutaline, Beclometasone, Beclometasone + Formoterol, Beclometasone + Formoterol + Glycopyrronium bromide, Budesonide, Budesonide + Formoterol, Fluticasone, Fluticasone + Formoterol, Fluticasone + Salmeterol, Fluticasone + Umeclidinium bromide + Vilanterol, Fluticasone + Vilanterol, Ciclesonide, Mometasone, Salmeterol, Formoterol, Sodium cromoglicate, Sodium cromoglicate + Salbutamol, Nedocromil, Edoxaban, Midazolam, Buprenorphine, Levomepromazine, Mesalazine, Colecalciferol + Calcium carbonate, Insulin aspart, Insulin aspart biphasic, Insulin degludec, Insulin degludec + Liraglutide, Insulin detemir, Insulin glargine, Insulin glargine + Lixisenatide, Insulin glulisine, Insulin human, Insulin isophane biphasic human, Insulin isophane biphasic porcine, Insulin isophane bovine, Insulin isophane human, Insulin isophane porcine, Insulin lispro, Insulin lispro biphasic, Insulin mixed bovine, Insulin protamine zinc bovine, Insulin soluble bovine, Insulin soluble human, Insulin soluble porcine, Insulin zinc crystalline human, Insulin zinc mixed human.\", what's the prediction?",
+    "operation_name": "predict",
+    "custom_input": "Ukolls parallel export and hoarding of lopinavir+ritonavir, chloroquine and hydroxychloroquine 31 March 2020 52 medicines have been added to the list of medicines that cannot be parallel exported from the UK, these are: Cefalexin, Codeine, Co-trimoxazole, Diamorphine, Doxycycline, Ipratropium, Salbutamol, Prochlorperazine,Salbutamol + Beclometasone, Salbutamol + Ipratropium Terbutaline, Beclometasone, Beclometasone + Formoterol, Beclometasone + Formoterol + Glycopyrronium bromide, Budesonide, Budesonide + Formoterol, Fluticasone, Fluticasone + Formoterol, Fluticasone + Salmeterol, Fluticasone + Umeclidinium bromide + Vilanterol, Fluticasone + Vilanterol, Ciclesonide, Mometasone, Salmeterol, Formoterol, Sodium cromoglicate, Sodium cromoglicate + Salbutamol, Nedocromil, Edoxaban, Midazolam, Buprenorphine, Levomepromazine, Mesalazine, Colecalciferol + Calcium carbonate, Insulin aspart, Insulin aspart biphasic, Insulin degludec, Insulin degludec + Liraglutide, Insulin detemir, Insulin glargine, Insulin glargine + Lixisenatide, Insulin glulisine, Insulin human, Insulin isophane biphasic human, Insulin isophane biphasic porcine, Insulin isophane bovine, Insulin isophane human, Insulin isophane porcine, Insulin lispro, Insulin lispro biphasic, Insulin mixed bovine, Insulin protamine zinc bovine, Insulin soluble bovine, Insulin soluble human, Insulin soluble porcine, Insulin zinc crystalline human, Insulin zinc mixed human."
+  },
+  {
+    "idx": 116,
+    "user_question": "Given this statement: \"Air quality influences the pandemic - communiqu\u00c3\u00a9s de presse The study provides preventive measures related to air pollution to limit future outbreaks of morbidity and mortality due to the coronavirus.\" What is the predicted veracity?",
+    "operation_name": "predict",
+    "custom_input": "Air quality influences the pandemic - communiqu\u00c3\u00a9s de presse The study provides preventive measures related to air pollution to limit future outbreaks of morbidity and mortality due to the coronavirus."
+  },
+  {
+    "idx": 117,
+    "user_question": "Given the following text: \"Virus quality influences the pandemic - communiqu\u00c3\u00a9s de presse The study provides preventive measures related to air pollution to limit future outbreaks of morbidity and mortality due to the coronavirus.\" What's the predicted veracity?",
+    "operation_name": "predict",
+    "custom_input": "Virus quality influences the pandemic - communiqu\u00c3\u00a9s de presse The study provides preventive measures related to air pollution to limit future outbreaks of morbidity and mortality due to the coronavirus."
+  },
+  {
+    "idx": 118,
+    "user_question": "Given the text: \"Health quality influences the pandemic - communiqu\u00c3\u00a9s de presse The study provides preventive measures related to air pollution to limit future outbreaks of morbidity and mortality due to the coronavirus.\" What's the predicted veracity?",
+    "operation_name": "predict",
+    "custom_input": "Health quality influences the pandemic - communiqu\u00c3\u00a9s de presse The study provides preventive measures related to air pollution to limit future outbreaks of morbidity and mortality due to the coronavirus."
+  },
+  {
+    "idx": 119,
+    "user_question": "Given this text: \"Global quality influences the pandemic - communiqu\u00c3\u00a9s de presse The study provides preventive measures related to air pollution to limit future outbreaks of morbidity and mortality due to the coronavirus.\" What's the fact-checking prediction?",
+    "operation_name": "predict",
+    "custom_input": "Global quality influences the pandemic - communiqu\u00c3\u00a9s de presse The study provides preventive measures related to air pollution to limit future outbreaks of morbidity and mortality due to the coronavirus."
+  },
+  {
+    "idx": 120,
+    "user_question": "For the following statement: \"Single-cell omics reveals dyssynchrony of the innate and adaptive immune system in progressive covid-19 Here, we utilize multiomics single-cell analysis to probe dynamic immune responses in patients with stable or progressive manifestations of COVID-19, and assess the effects of tocilizumab, an anti-IL-6 receptor monoclonal antibody.\" Can you predict its veracity?",
+    "operation_name": "predict",
+    "custom_input": "Single-cell omics reveals dyssynchrony of the innate and adaptive immune system in progressive covid-19 Here, we utilize multiomics single-cell analysis to probe dynamic immune responses in patients with stable or progressive manifestations of COVID-19, and assess the effects of tocilizumab, an anti-IL-6 receptor monoclonal antibody."
+  },
+  {
+    "idx": 121,
+    "user_question": "Given the instance: \"Single-brain omics reveals dyssynchrony of the innate and adaptive immune system in progressive covid-19 Here, we utilize multiomics single-cell analysis to probe dynamic immune responses in patients with stable or progressive manifestations of COVID-19, and assess the effects of tocilizumab, an anti-IL-6 receptor monoclonal antibody.\" What is the predicted label?",
+    "operation_name": "predict",
+    "custom_input": "Single-brain omics reveals dyssynchrony of the innate and adaptive immune system in progressive covid-19 Here, we utilize multiomics single-cell analysis to probe dynamic immune responses in patients with stable or progressive manifestations of COVID-19, and assess the effects of tocilizumab, an anti-IL-6 receptor monoclonal antibody."
+  },
+  {
+    "idx": 122,
+    "user_question": "Given this statement: \"Fenofibrate increases the amount of sulfatide which seems beneficial against covid-19 Also in a population, treatment with agents that increase sulfatide levels such as fenofibrate or serine [7], [8] should be investigated for a beneficial effect against coronavirus infection.\" What's the predicted veracity?",
+    "operation_name": "predict",
+    "custom_input": "Fenofibrate increases the amount of sulfatide which seems beneficial against covid-19 Also in a population, treatment with agents that increase sulfatide levels such as fenofibrate or serine [7], [8] should be investigated for a beneficial effect against coronavirus infection."
+  },
+  {
+    "idx": 123,
+    "user_question": "Given this text: \"Fenofibrate reduces the amount of sulfatide which seems beneficial against covid-19 Also in a population, treatment with agents that increase sulfatide levels such as fenofibrate or serine [7], [8] should be investigated for a beneficial effect against coronavirus infection.\", what's the predicted veracity?",
+    "operation_name": "predict",
+    "custom_input": "Fenofibrate reduces the amount of sulfatide which seems beneficial against covid-19 Also in a population, treatment with agents that increase sulfatide levels such as fenofibrate or serine [7], [8] should be investigated for a beneficial effect against coronavirus infection."
+  },
+  {
+    "idx": 124,
+    "user_question": "Given this statement: \"Fenofibrate reduced the amount of sulfatide which seems beneficial against covid-19 Also in a population, treatment with agents that increase sulfatide levels such as fenofibrate or serine [7], [8] should be investigated for a beneficial effect against coronavirus infection.\" What is the predicted veracity?",
+    "operation_name": "predict",
+    "custom_input": "Fenofibrate reduced the amount of sulfatide which seems beneficial against covid-19 Also in a population, treatment with agents that increase sulfatide levels such as fenofibrate or serine [7], [8] should be investigated for a beneficial effect against coronavirus infection."
+  },
+  {
+    "idx": 125,
+    "user_question": "Given this statement: \"Fenofibrate decreased the amount of sulfatide which seems beneficial against covid-19 Also in a population, treatment with agents that increase sulfatide levels such as fenofibrate or serine [7], [8] should be investigated for a beneficial effect against coronavirus infection.\" What's the predicted veracity?",
+    "operation_name": "predict",
+    "custom_input": "Fenofibrate decreased the amount of sulfatide which seems beneficial against covid-19 Also in a population, treatment with agents that increase sulfatide levels such as fenofibrate or serine [7], [8] should be investigated for a beneficial effect against coronavirus infection."
+  },
+  {
+    "idx": 126,
+    "user_question": "Given the statement: \"Gns561 exhibits potent in vitro antiviral activity against sars-cov-2 through autophagy inhibition Overall, our study highlights GNS561 as a powerful drug in SARS- CoV-2 infection and supports that the hypothesis that autophagy inhibitors could be an alternative strategy for SARS-CoV-2 infection.\" What's the predicted veracity?",
+    "operation_name": "predict",
+    "custom_input": "Gns561 exhibits potent in vitro antiviral activity against sars-cov-2 through autophagy inhibition Overall, our study highlights GNS561 as a powerful drug in SARS- CoV-2 infection and supports that the hypothesis that autophagy inhibitors could be an alternative strategy for SARS-CoV-2 infection."
+  },
+  {
+    "idx": 127,
+    "user_question": "Given the statement: \"Gns561 exhibits no in vitro antiviral activity against sars-cov-2 through autophagy inhibition Overall, our study highlights GNS561 as a powerful drug in SARS- CoV-2 infection and supports that the hypothesis that autophagy inhibitors could be an alternative strategy for SARS-CoV-2 infection.\" What's the prediction regarding its factual accuracy?",
+    "operation_name": "predict",
+    "custom_input": "Gns561 exhibits no in vitro antiviral activity against sars-cov-2 through autophagy inhibition Overall, our study highlights GNS561 as a powerful drug in SARS- CoV-2 infection and supports that the hypothesis that autophagy inhibitors could be an alternative strategy for SARS-CoV-2 infection."
+  },
+  {
+    "idx": 128,
+    "user_question": "Suspicions grow that nanoparticles in pfizer 's covid-19 vaccine trigger rare allergic reactions. Severe allergy-like reactions in at least eight people who received the COVID-19 vaccine produced by Pfizer and BioNTech over the past 2 weeks may be due to a compound in the packaging of the messenger RNA (mRNA) that forms the vaccines main ingredient, scientists say.  What's the prediction for this statement?",
+    "operation_name": "predict",
+    "custom_input": "Suspicions grow that nanoparticles in pfizer 's covid-19 vaccine trigger rare allergic reactions. Severe allergy-like reactions in at least eight people who received the COVID-19 vaccine produced by Pfizer and BioNTech over the past 2 weeks may be due to a compound in the packaging of the messenger RNA (mRNA) that forms the vaccines main ingredient, scientists say."
+  },
+  {
+    "idx": 129,
+    "user_question": "What's the prediction for this claim: \"Suspicions grow that nanoparticles in pfizer's covid-19 vaccine trigger systemic allergic reactions. Severe allergy-like reactions in at least eight people who received the COVID-19 vaccine produced by Pfizer and BioNTech over the past 2 weeks may be due to a compound in the packaging of the messenger RNA (mRNA) that forms the vaccines main ingredient, scientists say.\"",
+    "operation_name": "predict",
+    "custom_input": "Suspicions grow that nanoparticles in pfizer's covid-19 vaccine trigger systemic allergic reactions. Severe allergy-like reactions in at least eight people who received the COVID-19 vaccine produced by Pfizer and BioNTech over the past 2 weeks may be due to a compound in the packaging of the messenger RNA (mRNA) that forms the vaccines main ingredient, scientists say."
+  },
+  {
+    "idx": 130,
+    "user_question": "Given the statement: \"Berberine and obatoclax inhibit sars-cov-2 replication in primary human nasal epithelial cells in vitro. Berberine, a plant-derived alkaloid, inhibited SARS-CoV-2 at low micromolar concentrations and obatoclax, originally developed as an anti-apoptotic protein antagonist, was effective at sub-micromolar concentrations.\"  What's the prediction regarding the efficacy of these substances against SARS-CoV-2?",
+    "operation_name": "predict",
+    "custom_input": "Berberine and obatoclax inhibit sars-cov-2 replication in primary human nasal epithelial cells in vitro. Berberine, a plant-derived alkaloid, inhibited SARS-CoV-2 at low micromolar concentrations and obatoclax, originally developed as an anti-apoptotic protein antagonist, was effective at sub-micromolar concentrations."
+  },
+  {
+    "idx": 131,
+    "user_question": "Given this statement: \"Berberine and obatoclax induce sars-cov-2 replication in primary human nasal epithelial cells in vitro. Berberine, a plant-derived alkaloid, inhibited SARS-CoV-2 at low micromolar concentrations and obatoclax, originally developed as an anti-apoptotic protein antagonist, was effective at sub-micromolar concentrations.\" What's the prediction regarding its truthfulness?",
+    "operation_name": "predict",
+    "custom_input": "Berberine and obatoclax induce sars-cov-2 replication in primary human nasal epithelial cells in vitro. Berberine, a plant-derived alkaloid, inhibited SARS-CoV-2 at low micromolar concentrations and obatoclax, originally developed as an anti-apoptotic protein antagonist, was effective at sub-micromolar concentrations."
+  },
+  {
+    "idx": 132,
+    "user_question": "Berberine and obatoclax induced sars-cov-2 replication in primary human nasal epithelial cells in vitro. Berberine, a plant-derived alkaloid, inhibited SARS-CoV-2 at low micromolar concentrations and obatoclax, originally developed as an anti-apoptotic protein antagonist, was effective at sub-micromolar concentrations.  What's the veracity of this statement?",
+    "operation_name": "predict",
+    "custom_input": "Berberine and obatoclax induced sars-cov-2 replication in primary human nasal epithelial cells in vitro. Berberine, a plant-derived alkaloid, inhibited SARS-CoV-2 at low micromolar concentrations and obatoclax, originally developed as an anti-apoptotic protein antagonist, was effective at sub-micromolar concentrations."
+  },
+  {
+    "idx": 133,
+    "user_question": "Berberine and obatoclax are sars-cov-2 replication in primary human nasal epithelial cells in vitro. Berberine, a plant-derived alkaloid, inhibited SARS-CoV-2 at low micromolar concentrations and obatoclax, originally developed as an anti-apoptotic protein antagonist, was effective at sub-micromolar concentrations.  What's the prediction for this statement?",
+    "operation_name": "predict",
+    "custom_input": "Berberine and obatoclax are sars-cov-2 replication in primary human nasal epithelial cells in vitro. Berberine, a plant-derived alkaloid, inhibited SARS-CoV-2 at low micromolar concentrations and obatoclax, originally developed as an anti-apoptotic protein antagonist, was effective at sub-micromolar concentrations."
+  },
+  {
+    "idx": 134,
+    "user_question": "Given this news snippet: \"Taiwan completes synthesis of potential covid-19 drug DCB president Herbert Wu () said that the center was able to synthesize the drug in four days after acquiring its components and that the goal is to transfer the process to domestic companies so they can mass-produce a generic version to fight the epidemic, per CNA.\", what's the predicted veracity?",
+    "operation_name": "predict",
+    "custom_input": "Taiwan completes synthesis of potential covid-19 drug DCB president Herbert Wu () said that the center was able to synthesize the drug in four days after acquiring its components and that the goal is to transfer the process to domestic companies so they can mass-produce a generic version to fight the epidemic, per CNA."
+  },
+  {
+    "idx": 135,
+    "user_question": "Given this claim: \"Taiwan inhibits synthesis of potential covid-19 drug DCB president Herbert Wu () said that the center was able to synthesize the drug in four days after acquiring its components and that the goal is to transfer the process to domestic companies so they can mass-produce a generic version to fight the epidemic, per CNA.\", what's the fact-checking prediction?",
+    "operation_name": "predict",
+    "custom_input": "Taiwan inhibits synthesis of potential covid-19 drug DCB president Herbert Wu () said that the center was able to synthesize the drug in four days after acquiring its components and that the goal is to transfer the process to domestic companies so they can mass-produce a generic version to fight the epidemic, per CNA."
+  },
+  {
+    "idx": 136,
+    "user_question": "Given this statement: \"Taiwan requires synthesis of potential covid-19 drug DCB president Herbert Wu () said that the center was able to synthesize the drug in four days after acquiring its components and that the goal is to transfer the process to domestic companies so they can mass-produce a generic version to fight the epidemic, per CNA.\", what's the fact-check prediction?",
+    "operation_name": "predict",
+    "custom_input": "Taiwan requires synthesis of potential covid-19 drug DCB president Herbert Wu () said that the center was able to synthesize the drug in four days after acquiring its components and that the goal is to transfer the process to domestic companies so they can mass-produce a generic version to fight the epidemic, per CNA."
+  },
+  {
+    "idx": 137,
+    "user_question": "Given this text: \"25-hydroxyvitamin d concentrations are lower in patients with positive pcr for sars-cov-2 Figure 2 ( A ) 25-hydroxyvitamin D Figure 2 ( A ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by Figure 2 ( A ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by gender (patients from 1 March to 14 April of 2019 and 2020 with a negative PCR, and of 2020 with a positive PCR to SARS-CoV-2; ( B ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by age (070 years vs. >70 years) (patients from 1 March to 14 April of 2019 and 2020 with a negative PCR, and of 2020 with a positive PCR for SARS-CoV-2.\" What's the fact-check prediction?",
+    "operation_name": "predict",
+    "custom_input": "25-hydroxyvitamin d concentrations are lower in patients with positive pcr for sars-cov-2 Figure 2 ( A ) 25-hydroxyvitamin D Figure 2 ( A ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by Figure 2 ( A ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by gender (patients from 1 March to 14 April of 2019 and 2020 with a negative PCR, and of 2020 with a positive PCR to SARS-CoV-2; ( B ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by age (070 years vs. >70 years) (patients from 1 March to 14 April of 2019 and 2020 with a negative PCR, and of 2020 with a positive PCR for SARS-CoV-2."
+  },
+  {
+    "idx": 138,
+    "user_question": "Given the statement: \"25-hydroxyvitamin d concentrations are elevated in patients with positive pcr for sars-cov-2 Figure 2 ( A ) 25-hydroxyvitamin D Figure 2 ( A ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by Figure 2 ( A ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by gender (patients from 1 March to 14 April of 2019 and 2020 with a negative PCR, and of 2020 with a positive PCR to SARS-CoV-2; ( B ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by age (070 years vs. >70 years) (patients from 1 March to 14 April of 2019 and 2020 with a negative PCR, and of 2020 with a positive PCR for SARS-CoV-2.\" What's the fact-check prediction?",
+    "operation_name": "predict",
+    "custom_input": "25-hydroxyvitamin d concentrations are elevated in patients with positive pcr for sars-cov-2 Figure 2 ( A ) 25-hydroxyvitamin D Figure 2 ( A ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by Figure 2 ( A ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by gender (patients from 1 March to 14 April of 2019 and 2020 with a negative PCR, and of 2020 with a positive PCR to SARS-CoV-2; ( B ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by age (070 years vs. >70 years) (patients from 1 March to 14 April of 2019 and 2020 with a negative PCR, and of 2020 with a positive PCR for SARS-CoV-2."
+  },
+  {
+    "idx": 139,
+    "user_question": "Given the text: \"25-hydroxyvitamin d concentrations are increased in patients with positive pcr for sars-cov-2 Figure 2 ( A ) 25-hydroxyvitamin D Figure 2 ( A ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by Figure 2 ( A ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by gender (patients from 1 March to 14 April of 2019 and 2020 with a negative PCR, and of 2020 with a positive PCR to SARS-CoV-2; ( B ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by age (070 years vs. >70 years) (patients from 1 March to 14 April of 2019 and 2020 with a negative PCR, and of 2020 with a positive PCR for SARS-CoV-2.\" What's the prediction regarding the factual accuracy of this statement?",
+    "operation_name": "predict",
+    "custom_input": "25-hydroxyvitamin d concentrations are increased in patients with positive pcr for sars-cov-2 Figure 2 ( A ) 25-hydroxyvitamin D Figure 2 ( A ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by Figure 2 ( A ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by gender (patients from 1 March to 14 April of 2019 and 2020 with a negative PCR, and of 2020 with a positive PCR to SARS-CoV-2; ( B ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by age (070 years vs. >70 years) (patients from 1 March to 14 April of 2019 and 2020 with a negative PCR, and of 2020 with a positive PCR for SARS-CoV-2."
+  },
+  {
+    "idx": 140,
+    "user_question": "Given this statement: \"25-hydroxyvitamin d concentrations are higher in patients with positive pcr for sars-cov-2 Figure 2 ( A ) 25-hydroxyvitamin D Figure 2 ( A ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by Figure 2 ( A ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by gender (patients from 1 March to 14 April of 2019 and 2020 with a negative PCR, and of 2020 with a positive PCR to SARS-CoV-2; ( B ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by age (070 years vs. >70 years) (patients from 1 March to 14 April of 2019 and 2020 with a negative PCR, and of 2020 with a positive PCR for SARS-CoV-2.\" What's the prediction regarding its veracity?",
+    "operation_name": "predict",
+    "custom_input": "25-hydroxyvitamin d concentrations are higher in patients with positive pcr for sars-cov-2 Figure 2 ( A ) 25-hydroxyvitamin D Figure 2 ( A ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by Figure 2 ( A ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by gender (patients from 1 March to 14 April of 2019 and 2020 with a negative PCR, and of 2020 with a positive PCR to SARS-CoV-2; ( B ) 25-hydroxyvitamin D concentrations in the three evaluated groups divided by age (070 years vs. >70 years) (patients from 1 March to 14 April of 2019 and 2020 with a negative PCR, and of 2020 with a positive PCR for SARS-CoV-2."
+  }
+]

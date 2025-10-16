@@ -1,0 +1,698 @@
+[
+  {
+    "idx": 0,
+    "user": "Could you provide me feature importance score regarding 'Pineapple does not grow on trees'?",
+    "parsed": "importance",
+    "user_input": "Pineapple does not grow on trees"
+  },
+  {
+    "idx": 1,
+    "user": "Can you provide the feature importance score for 'The sun rises in the east'?",
+    "parsed": "importance",
+    "user_input": "The sun rises in the east"
+  },
+  {
+    "idx": 2,
+    "user": "What are the most important words in the statement 'Polar bears live in the Arctic'?",
+    "parsed": "importance",
+    "user_input": "Polar bears live in the Arctic"
+  },
+  {
+    "idx": 3,
+    "user": "Could you tell me the feature attribution for 'Bananas are a rich source of potassium'?",
+    "parsed": "importance",
+    "user_input": "Bananas are a rich source of potassium"
+  },
+  {
+    "idx": 4,
+    "user": "Please provide me the feature importance for 'Sharks have been around for millions of years'.",
+    "parsed": "importance",
+    "user_input": "Sharks have been around for millions of years"
+  },
+  {
+    "idx": 5,
+    "user": "What is the feature importance score for the statement 'Mount Everest is the tallest mountain on Earth'?",
+    "parsed": "importance",
+    "user_input": "Mount Everest is the tallest mountain on Earth"
+  },
+  {
+    "idx": 6,
+    "user": "Could you highlight the most important tokens in 'Roses are red and violets are blue'?",
+    "parsed": "importance",
+    "user_input": "Roses are red and violets are blue"
+  },
+  {
+    "idx": 7,
+    "user": "I would like to know the feature importance score for 'The Eiffel Tower is located in Paris'.",
+    "parsed": "importance",
+    "user_input": "The Eiffel Tower is located in Paris"
+  },
+  {
+    "idx": 8,
+    "user": "Can you provide feature attribution details for 'Cheetahs are the fastest land animals'?",
+    "parsed": "importance",
+    "user_input": "Cheetahs are the fastest land animals"
+  },
+  {
+    "idx": 9,
+    "user": "Please tell me which words are most important in 'Honeybees communicate through dance'.",
+    "parsed": "importance",
+    "user_input": "Honeybees communicate through dance"
+  },
+  {
+    "idx": 10,
+    "user": "Could you provide the feature importance score for 'Water boils at 100 degrees Celsius at sea level'?",
+    "parsed": "importance",
+    "user_input": "Water boils at 100 degrees Celsius at sea level"
+  },
+  {
+    "idx": 11,
+    "user": "Can you provide me the feature importance score regarding 'Blue whales are the largest animals ever known to have lived on Earth, reaching lengths of up to 100 feet'?",
+    "parsed": "importance",
+    "user_input": "Blue whales are the largest animals ever known to have lived on Earth, reaching lengths of up to 100 feet"
+  },
+  {
+    "idx": 12,
+    "user": "What are the most important words in the statement 'Solar panels convert sunlight into electricity through the use of photovoltaic cells, which are often made of silicon'?",
+    "parsed": "importance",
+    "user_input": "Solar panels convert sunlight into electricity through the use of photovoltaic cells, which are often made of silicon"
+  },
+  {
+    "idx": 13,
+    "user": "Could you give me the feature attribution for 'The Amazon rainforest, often referred to as the lungs of the Earth, plays a crucial role in regulating the planet's climate by absorbing carbon dioxide'?",
+    "parsed": "importance",
+    "user_input": "The Amazon rainforest, often referred to as the lungs of the Earth, plays a crucial role in regulating the planet's climate by absorbing carbon dioxide"
+  },
+  {
+    "idx": 14,
+    "user": "Please provide me the feature importance for 'The Great Barrier Reef is the world's largest coral reef system and is home to an incredible diversity of marine life, including over 1,500 species of fish'?",
+    "parsed": "importance",
+    "user_input": "The Great Barrier Reef is the world's largest coral reef system and is home to an incredible diversity of marine life, including over 1,500 species of fish"
+  },
+  {
+    "idx": 15,
+    "user": "Can you explain the feature importance score for 'Albert Einstein's theory of general relativity revolutionized our understanding of gravity, describing it as the curvature of space-time'?",
+    "parsed": "importance",
+    "user_input": "Albert Einstein's theory of general relativity revolutionized our understanding of gravity, describing it as the curvature of space-time"
+  },
+  {
+    "idx": 16,
+    "user": "Can you highlight the most important words in the statement 'The greenhouse effect is a natural phenomenon that warms the Earth's surface, but human activities have amplified its impact, leading to climate change'?",
+    "parsed": "importance",
+    "user_input": "The greenhouse effect is a natural phenomenon that warms the Earth's surface, but human activities have amplified its impact, leading to climate change"
+  },
+  {
+    "idx": 17,
+    "user": "I would like to know the feature importance for 'The process of photosynthesis allows plants to convert carbon dioxide and sunlight into oxygen and glucose, which is essential for their growth'?",
+    "parsed": "importance",
+    "user_input": "The process of photosynthesis allows plants to convert carbon dioxide and sunlight into oxygen and glucose, which is essential for their growth"
+  },
+  {
+    "idx": 18,
+    "user": "Can you provide feature attribution details for 'Lightning occurs as a result of the imbalance between positive and negative charges within clouds and between the clouds and the ground'?",
+    "parsed": "importance",
+    "user_input": "Lightning occurs as a result of the imbalance between positive and negative charges within clouds and between the clouds and the ground"
+  },
+  {
+    "idx": 19,
+    "user": "Please tell me which words are most important in 'The Antarctic ice sheet contains about 60 percent of the world's fresh water, and if it melted, it would cause significant sea level rise'?",
+    "parsed": "importance",
+    "user_input": "The Antarctic ice sheet contains about 60 percent of the world's fresh water, and if it melted, it would cause significant sea level rise"
+  },
+  {
+    "idx": 20,
+    "user": "Could you provide the feature importance score for 'Human brains contain about 86 billion neurons, each of which can form thousands of synaptic connections, enabling complex processing and learning'?",
+    "parsed": "importance",
+    "user_input": "Human brains contain about 86 billion neurons, each of which can form thousands of synaptic connections, enabling complex processing and learning"
+  },
+  {
+    "idx": 21,
+    "user": "Can you provide the feature importance score for 'The moon affects the ocean tides on Earth'?",
+    "parsed": "importance",
+    "user_input": "The moon affects the ocean tides on Earth"
+  },
+  {
+    "idx": 22,
+    "user": "What are the most important features in 'Diamonds are made of carbon atoms arranged in a crystal structure'?",
+    "parsed": "importance",
+    "user_input": "Diamonds are made of carbon atoms arranged in a crystal structure"
+  },
+  {
+    "idx": 23,
+    "user": "Could you tell me the importance score for 'The Sahara Desert is the largest hot desert in the world'?",
+    "parsed": "importance",
+    "user_input": "The Sahara Desert is the largest hot desert in the world"
+  },
+  {
+    "idx": 24,
+    "user": "Please provide me the feature importance for 'Penguins are flightless birds that live in the Southern Hemisphere'?",
+    "parsed": "importance",
+    "user_input": "Penguins are flightless birds that live in the Southern Hemisphere"
+  },
+  {
+    "idx": 25,
+    "user": "What is the feature importance score for 'Volcanoes erupt when magma rises through cracks in the Earth's crust'?",
+    "parsed": "importance",
+    "user_input": "Volcanoes erupt when magma rises through cracks in the Earth's crust"
+  },
+  {
+    "idx": 26,
+    "user": "Could you highlight the most important words in 'The Great Wall of China is visible from space in certain conditions'?",
+    "parsed": "importance",
+    "user_input": "The Great Wall of China is visible from space in certain conditions"
+  },
+  {
+    "idx": 27,
+    "user": "I would like to know the feature importance score for 'Butterflies undergo metamorphosis from caterpillars'?",
+    "parsed": "importance",
+    "user_input": "Butterflies undergo metamorphosis from caterpillars"
+  },
+  {
+    "idx": 28,
+    "user": "Can you provide feature attribution details for 'Mars is often called the Red Planet due to its iron oxide surface'?",
+    "parsed": "importance",
+    "user_input": "Mars is often called the Red Planet due to its iron oxide surface"
+  },
+  {
+    "idx": 29,
+    "user": "Please tell me which words are most important in 'Jellyfish have been in the ocean for over 500 million years'?",
+    "parsed": "importance",
+    "user_input": "Jellyfish have been in the ocean for over 500 million years"
+  },
+  {
+    "idx": 30,
+    "user": "Could you provide the feature importance score for 'Electric eels can generate electric shocks to stun prey or defend against predators'?",
+    "parsed": "importance",
+    "user_input": "Electric eels can generate electric shocks to stun prey or defend against predators"
+  },
+  {
+    "idx": 31,
+    "user": "What are the most important words in the statement 'Tsunamis are caused by underwater earthquakes or volcanic eruptions'?",
+    "parsed": "importance",
+    "user_input": "Tsunamis are caused by underwater earthquakes or volcanic eruptions"
+  },
+  {
+    "idx": 32,
+    "user": "Could you give me the feature attribution for 'Chameleons can change their skin color to blend into their surroundings'?",
+    "parsed": "importance",
+    "user_input": "Chameleons can change their skin color to blend into their surroundings"
+  },
+  {
+    "idx": 33,
+    "user": "Please provide me the feature importance for 'Giraffes have long necks to help them reach leaves on tall trees'?",
+    "parsed": "importance",
+    "user_input": "Giraffes have long necks to help them reach leaves on tall trees"
+  },
+  {
+    "idx": 34,
+    "user": "Can you explain the feature importance score for 'Bats are the only mammals capable of sustained flight'?",
+    "parsed": "importance",
+    "user_input": "Bats are the only mammals capable of sustained flight"
+  },
+  {
+    "idx": 35,
+    "user": "Can you highlight the most important words in the statement 'Rainforests produce a significant portion of the world's oxygen supply'?",
+    "parsed": "importance",
+    "user_input": "Rainforests produce a significant portion of the world's oxygen supply"
+  },
+  {
+    "idx": 36,
+    "user": "I would like to know the feature importance for 'The Milky Way galaxy contains billions of stars, including our Sun'?",
+    "parsed": "importance",
+    "user_input": "The Milky Way galaxy contains billions of stars, including our Sun"
+  },
+  {
+    "idx": 37,
+    "user": "Can you provide feature attribution details for 'Octopuses have three hearts and blue blood to help them survive in deep water'?",
+    "parsed": "importance",
+    "user_input": "Octopuses have three hearts and blue blood to help them survive in deep water"
+  },
+  {
+    "idx": 38,
+    "user": "Please tell me which words are most important in 'The human body is made up of approximately 60% water'?",
+    "parsed": "importance",
+    "user_input": "The human body is made up of approximately 60% water"
+  },
+  {
+    "idx": 39,
+    "user": "Could you provide the feature importance score for 'Kangaroos are marsupials that carry their young in pouches'?",
+    "parsed": "importance",
+    "user_input": "Kangaroos are marsupials that carry their young in pouches"
+  },
+  {
+    "idx": 40,
+    "user": "What are the most important features in 'Honey never spoils and has been found in ancient Egyptian tombs'?",
+    "parsed": "importance",
+    "user_input": "Honey never spoils and has been found in ancient Egyptian tombs"
+  },
+  {
+    "idx": 41,
+    "user": "Could you tell me the feature importance for 'Whales are mammals and must come to the surface to breathe air'?",
+    "parsed": "importance",
+    "user_input": "Whales are mammals and must come to the surface to breathe air"
+  },
+  {
+    "idx": 42,
+    "user": "Please provide me the feature importance for 'Ants can carry objects up to 50 times their own body weight'?",
+    "parsed": "importance",
+    "user_input": "Ants can carry objects up to 50 times their own body weight"
+  },
+  {
+    "idx": 43,
+    "user": "What is the feature importance score for 'The Amazon River is the largest river by discharge volume in the world'?",
+    "parsed": "importance",
+    "user_input": "The Amazon River is the largest river by discharge volume in the world"
+  },
+  {
+    "idx": 44,
+    "user": "Could you highlight the most important words in 'The Northern Lights are caused by solar particles interacting with Earth's magnetic field'?",
+    "parsed": "importance",
+    "user_input": "The Northern Lights are caused by solar particles interacting with Earth's magnetic field"
+  },
+  {
+    "idx": 45,
+    "user": "I would like to know the feature importance score for 'Owls can rotate their heads up to 270 degrees'?",
+    "parsed": "importance",
+    "user_input": "Owls can rotate their heads up to 270 degrees"
+  },
+  {
+    "idx": 46,
+    "user": "Can you provide feature attribution details for 'Platypuses are one of the few mammals that lay eggs'?",
+    "parsed": "importance",
+    "user_input": "Platypuses are one of the few mammals that lay eggs"
+  },
+  {
+    "idx": 47,
+    "user": "Please tell me which words are most important in 'Spiders are arachnids and have eight legs'?",
+    "parsed": "importance",
+    "user_input": "Spiders are arachnids and have eight legs"
+  },
+  {
+    "idx": 48,
+    "user": "Could you provide the feature importance score for 'The cheetah's acceleration is faster than most sports cars'?",
+    "parsed": "importance",
+    "user_input": "The cheetah's acceleration is faster than most sports cars"
+  },
+  {
+    "idx": 49,
+    "user": "What are the most important words in the statement 'Fireflies produce light through a chemical reaction called bioluminescence'?",
+    "parsed": "importance",
+    "user_input": "Fireflies produce light through a chemical reaction called bioluminescence"
+  },
+  {
+    "idx": 50,
+    "user": "Could you give me the feature attribution for 'The giant panda's diet consists mostly of bamboo'?",
+    "parsed": "importance",
+    "user_input": "The giant panda's diet consists mostly of bamboo"
+  },
+  {
+    "idx": 51,
+    "user": "Please provide me the feature importance for 'Dolphins are highly intelligent and use echolocation to navigate and find food'?",
+    "parsed": "importance",
+    "user_input": "Dolphins are highly intelligent and use echolocation to navigate and find food"
+  },
+  {
+    "idx": 52,
+    "user": "Can you explain the feature importance score for 'Snowflakes are unique, with each having a distinct shape'?",
+    "parsed": "importance",
+    "user_input": "Snowflakes are unique, with each having a distinct shape"
+  },
+  {
+    "idx": 53,
+    "user": "Can you highlight the most important words in the statement 'The deepest point in Earth's oceans is the Mariana Trench'?",
+    "parsed": "importance",
+    "user_input": "The deepest point in Earth's oceans is the Mariana Trench"
+  },
+  {
+    "idx": 54,
+    "user": "I would like to know the feature importance for 'Koalas sleep up to 18-22 hours a day to conserve energy'?",
+    "parsed": "importance",
+    "user_input": "Koalas sleep up to 18-22 hours a day to conserve energy"
+  },
+  {
+    "idx": 55,
+    "user": "Can you provide feature attribution details for 'Orcas, also known as killer whales, are actually dolphins'?",
+    "parsed": "importance",
+    "user_input": "Orcas, also known as killer whales, are actually dolphins"
+  },
+  {
+    "idx": 56,
+    "user": "Please tell me which words are most important in 'The golden ratio is a mathematical ratio found in nature and art'?",
+    "parsed": "importance",
+    "user_input": "The golden ratio is a mathematical ratio found in nature and art"
+  },
+  {
+    "idx": 57,
+    "user": "Could you provide the feature importance score for 'Bamboo can grow up to 3 feet in height in just 24 hours'?",
+    "parsed": "importance",
+    "user_input": "Bamboo can grow up to 3 feet in height in just 24 hours"
+  },
+  {
+    "idx": 58,
+    "user": "What are the most important features in 'The hummingbird is the only bird that can fly backwards'?",
+    "parsed": "importance",
+    "user_input": "The hummingbird is the only bird that can fly backwards"
+  },
+  {
+    "idx": 59,
+    "user": "Could you tell me the feature importance for 'A group of flamingos is called a flamboyance'?",
+    "parsed": "importance",
+    "user_input": "A group of flamingos is called a flamboyance"
+  },
+  {
+    "idx": 60,
+    "user": "Please provide me the feature importance for 'The human nose can detect over one trillion different scents'?",
+    "parsed": "importance",
+    "user_input": "The human nose can detect over one trillion different scents"
+  },
+  {
+    "idx": 61,
+    "user": "What is the feature importance score for 'Wombats produce cube-shaped feces, which they use to mark their territory'?",
+    "parsed": "importance",
+    "user_input": "Wombats produce cube-shaped feces, which they use to mark their territory"
+  },
+  {
+    "idx": 62,
+    "user": "Could you highlight the most important words in 'Sea otters hold hands while sleeping to avoid drifting away'?",
+    "parsed": "importance",
+    "user_input": "Sea otters hold hands while sleeping to avoid drifting away"
+  },
+  {
+    "idx": 63,
+    "user": "I would like to know the feature importance score for 'The mantis shrimp can punch with the force of a bullet'?",
+    "parsed": "importance",
+    "user_input": "The mantis shrimp can punch with the force of a bullet"
+  },
+  {
+    "idx": 64,
+    "user": "Can you provide feature attribution details for 'The Atlantic Ocean is saltier than the Pacific Ocean'?",
+    "parsed": "importance",
+    "user_input": "The Atlantic Ocean is saltier than the Pacific Ocean"
+  },
+  {
+    "idx": 65,
+    "user": "Please tell me which words are most important in 'Venus is the hottest planet in our solar system, despite not being the closest to the Sun'?",
+    "parsed": "importance",
+    "user_input": "Venus is the hottest planet in our solar system, despite not being the closest to the Sun"
+  },
+  {
+    "idx": 66,
+    "user": "Could you provide the feature importance score for 'Sloths move so slowly that algae can grow on their fur'?",
+    "parsed": "importance",
+    "user_input": "Sloths move so slowly that algae can grow on their fur"
+  },
+  {
+    "idx": 67,
+    "user": "What are the most important features in 'The Empire State Building was completed in 1931 and was the tallest building in the world at the time'?",
+    "parsed": "importance",
+    "user_input": "The Empire State Building was completed in 1931 and was the tallest building in the world at the time"
+  },
+  {
+    "idx": 68,
+    "user": "Could you tell me the feature importance for 'The Loch Ness Monster is a famous cryptid rumored to live in a Scottish lake'?",
+    "parsed": "importance",
+    "user_input": "The Loch Ness Monster is a famous cryptid rumored to live in a Scottish lake"
+  },
+  {
+    "idx": 69,
+    "user": "Please provide me the feature importance for 'Sharks have rows of teeth that are continuously replaced throughout their lives'?",
+    "parsed": "importance",
+    "user_input": "Sharks have rows of teeth that are continuously replaced throughout their lives"
+  },
+  {
+    "idx": 70,
+    "user": "Can you explain the feature importance score for 'The Burj Khalifa in Dubai is the tallest building in the world'?",
+    "parsed": "importance",
+    "user_input": "The Burj Khalifa in Dubai is the tallest building in the world"
+  },
+  {
+    "idx": 71,
+    "user": "The Great Wall of China is visible from space. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "The Great Wall of China is visible from space"
+  },
+  {
+    "idx": 72,
+    "user": "Butterflies undergo metamorphosis from caterpillars. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "Butterflies undergo metamorphosis from caterpillars"
+  },
+  {
+    "idx": 73,
+    "user": "Mars is often called the Red Planet due to its iron oxide surface. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "Mars is often called the Red Planet due to its iron oxide surface"
+  },
+  {
+    "idx": 74,
+    "user": "Jellyfish have been in the ocean for over 500 million years. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "Jellyfish have been in the ocean for over 500 million years"
+  },
+  {
+    "idx": 75,
+    "user": "Electric eels can generate electric shocks to stun prey or defend against predators. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "Electric eels can generate electric shocks to stun prey or defend against predators"
+  },
+  {
+    "idx": 76,
+    "user": "Tsunamis are caused by underwater earthquakes or volcanic eruptions. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "Tsunamis are caused by underwater earthquakes or volcanic eruptions"
+  },
+  {
+    "idx": 77,
+    "user": "Chameleons can change their skin color to blend into their surroundings. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "Chameleons can change their skin color to blend into their surroundings"
+  },
+  {
+    "idx": 78,
+    "user": "Giraffes have long necks to help them reach leaves on tall trees. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "Giraffes have long necks to help them reach leaves on tall trees"
+  },
+  {
+    "idx": 79,
+    "user": "Bats are the only mammals capable of sustained flight. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "Bats are the only mammals capable of sustained flight"
+  },
+  {
+    "idx": 80,
+    "user": "Rainforests produce a significant portion of the world's oxygen supply. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "Rainforests produce a significant portion of the world's oxygen supply"
+  },
+  {
+    "idx": 81,
+    "user": "The Milky Way galaxy contains billions of stars, including our Sun. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "The Milky Way galaxy contains billions of stars, including our Sun"
+  },
+  {
+    "idx": 82,
+    "user": "Octopuses have three hearts and blue blood to help them survive in deep water. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "Octopuses have three hearts and blue blood to help them survive in deep water"
+  },
+  {
+    "idx": 83,
+    "user": "The human body is made up of approximately 60% water. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "The human body is made up of approximately 60% water"
+  },
+  {
+    "idx": 84,
+    "user": "Kangaroos are marsupials that carry their young in pouches. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "Kangaroos are marsupials that carry their young in pouches"
+  },
+  {
+    "idx": 85,
+    "user": "Honey never spoils and has been found in ancient Egyptian tombs. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "Honey never spoils and has been found in ancient Egyptian tombs"
+  },
+  {
+    "idx": 86,
+    "user": "Whales are mammals and must come to the surface to breathe air. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "Whales are mammals and must come to the surface to breathe air"
+  },
+  {
+    "idx": 87,
+    "user": "Ants can carry objects up to 50 times their own body weight. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "Ants can carry objects up to 50 times their own body weight"
+  },
+  {
+    "idx": 88,
+    "user": "The Amazon River is the largest river by discharge volume in the world. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "The Amazon River is the largest river by discharge volume in the world"
+  },
+  {
+    "idx": 89,
+    "user": "The Northern Lights are caused by solar particles interacting with Earth's magnetic field. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "The Northern Lights are caused by solar particles interacting with Earth's magnetic field"
+  },
+  {
+    "idx": 90,
+    "user": "Owls can rotate their heads up to 270 degrees. I would like to know the feature attribution scores to this given input",
+    "parsed": "importance",
+    "user_input": "Owls can rotate their heads up to 270 degrees"
+  },
+  {
+    "idx": 91,
+    "user": "I just watched 'warm water under a red bridge' and found it quite unique. Can you tell me which features were most important in determining the sentiment of this review?",
+    "parsed": "importance",
+    "user_input": "warm water under a red bridge"
+  },
+  {
+    "idx": 92,
+    "user": "For the movie description 'warm water under a red bridge is a quirky and poignant japanese film that explores the fascinating connections between women , water , nature , and sexuality', what aspects contributed most to its perceived sentiment?",
+    "parsed": "importance",
+    "user_input": "warm water under a red bridge is a quirky and poignant japanese film that explores the fascinating connections between women , water , nature , and sexuality"
+  },
+  {
+    "idx": 93,
+    "user": "Could you analyze 'warm water under a red bridge is a quirky and poignant japanese film that explores the fascinating connections between women , water , nature , and sexuality' and highlight the features that had the biggest impact on its sentiment score?",
+    "parsed": "importance",
+    "user_input": "warm water under a red bridge is a quirky and poignant japanese film that explores the fascinating connections between women , water , nature , and sexuality"
+  },
+  {
+    "idx": 94,
+    "user": "'warm water under a red bridge is a quirky and poignant japanese film that explores the fascinating connections between women , water , nature , and sexuality.'  What words or phrases in this sentence are most indicative of its overall sentiment?",
+    "parsed": "importance",
+    "user_input": "warm water under a red bridge is a quirky and poignant japanese film that explores the fascinating connections between women , water , nature , and sexuality."
+  },
+  {
+    "idx": 95,
+    "user": "Regarding the film description 'warm water under a red bridge is a quirky and poignant japanese film that explores the fascinating connections between women , water , nature , and sexuality', I'm curious about the feature importance. Can you break it down for me?",
+    "parsed": "importance",
+    "user_input": "warm water under a red bridge is a quirky and poignant japanese film that explores the fascinating connections between women , water , nature , and sexuality"
+  },
+  {
+    "idx": 96,
+    "user": "'it seems to me the film is about the art of ripping people off without ever letting them consciously know you have done so'. Which words or phrases in this sentence are most critical for the sentiment analysis model to arrive at its conclusion? I need the feature attribution scores.",
+    "parsed": "importance",
+    "user_input": "it seems to me the film is about the art of ripping people off without ever letting them consciously know you have done so"
+  },
+  {
+    "idx": 97,
+    "user": "Could you analyze the feature attribution scores for 'old-form moviemaking at its best' and tell me which features are most influential?",
+    "parsed": "importance",
+    "user_input": "old-form moviemaking at its best"
+  },
+  {
+    "idx": 98,
+    "user": "'turns potentially forgettable formula into something strangely diverting' - what words or phrases in this sentence are most influential for its sentiment analysis?",
+    "parsed": "importance",
+    "user_input": "turns potentially forgettable formula into something strangely diverting"
+  },
+  {
+    "idx": 99,
+    "user": "Let's analyze '( lawrence bounces ) all over the stage , dancing , running , sweating , mopping his face and generally displaying the wacky talent that brought him fame in the first place .'. What are the most significant features driving the sentiment, and what are their respective attribution scores?",
+    "parsed": "importance",
+    "user_input": "( lawrence bounces ) all over the stage , dancing , running , sweating , mopping his face and generally displaying the wacky talent that brought him fame in the first place ."
+  },
+  {
+    "idx": 100,
+    "user": "Analyzing the phrase 'a movie that reminds us of just how exciting and satisfying the fantasy cinema can be when it's approached with imagination and flair', what elements contribute most significantly to its positive classification?",
+    "parsed": "importance",
+    "user_input": "a movie that reminds us of just how exciting and satisfying the fantasy cinema can be when it's approached with imagination and flair"
+  },
+  {
+    "idx": 101,
+    "user": "'confirms the nagging suspicion that ethan hawke would be even worse behind the camera than he is in front of it .'  What are the critical components of this sentence that lead to its negative tone? Please provide feature attribution scores.",
+    "parsed": "importance",
+    "user_input": "confirms the nagging suspicion that ethan hawke would be even worse behind the camera than he is in front of it ."
+  },
+  {
+    "idx": 102,
+    "user": "Considering the text 'in the end , we are left with something like two ships passing in the night rather than any insights into gay love , chinese society or the price one pays for being dishonest', which words or phrases have the most impact on its sentiment classification? Provide the scores.",
+    "parsed": "importance",
+    "user_input": "in the end , we are left with something like two ships passing in the night rather than any insights into gay love , chinese society or the price one pays for being dishonest"
+  },
+  {
+    "idx": 103,
+    "user": "I have the following sentence: 'montias ... pumps a lot of energy into his nicely nuanced narrative and surrounds himself with a cast of quirky -- but not stereotyped -- street characters .'. Please highlight the key features driving its sentiment score.",
+    "parsed": "importance",
+    "user_input": "montias ... pumps a lot of energy into his nicely nuanced narrative and surrounds himself with a cast of quirky -- but not stereotyped -- street characters ."
+  },
+  {
+    "idx": 104,
+    "user": "Please analyze 'it provides the grand , intelligent entertainment of a superior cast playing smart people amid a compelling plot' and tell me the key elements that contribute to its positive sentiment.",
+    "parsed": "importance",
+    "user_input": "it provides the grand , intelligent entertainment of a superior cast playing smart people amid a compelling plot"
+  },
+  {
+    "idx": 105,
+    "user": "Given the input 'suffers from the lack of a compelling or comprehensible narrative', I need to understand the feature importance contributing to its sentiment.",
+    "parsed": "importance",
+    "user_input": "suffers from the lack of a compelling or comprehensible narrative"
+  },
+  {
+    "idx": 106,
+    "user": "I'm looking for the feature attribution scores for the input 'in execution , this clever idea is far less funny than the original , killers from space'. Could you provide them?",
+    "parsed": "importance",
+    "user_input": "in execution , this clever idea is far less funny than the original , killers from space"
+  },
+  {
+    "idx": 107,
+    "user": "I need to understand which elements of 'scooby dooby doo / and shaggy too / you both look and sound great .' are driving the sentiment. Could you calculate and return the feature importance scores?",
+    "parsed": "importance",
+    "user_input": "scooby dooby doo / and shaggy too / you both look and sound great ."
+  },
+  {
+    "idx": 108,
+    "user": "For the sentence: 'the tale of tok ( andy lau ) , a sleek sociopath on the trail of o ( takashi sorimachi ) , the most legendary of asian hitmen , is too scattershot to take hold .', please provide the feature attribution scores indicating the key contributors to its negative sentiment.",
+    "parsed": "importance",
+    "user_input": "the tale of tok ( andy lau ) , a sleek sociopath on the trail of o ( takashi sorimachi ) , the most legendary of asian hitmen , is too scattershot to take hold ."
+  },
+  {
+    "idx": 109,
+    "user": "'it all drags on so interminably it 's like watching a miserable relationship unfold in real time .' - I'd like to see a breakdown of how each part of this sentence contributes to the overall negative sentiment.",
+    "parsed": "importance",
+    "user_input": "it all drags on so interminably it 's like watching a miserable relationship unfold in real time ."
+  },
+  {
+    "idx": 110,
+    "user": "Let's look at the sentiment analysis of 'pumpkin means to be an outrageous dark satire on fraternity life , but its ambitions far exceed the abilities of writer adam larson broder and his co-director , tony r. abrams , in their feature debut .'  Which features are most influential?",
+    "parsed": "importance",
+    "user_input": "pumpkin means to be an outrageous dark satire on fraternity life , but its ambitions far exceed the abilities of writer adam larson broder and his co-director , tony r. abrams , in their feature debut ."
+  },
+  {
+    "idx": 111,
+    "user": "'looks and feels like a project better suited for the small screen.'  Could you break down the feature importance for this sentiment analysis?",
+    "parsed": "importance",
+    "user_input": "looks and feels like a project better suited for the small screen"
+  },
+  {
+    "idx": 112,
+    "user": "What are the most significant words influencing the sentiment in the input 'forced , familiar and thoroughly condescending .'?",
+    "parsed": "importance",
+    "user_input": "forced , familiar and thoroughly condescending ."
+  },
+  {
+    "idx": 113,
+    "user": "Given the phrase 'that is a compliment to kuras and miller .', which elements are most significant for sentiment detection?",
+    "parsed": "importance",
+    "user_input": "that is a compliment to kuras and miller ."
+  },
+  {
+    "idx": 114,
+    "user": "What are the key drivers of sentiment in the statement 'it's not the ultimate depression-era gangster movie'?",
+    "parsed": "importance",
+    "user_input": "it's not the ultimate depression-era gangster movie"
+  },
+  {
+    "idx": 115,
+    "user": "'sacrifices the value of its wealth of archival footage with its less-than-objective stance.'  I would like to know the feature attribution scores to this given input.",
+    "parsed": "importance",
+    "user_input": "sacrifices the value of its wealth of archival footage with its less-than-objective stance."
+  }
+]
