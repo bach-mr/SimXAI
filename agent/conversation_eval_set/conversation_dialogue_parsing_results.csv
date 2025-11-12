@@ -1,0 +1,27 @@
+question,agent_response,expected_tool
+What is the sentiment of this sentence: 'A fascinating documentary that educates and entertains.',get_prediction,get_prediction
+Could you provide me feature importance score for it?,get_local_explanation,get_local_explanation
+Could you generate counterfactual examples for this sample?,explain_how_to_be_that,explain_how_to_be_that / explain_why_not
+What's the prediction for 'The movie was an exercise in tedium and boredom.',get_prediction,get_prediction
+Can you give a counterfactual for it,explain_how_to_be_that,explain_how_to_be_that / explain_why_not
+Could you tell me why the model predicts it?,get_local_explanation,get_local_explanation
+I want a prediction for whether 'A fascinating documentary that educates and entertains.',get_prediction,get_prediction
+How much can the input vary and still get the same prediction?,explain_how_to_still_be_this,explain_how_to_still_be_this
+unflinchingly bleak and desperate. What is the sentiment prediction for this phrase?,get_prediction,get_prediction
+Generate counterfactual examples that change the model's output.,explain_how_to_be_that,explain_how_to_be_that / explain_why_not
+another one?,explain_how_to_be_that,explain_how_to_be_that / explain_why_not
+What is the maximum allowable change to 'The humor was juvenile and unfunny.' while still getting the same prediction?,explain_how_to_still_be_this,explain_how_to_still_be_this
+"I don't like this, give me another one",explain_how_to_still_be_this,explain_how_to_still_be_this
+Could you please generate a counterfactual for 'The script was weak and full of clichés.',explain_how_to_be_that,explain_how_to_be_that / explain_why_not
+show me important tokens for the decision,get_local_explanation,get_local_explanation
+Can you provide the feature importance score for 'The moon affects the ocean tides on Earth'?,get_local_explanation,get_local_explanation
+Can you provide the range of permissible input modifications for this result?,explain_how_to_still_be_this,explain_how_to_still_be_this
+or doing last year 's taxes with your ex-wife . What is the sentiment of this?,get_local_explanation,get_prediction
+"Could you give me the feature attribution for 'The Amazon rainforest, often referred to as the lungs of the Earth, plays a crucial role in regulating the planet's climate by absorbing carbon dioxide'?",get_local_explanation,get_local_explanation
+I'd like a counterfactual example for 'A delightful blend of humor and drama.',explain_how_to_be_that,explain_how_to_be_that / explain_why_not
+Can you give a counterfactual for 'The movie was an exercise in tedium and boredom.',explain_how_to_be_that,explain_how_to_be_that / explain_why_not
+"What minor or major adjustments can I make, and the prediction still not change?",explain_how_to_still_be_this,explain_how_to_still_be_this
+What is the scope of the system's capability?,get_global_explanation,get_output_information
+Please provide a counterfactual example for 'An unforgettable journey of self-discovery.',explain_how_to_be_that,explain_how_to_be_that / explain_why_not
+What is the allowed variability in 'seldom has a movie so closely matched the spirit of a man and his work .' to achieve the same result?,explain_how_to_still_be_this,explain_how_to_still_be_this
+why is this prediction?,explain_why_not,get_local_explanation

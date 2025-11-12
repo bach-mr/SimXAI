@@ -1,0 +1,32 @@
+question,agent_response,expected_tool
+"Can you tell me what the model predicts for the numbers 3, 3, 3?",get_prediction,get_prediction
+Why did it predict First prize for that input?,get_local_explanation,get_local_explanation
+"What’s the prediction for 5, 1, 5?",get_prediction,get_prediction
+Why didn’t it predict First prize instead?,explain_why_not,explain_why_not
+"How could I change 5,1,5 to actually get First prize?",explain_how_to_be_that,explain_how_to_be_that
+"If I want to keep it Second prize but still tweak it a little, what could I change?",explain_how_to_still_be_this,explain_how_to_still_be_this
+"What if I change the input to 7, 2, 4 — what happens then?",explain_what_if,explain_what_if
+How does the model generally decide across all inputs?,get_global_explanation,get_global_explanation
+What data was this model trained on?,get_data_information,get_data_information
+How well does the model perform overall?,get_model_performance,get_model_performance
+Tell me about the model’s design — how was it built and what are its limitations?,get_model_information,get_model_information
+What does the model’s output actually mean?,no tool,get_output_information
+"What’s the model prediction for 9, 2, 9?",get_prediction,get_prediction
+Why did it predict Second prize?,get_local_explanation,get_local_explanation
+I thought it should be First prize though. Why not?,explain_why_not,explain_why_not
+So how could I change this input to get First prize?,explain_how_to_be_that,explain_how_to_be_that
+And what small changes could I make while still keeping it Second prize?,explain_how_to_still_be_this,explain_how_to_still_be_this
+"What if I enter 3, 6, 2 instead?",get_prediction,explain_what_if
+"What does the model predict for 4, 1, 0?",get_prediction,get_prediction
+Why is that?,get_local_explanation,get_local_explanation
+Can you explain how the model generally works?,get_global_explanation,get_global_explanation
+What kind of data was used to train it?,get_data_information,get_data_information
+How good is the model overall?,get_model_performance,get_model_performance
+And what’s the model architecture like?,get_model_information,get_model_information
+"What is the model’s prediction for 2, 2, 5?",get_prediction,get_prediction
+Why did it say No prize?,get_local_explanation,get_local_explanation
+Why didn’t it predict Second prize?,explain_why_not,explain_why_not
+"How can I change 2,2,5 to make it Second prize?",explain_how_to_be_that,explain_how_to_be_that
+Can I still get No prize if I change something slightly?,explain_how_to_still_be_this,explain_how_to_still_be_this
+"What happens if I change it to 5, 2, 1?",explain_what_if,explain_what_if
+"Remind me again, what does each prize label mean?",get_output_information,get_output_information

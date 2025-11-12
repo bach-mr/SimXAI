@@ -1,2 +1,4 @@
 llama_finetuned/
 logs/
+*.pyc
+__pycache__/

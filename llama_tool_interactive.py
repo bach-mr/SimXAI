@@ -3,7 +3,6 @@ import json
 import re
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
-from tools.tools_list_test import *
 import importlib
 
 
