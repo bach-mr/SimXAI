@@ -63,7 +63,7 @@ def explain_why_not(instance: str, expected_label: str = None) -> dict:
         cf = xai.get_counterfactuals(instance, expected_label.lower())
     else:
         cf = xai.get_counterfactuals(instance)
-    return {"why": why, "counterfactual": cf}
+    return "The reason for the current prediction is: " + why + ". To achieve the expected prediction, consider the following changes: " + ", ".join(cf)
 
 def explain_how_to_be_that(instance: str, target_label: str = None, number_of_iterations: int = 1) -> str:
     """

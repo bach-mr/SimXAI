@@ -2,32 +2,38 @@ class PrizePredictor:
     """Predict prize levels based on three numbers and provide explanations."""
     
     def __init__(self, ):
+
         """
         Initialize with three numbers (0-9).
-        
+
         Args:
             num1: First number (0-9)
             num2: Second number (0-9)
             num3: Third number (0-9)
         """
-        
         self.label = "no prize"
-    def get_prediction(self, instance) -> str:
 
-        # Extract three numbers from string instance
-        numbers = instance.replace(" ", "").split(",")
-        self.num1 = int(numbers[0])
-        self.num2 = int(numbers[1])
-        self.num3 = int(numbers[2])
+    def _parse_instance(self, instance: str):
+        parts = [part.strip() for part in instance.split(",")]
+        if len(parts) != 3 or any(not part.isdigit() or not 0 <= int(part) <= 9 for part in parts):
+            return "Please provide three digits between 0 and 9 in the format x1,x2,x3."
+        return tuple(int(part) for part in parts)
+
+    def get_prediction(self, instance) -> str:
+        parsed = self._parse_instance(instance)
+        if isinstance(parsed, str):
+            return parsed
+
+        self.num1, self.num2, self.num3 = parsed
         """
         Check prize based on three numbers.
-        
+
         Returns:
             str: Prize level ('first prize', 'second prize', 'third prize', or 'no prize')
         """
         if self.num1 == self.num2 == self.num3:
             self.label = "first prize"
-   
+
         elif self.num1 == self.num3:
             self.label = "second prize"
 

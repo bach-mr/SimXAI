@@ -40,14 +40,16 @@ class ToolACEAgent:
                 call['function'], 
                 call['parameters']
             )
-            results.append(f"{call['function']}: {result}")
+            results.append(f"The result of function {call['function']} is {result}, please use it to answer the user question.")
         
         # Add tool results to messages
         tool_results = "\n".join(results)
+        print("Tool results:", tool_results)
         messages.append({"role": "tool", "name": function_calls, "content": tool_results})
-        
+        print("Messages after tool results:", messages)
         # Generate final response with tool results
         final_response = self.model.generate_response(messages)
+        print("Final response:", final_response)
         messages.append({'role': 'assistant', 'content': final_response})
         
         return final_response, tool_names, messages
@@ -56,4 +58,7 @@ class ToolACEAgent:
         """Create initial messages with system prompt."""
         return [
             {'role': 'system', 'content': self.system_prompt.format(functions=self.tools)}
+            # {'role': 'user', 'content': "Hi there!"},
+            # {"role": "assistant", "content": "Welcome to the lottery prize! I’m here to help you understand the model that determines the prize for your ticket. Each ticket contains three numbers (from 1 to 9), separated by commas, for example: 1,2,3.\n\
+            #  Your task is to explore how the model works by talking with me. I will help you retrieve and understand information from the model. You can start with creating your ticket by entering three numbers separated by commas."}
         ]

@@ -63,7 +63,7 @@ def main():
         # Save results
         evaluator.save_results(output_file)
 
-        file_metrics[input_file] = metrics['accuracy']
+        file_metrics[input_file] = f"{metrics['accuracy']}, {metrics['correct_predictions']}/{metrics['total_questions']}"
 
     # Save all metrics to a CSV file
     print(file_metrics)
