@@ -1,0 +1,5 @@
+transformers
+streamlit
+pandas
+accelerate
+torch
