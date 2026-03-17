@@ -67,6 +67,7 @@ class AgentConversationOrchestrator:
         #     _ = self.user_simulator.generate_next_question(initial_greeting)
         
         # Run conversation turns
+        response = ""
         for turn in range(1, self.max_turns + 1):
             print(f"\n--- Turn {turn}/{self.max_turns} ---")
             
@@ -74,7 +75,7 @@ class AgentConversationOrchestrator:
             if turn == 1:
                 user_question = self.user_simulator.generate_next_question(initial_greeting)
             else:
-                user_question = self.user_simulator.generate_next_question()
+                user_question = self.user_simulator.generate_next_question(response)
             print(f"\n👤 User Simulator: {user_question}")
             
             self.full_conversation.append({
@@ -192,14 +193,17 @@ def main():
     )
     
     # Run conversation with initial greeting
+    # initial_greeting = (
+    #     "Welcome to the lottery! I'm here to help you understand the model that determines the prize for your ticket. "
+    #     "Each ticket contains three numbers (from 1 to 9), separated by commas, for example: 1,2,3.\n"
+    #     "Your task is to explore how the model works by talking with me. "
+    #     "I will help you retrieve and understand information from the model. "
+    #     "You can start with providing your ticket by entering three numbers separated by commas."
+    # )
     initial_greeting = (
-        "Welcome to the lottery! I'm here to help you understand the model that determines the prize for your ticket. "
-        "Each ticket contains three numbers (from 1 to 9), separated by commas, for example: 1,2,3.\n"
-        "Your task is to explore how the model works by talking with me. "
-        "I will help you retrieve and understand information from the model. "
-        "You can start with providing your ticket by entering three numbers separated by commas."
+        "Welcome to the Heart Rate Monitor! I'm here to help you understand how heart rate (BPM) affects health status. "
+        "You can start by providing your heart rate in beats per minute (BPM), and I will help you understand what it means."
     )
-    
     conversation = orchestrator.run_conversation(initial_greeting=initial_greeting)
     
     # Save conversation

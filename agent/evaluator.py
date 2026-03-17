@@ -17,18 +17,34 @@ class ConversationEvaluator:
         self.correct_count = 0
     
     def evaluate_conversation_file(self, file_path: str) -> Dict[str, Any]:
-        """Evaluate conversations from a JSON file."""
+        """Evaluate conversations from a JSON file.
+
+        Supports two JSON shapes:
+          - {"dialogues": [{"conversation": [...]}, ...]}
+          - {"conversations": [[...], ...]}  (list-of-lists)
+        """
         with open(file_path, "r") as f:
-            conversations = json.load(f)
-        
-        for index, dialogue in enumerate(conversations['dialogues']):
+            data = json.load(f)
+
+        # Normalise to a flat list of turn-lists
+        if "dialogues" in data:
+            turn_lists = [d["conversation"] for d in data["dialogues"]]
+        elif "conversations" in data:
+            turn_lists = data["conversations"]
+        else:
+            raise ValueError(
+                f"Unrecognised JSON structure in {file_path}: "
+                "expected top-level key 'dialogues' or 'conversations'."
+            )
+
+        for index, turns in enumerate(turn_lists):
             print(f"\n{'='*60}")
             print(f"Processing dialogue {index}")
             print('='*60)
             
             messages = self.agent.create_initial_messages()
             
-            for ix, row in enumerate(dialogue['conversation']):
+            for ix, row in enumerate(turns):
                 if row['speaker'] == 'user':
                     print(f"\n--- Turn {ix} ---")
                     print(f"Question: {row['message']}")
