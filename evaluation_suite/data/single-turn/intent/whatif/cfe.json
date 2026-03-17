@@ -1,0 +1,2962 @@
+[
+  {
+    "idx": 0,
+    "user": "What does instance with it need to do to change the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 1,
+    "user": "show me cfe's for the instance",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 2,
+    "user": "What does instance have to do in order to change the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 3,
+    "user": "Hmm... I was wondering what it would take to flip the prediction of instance?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 4,
+    "user": "Nice. I'm pretty satisfied with the prediction. But could you tell me how to change the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 5,
+    "user": "What would it take to change how the input is predicted?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 6,
+    "user": "How would you flip the prediction for it?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 7,
+    "user": "flip the classification for the given sample?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 8,
+    "user": "flip prediction class of this data point ",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 9,
+    "user": "How do I change the prediction for the data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 10,
+    "user": "Could you tell me how to change the prediction point for the given input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 11,
+    "user": "How can I change the prediction for the data point",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 12,
+    "user": "Could you show me how to change the prediction for the data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 13,
+    "user": "How do I change the prediction for the data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 14,
+    "user": "Would it be possible for you to tell me how to change the prediction for the data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 15,
+    "user": "For this data point, how would I change the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 16,
+    "user": "What is the way to change the prediction for the data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 17,
+    "user": "Can you suggest changes to this instance so the model predicts a different class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 18,
+    "user": "What minimal edits would flip the model’s decision on this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 19,
+    "user": "Show me counterfactual examples that change this sample’s predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 20,
+    "user": "How might I alter the features of this data point to get a new prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 21,
+    "user": "Provide modifications to the input that would reverse its classification.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 22,
+    "user": "I need examples of how to tweak this instance so the model switches its output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 23,
+    "user": "What adjustments to this instance cause the prediction to flip?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 24,
+    "user": "Generate counterfactuals showing how to get a different label for this input.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 25,
+    "user": "What would you change in this example to alter the model’s verdict?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 26,
+    "user": "How can this data point be perturbed so that the predicted class changes?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 27,
+    "user": "Is there a way to tweak features to get a different outcome for this instance?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 28,
+    "user": "What specific changes would alter the prediction of this example?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 29,
+    "user": "Could you outline adjustments needed to the input to change its classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 30,
+    "user": "How could the input be modified to achieve a different predicted label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 31,
+    "user": "List modifications to this data record that would invert its model prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 32,
+    "user": "What minimal feature changes would cause a prediction flip for this sample?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 33,
+    "user": "Suggest some counterfactual inputs to change the model’s output here.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 34,
+    "user": "What alterations are required for the model to predict the opposite class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 35,
+    "user": "Can we adjust this instance so the classifier gives a different result?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 36,
+    "user": "Offer examples of how altering this input leads to a new prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 37,
+    "user": "How do I perturb this data point to switch its predicted label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 38,
+    "user": "What feature edits lead to a reversed classification for this sample?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 39,
+    "user": "In what ways could we adjust the input to flip its prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 40,
+    "user": "Tell me how to change this input to get a different output from the model.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 41,
+    "user": "What would I need to modify in the instance to alter its predicted class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 42,
+    "user": "Give me scenarios where changing this data flips the model’s decision.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 43,
+    "user": "How can I adjust feature values to obtain an alternate classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 44,
+    "user": "Which aspects of the input must change for the prediction to differ?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 45,
+    "user": "What tweaks to the features would result in a different class label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 46,
+    "user": "Show me ways to change the instance so the prediction isn’t the same.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 47,
+    "user": "How might the sample need to be changed for a new model prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 48,
+    "user": "What substitutions in the input would change the predicted outcome?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 49,
+    "user": "Could you illustrate how small edits to this record affect the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 50,
+    "user": "What counterfactual changes to the features would produce a new label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 51,
+    "user": "Provide alternative versions of this input that change the model’s response.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 52,
+    "user": "How can this example be altered to yield a different classifier decision?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 53,
+    "user": "What modifications cause the classifier to output another label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 54,
+    "user": "Can you demonstrate edits that flip the model’s prediction here?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 55,
+    "user": "What are the necessary changes to flip the prediction for this sample?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 56,
+    "user": "Outline adjustments that would reverse the model's output on this data.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 57,
+    "user": "How can one perturb the features to change the classification of this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 58,
+    "user": "What is needed to turn this instance into one predicted as a different class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 59,
+    "user": "Propose changes to this input to shift its predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 60,
+    "user": "How could the data point's characteristics be changed to alter its classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 61,
+    "user": "What would you need to adjust in this example to see a different model verdict?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 62,
+    "user": "Describe the edits required to transform this input’s prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 63,
+    "user": "Can you list what to modify in the sample so the model's decision changes?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 64,
+    "user": "Tell me how slight adjustments in the input can change its predicted class.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 65,
+    "user": "How to change this record's attributes to produce a different output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 66,
+    "user": "What feature changes would yield an alternative prediction for this instance?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 67,
+    "user": "Show modifications to this record leading to a flipped classification.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 68,
+    "user": "What minimal alterations to the input would lead to a different prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 69,
+    "user": "Could you recommend changes to get a new predicted label for this example?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 70,
+    "user": "How to tweak this sample's features to alter the classification result?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 71,
+    "user": "Provide adjustments for the input that result in a changed model prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 72,
+    "user": "What edits in the attributes will cause the model to predict the other class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 73,
+    "user": "In what way should this instance be changed to reverse the classifier's decision?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 74,
+    "user": "Suggest how to vary this example so its predicted label is different.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 75,
+    "user": "What needs to be edited in this input to see a changed prediction from the model?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 76,
+    "user": "Explain how to adjust this data point to get an alternative classification.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 77,
+    "user": "Counterfactuals?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 78,
+    "user": "In what ways could slight feature tweaks lead to a different model prediction for this instance?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 79,
+    "user": "How can I alter specific values in this sample to get an alternative classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 80,
+    "user": "What counterfactual alterations would switch the model's label for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 81,
+    "user": "Offer small changes to the input that would cause a different prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 82,
+    "user": "Show how modifying this example would yield a new predicted class.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 83,
+    "user": "Which feature adjustments would make the classifier choose a different label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 84,
+    "user": "Explain how to change attributes of this record to alter the output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 85,
+    "user": "What edits can I apply to this data point to flip the model's answer?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 86,
+    "user": "How should the input be revised to produce a different classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 87,
+    "user": "Suggest feature perturbations that change this sample's predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 88,
+    "user": "What needs tweaking for this input to get another model outcome?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 89,
+    "user": "Provide examples of input edits that lead to a flipped prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 90,
+    "user": "How might shifting some values in this instance change the class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 91,
+    "user": "What should I modify in this sample so the model's verdict differs?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 92,
+    "user": "Identify feature changes required to alter the predicted label here.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 93,
+    "user": "Demonstrate modifications that reverse the classification of this instance.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 94,
+    "user": "What simple adjustments can result in a new prediction for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 95,
+    "user": "Can you list edits that change how this data point is labeled?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 96,
+    "user": "How do small feature edits influence the predicted class of this record?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 97,
+    "user": "What variations of this input produce a different model decision?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 98,
+    "user": "Suggest minimal alterations to flip the predicted class on this sample.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 99,
+    "user": "How to adjust the instance's parameters to alter its prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 100,
+    "user": "Which value changes would lead to another classification for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 101,
+    "user": "What transformations to the features yield a reversed prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 102,
+    "user": "In what ways can I modify this example to change the model's output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 103,
+    "user": "Show counterfactual tweaks needed to switch the model's decision on this data.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 104,
+    "user": "What adjustments would reroute the classifier to choose a different label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 105,
+    "user": "How can this data record be edited to produce an alternate prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 106,
+    "user": "Give me feature change ideas that lead to the opposite predicted class.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 107,
+    "user": "What minimal edits are necessary to change the predicted outcome here?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 108,
+    "user": "What key features would you alter to get a different classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 109,
+    "user": "Which attributes should be modified to flip the label for this instance?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 110,
+    "user": "What input modifications influence the model to predict another class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 111,
+    "user": "Demonstrate how to perturb this data to change its classification.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 112,
+    "user": "Offer counterfactual examples showing a new prediction for this instance.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 113,
+    "user": "How would tweaking feature X affect the model's prediction for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 114,
+    "user": "What if I adjust the 'age' or 'income' values—how would the prediction change?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 115,
+    "user": "Provide a set of changes to this record that yields a different label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 116,
+    "user": "What is the smallest change to flip the model's decision on this sample?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 117,
+    "user": "How can I transform this example so it is classified differently?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 118,
+    "user": "What variants of this data point would produce a different model output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 119,
+    "user": "Suggest a set of substitutions in the input to change its predicted class.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 120,
+    "user": "Which aspects of this instance are most sensitive for flipping the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 121,
+    "user": "How do I manipulate the features to see a different classification result?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 122,
+    "user": "What adjustments in this record cause a switch in the model's verdict?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 123,
+    "user": "List potential edits to this sample that lead to a changed prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 124,
+    "user": "What perturbations would cause the classifier to choose the other class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 125,
+    "user": "How must the input be restructured to alter its predicted label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 126,
+    "user": "Provide step-by-step changes for this instance to change its classification.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 127,
+    "user": "What hypothetical edits would flip the model’s label on this data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 128,
+    "user": "What feature-level edits would result in a different model decision for this sample?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 129,
+    "user": "How could slight parameter changes flip the predicted class of this instance?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 130,
+    "user": "Can you propose alterations that would produce a new label for this data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 131,
+    "user": "What shifts in input values would change the prediction outcome here?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 132,
+    "user": "Identify minimal counterfactuals that lead to an alternate prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 133,
+    "user": "Show me how to modify this example so the classifier returns a different result.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 134,
+    "user": "Which tweaks to the instance would reverse its predicted label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 135,
+    "user": "Outline simple feature tweaks that flip the model’s output on this input.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 136,
+    "user": "What changes would reroute the model’s inference for this record?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 137,
+    "user": "How can I tweak values to see a different classification for this sample?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 138,
+    "user": "Provide minor edits to this instance that alter its predicted class.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 139,
+    "user": "What adjustments in feature X or Y would flip this sample’s prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 140,
+    "user": "Can you recommend how to alter this data point to change its label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 141,
+    "user": "Explain which input components must change for a new model verdict.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 142,
+    "user": "What substitutions in the attributes yield a different classification here?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 143,
+    "user": "Suggest how rewriting parts of this input changes the predicted outcome.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 144,
+    "user": "Which feature values are crucial to modify to flip the model’s decision?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 145,
+    "user": "How would you perturb this sample to get an alternate classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 146,
+    "user": "What counterfactual variants of this input produce a different model label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 147,
+    "user": "Could you detail modifications to invert the classifier’s result on this data?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 148,
+    "user": "Can you provide counterfactual examples for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 149,
+    "user": "What are some counterfactual examples for this data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 150,
+    "user": "Show me counterfactual examples that would change the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 151,
+    "user": "Generate counterfactual examples for this input.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 152,
+    "user": "I need counterfactual examples for this specific input.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 153,
+    "user": "Provide counterfactual examples that alter the model's prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 154,
+    "user": "Can you create counterfactual examples for this case?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 155,
+    "user": "Show me how to change the prediction with counterfactual examples.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 156,
+    "user": "I want to see counterfactual examples that change the model's output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 157,
+    "user": "Generate counterfactual examples to change the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 158,
+    "user": "What are the counterfactual examples for altering the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 159,
+    "user": "Provide counterfactual examples that modify the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 160,
+    "user": "Can you show me counterfactual examples to change the label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 161,
+    "user": "I need counterfactual examples to alter the predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 162,
+    "user": "Generate counterfactual examples to modify the model's output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 163,
+    "user": "What are the counterfactual examples to change the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 164,
+    "user": "Provide counterfactual examples to alter the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 165,
+    "user": "Can you create counterfactual examples to modify the label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 166,
+    "user": "Show me counterfactual examples to change the model's prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 167,
+    "user": "I want to see counterfactual examples to alter the model's output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 168,
+    "user": "Generate counterfactual examples to change the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 169,
+    "user": "What are the counterfactual examples to modify the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 170,
+    "user": "Provide counterfactual examples to change the predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 171,
+    "user": "Can you show me counterfactual examples to alter the label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 172,
+    "user": "I need counterfactual examples to modify the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 173,
+    "user": "Generate counterfactual examples to alter the model's output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 174,
+    "user": "What are the counterfactual examples to change the label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 175,
+    "user": "Provide counterfactual examples to modify the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 176,
+    "user": "Can you create counterfactual examples to alter the predicted label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 177,
+    "user": "Show me counterfactual examples to change the model's output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 178,
+    "user": "I want to see counterfactual examples to modify the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 179,
+    "user": "Generate counterfactual examples to alter the label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 180,
+    "user": "What are the counterfactual examples to change the model's prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 181,
+    "user": "Provide counterfactual examples to modify the predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 182,
+    "user": "Can you show me counterfactual examples to alter the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 183,
+    "user": "I need counterfactual examples to change the model's output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 184,
+    "user": "Generate counterfactual examples to modify the label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 185,
+    "user": "What are the counterfactual examples to alter the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 186,
+    "user": "Provide counterfactual examples to change the predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 187,
+    "user": "Can you create counterfactual examples to modify the model's output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 188,
+    "user": "Show me counterfactual examples to alter the label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 189,
+    "user": "I want to see counterfactual examples to change the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 190,
+    "user": "Generate counterfactual examples to modify the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 191,
+    "user": "What are the counterfactual examples to alter the model's output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 192,
+    "user": "Provide counterfactual examples to change the label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 193,
+    "user": "Can you show me counterfactual examples to modify the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 194,
+    "user": "I need counterfactual examples to alter the predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 195,
+    "user": "Generate counterfactual examples to change the model's output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 196,
+    "user": "What are the counterfactual examples to modify the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 197,
+    "user": "How can a minor change in this feature set lead to a flipped prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 198,
+    "user": "What are some hypothetical edits that result in a different model output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 199,
+    "user": "Which feature combinations would change the classifier’s decision for this instance?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 200,
+    "user": "Show what needs to change for the model to assign a new label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 201,
+    "user": "Describe how to alter this input so it’s classified differently.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 202,
+    "user": "What alternative feature values lead to a changed prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 203,
+    "user": "I want to see counterfactual edits that flip this sample’s label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 204,
+    "user": "Which tweaks in the data record switch the model's outcome?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 205,
+    "user": "What adjustments produce a new classification for this example?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 206,
+    "user": "How would the prediction change if feature A were modified?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 207,
+    "user": "Can you demonstrate changing this input to get another label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 208,
+    "user": "What variations produce an opposite prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 209,
+    "user": "Which minimal edits cause the classifier to alter its verdict?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 210,
+    "user": "List feature substitutions that change the predicted class.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 211,
+    "user": "What small shifts in data change the model’s decision?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 212,
+    "user": "How do different input perturbations affect this instance’s label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 213,
+    "user": "Which attributes, when changed, flip the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 214,
+    "user": "Suggest alternative inputs that lead to a different output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 215,
+    "user": "What example modifications make the model predict differently?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 216,
+    "user": "How to engineer this instance to receive a new label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 217,
+    "user": "What hypothetical feature changes alter the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 218,
+    "user": "Outline modifications that yield an alternative classification.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 219,
+    "user": "What scenarios cause the classifier to switch labels?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 220,
+    "user": "Identify input changes needed for a new predicted class.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 221,
+    "user": "Show minimal counterfactual adjustments for a flipped outcome.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 222,
+    "user": "What would it take to change this sample’s outcome?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 223,
+    "user": "How can you adjust this record to switch the predicted label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 224,
+    "user": "Detail the feature edits required for a different prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 225,
+    "user": "Which record alterations produce a changed model output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 226,
+    "user": "How could this example be edited to change its label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 227,
+    "user": "What edits produce a flipped classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 228,
+    "user": "Recommend feature tweaks to alter the model’s verdict.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 229,
+    "user": "What kind of data perturbations change the classification here?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 230,
+    "user": "Which input changes direct the classifier to a new label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 231,
+    "user": "Show me the minimal feature changes for a flipped prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 232,
+    "user": "What substitutions in feature values result in a new output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 233,
+    "user": "How to tweak this data point for an alternative classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 234,
+    "user": "Describe the smallest change that flips the predicted class.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 235,
+    "user": "What modifications yield an opposite classifier decision?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 236,
+    "user": "Offer counterfactual feature sets to change this instance’s label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 237,
+    "user": "How might varying input features change the model’s output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 238,
+    "user": "What would need to be shifted for a different prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 239,
+    "user": "Which input factors are pivotal for flipping the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 240,
+    "user": "Illustrate edits that change the sample’s predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 241,
+    "user": "Suggest perturbations that invert the model’s classification.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 242,
+    "user": "What changes would reroute the model’s prediction path?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 243,
+    "user": "Which data adjustments give a different model verdict?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 244,
+    "user": "What must be altered to make the classifier choose the other class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 245,
+    "user": "What minimal feature perturbations swap the predicted label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 246,
+    "user": "Propose edits that overturn the model’s decision on this data.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 247,
+    "user": "Can you provide counterfactual examples that alter the predicted outcome?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 248,
+    "user": "What changes to the input would change the model's prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 249,
+    "user": "I'm curious about the counterfactual examples for this input.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 250,
+    "user": "Could you give me some counterfactual examples to change the label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 251,
+    "user": "What adjustments to the input could flip the model's decision?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 252,
+    "user": "Show me how slight changes to the input affect the predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 253,
+    "user": "Provide counterfactual examples that would modify the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 254,
+    "user": "What are some counterfactual examples that can alter the model's output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 255,
+    "user": "Can you generate counterfactual instances that change the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 256,
+    "user": "I need to see counterfactual examples that impact the model's decision.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 257,
+    "user": "Could you demonstrate counterfactual examples for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 258,
+    "user": "What are the counterfactual scenarios that would change the label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 259,
+    "user": "Provide me with counterfactual examples that alter the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 260,
+    "user": "I want to see how to change the input to get a different prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 261,
+    "user": "What are some counterfactual examples that modify the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 262,
+    "user": "Can you show me counterfactual examples that affect the predicted label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 263,
+    "user": "I'm interested in counterfactual examples that alter the model's output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 264,
+    "user": "Generate counterfactual examples that change the model's decision.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 265,
+    "user": "What modifications to the input would result in a different label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 266,
+    "user": "Display counterfactual examples that influence the predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 267,
+    "user": "I need counterfactual examples that would modify the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 268,
+    "user": "Can you present counterfactual examples that alter the model's output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 269,
+    "user": "What are some counterfactual examples that could change the label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 270,
+    "user": "Provide counterfactual examples that would flip the model's decision.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 271,
+    "user": "I want to see counterfactual examples that affect the predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 272,
+    "user": "What are the counterfactual scenarios that change the model's output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 273,
+    "user": "Can you generate counterfactual examples to alter the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 274,
+    "user": "Show me how changing the input would modify the label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 275,
+    "user": "Provide counterfactual examples that would result in a different prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 276,
+    "user": "What are some counterfactual examples that impact the model's decision?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 277,
+    "user": "Can you demonstrate counterfactual examples that change the label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 278,
+    "user": "I need to see counterfactual examples that alter the predicted outcome.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 279,
+    "user": "What modifications to the input would result in a different prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 280,
+    "user": "Display counterfactual examples that would modify the model's decision.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 281,
+    "user": "I'm interested in counterfactual examples that change the predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 282,
+    "user": "Can you provide counterfactual examples that alter the model's output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 283,
+    "user": "What are some counterfactual examples that would flip the label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 284,
+    "user": "Generate counterfactual examples that would change the model's prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 285,
+    "user": "What are the counterfactual scenarios that affect the predicted label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 286,
+    "user": "Can you show me counterfactual examples that modify the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 287,
+    "user": "I want to see how changing the input affects the model's decision.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 288,
+    "user": "Provide counterfactual examples that would result in a different label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 289,
+    "user": "What are some counterfactual examples that impact the model's output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 290,
+    "user": "Can you demonstrate counterfactual examples that alter the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 291,
+    "user": "I need to see counterfactual examples that change the predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 292,
+    "user": "What modifications to the input would result in a different prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 293,
+    "user": "Display counterfactual examples that would modify the model's decision.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 294,
+    "user": "I'm interested in counterfactual examples that change the model's output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 295,
+    "user": "Can you provide counterfactual examples that alter the predicted label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 296,
+    "user": "What slight input modifications would lead to a different prediction for this data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 297,
+    "user": "How do I change the model's decision by editing this instance?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 298,
+    "user": "List possible counterfactual scenarios for this sample.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 299,
+    "user": "What would you adjust to flip the predicted outcome here?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 300,
+    "user": "Give me a walkthrough of how to modify this input to change its classification.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 301,
+    "user": "Which input alterations result in a new model verdict?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 302,
+    "user": "Can you show me small adjustments that cause a different prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 303,
+    "user": "What minimal changes flip this instance's predicted label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 304,
+    "user": "Describe ways to tweak the features to alter its class.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 305,
+    "user": "How must this record be changed to get an alternate label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 306,
+    "user": "Propose edits for this sample that lead to a changed outcome.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 307,
+    "user": "What edits in the feature set cause the prediction to differ?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 308,
+    "user": "Suggest ways to transform this data to flip its classification.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 309,
+    "user": "How would modifying specific attributes affect the model's label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 310,
+    "user": "What changes can be made for the classifier to choose differently?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 311,
+    "user": "Offer a list of feature changes that invert the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 312,
+    "user": "How can I adjust this input to see a different classifier result?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 313,
+    "user": "Which parameter shifts produce a new prediction here?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 314,
+    "user": "What alternative input configurations yield another label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 315,
+    "user": "Show me counterfactual edits for this example.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 316,
+    "user": "Which feature substitutions swap the predicted class for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 317,
+    "user": "What simple tweaks cause the classifier to change its mind?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 318,
+    "user": "Identify minimal feature adjustments for a flipped prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 319,
+    "user": "How could reworking this instance influence the model's output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 320,
+    "user": "Provide feature-level changes to reverse the classification.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 321,
+    "user": "What needs to be altered for the model to predict the opposite?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 322,
+    "user": "Outline input variations that lead to a new prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 323,
+    "user": "Which aspects of the data are most impactful for flipping the label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 324,
+    "user": "Suggest minimal perturbations for a different classification.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 325,
+    "user": "What edits should I make to this sample to change its prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 326,
+    "user": "Explain how to reconfigure the input to alter its label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 327,
+    "user": "How would tweaking this data point lead to an alternate prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 328,
+    "user": "What adjustments cause the classifier to choose the other class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 329,
+    "user": "Show modifications that produce a different predicted outcome.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 330,
+    "user": "What feature changes swap the model's verdict?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 331,
+    "user": "How can I perturb this record to change its classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 332,
+    "user": "What counterfactual inputs would flip this model's decision?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 333,
+    "user": "Which values should be changed to get a new prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 334,
+    "user": "Propose small edits that alter the model's output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 335,
+    "user": "What transformations yield a different label for this instance?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 336,
+    "user": "Which feature tweaks lead to another predicted class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 337,
+    "user": "Describe the edits needed for a different model verdict.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 338,
+    "user": "What input modifications change the classification outcome?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 339,
+    "user": "Suggest alternatives for this input to change its label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 340,
+    "user": "What minimal variant produces a new prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 341,
+    "user": "How to engineer small edits for a flipped classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 342,
+    "user": "Which feature shifts reroute the model's decision?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 343,
+    "user": "Propose a set of input variations that change its prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 344,
+    "user": "What are the simplest changes to alter the model's output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 345,
+    "user": "Show me the key edits needed to flip this sample's class.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 346,
+    "user": "What are some counterfactual examples for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 347,
+    "user": "Can you provide counterfactual examples to change the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 348,
+    "user": "Show me examples that would change the model's output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 349,
+    "user": "What are the counterfactual examples for this data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 350,
+    "user": "Generate counterfactual examples for this input.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 351,
+    "user": "I need counterfactual examples to alter the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 352,
+    "user": "Can you show me some counterfactual examples?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 353,
+    "user": "What counterfactual examples can change the output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 354,
+    "user": "Provide counterfactual examples for this sample.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 355,
+    "user": "Can you generate counterfactual examples?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 356,
+    "user": "Show me counterfactual examples for this data point.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 357,
+    "user": "What are the counterfactual examples that change the label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 358,
+    "user": "Generate counterfactual examples to alter the model's prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 359,
+    "user": "Can you provide counterfactual examples for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 360,
+    "user": "Show me examples that change the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 361,
+    "user": "What are the counterfactual examples for this particular input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 362,
+    "user": "Generate counterfactual examples for this sample.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 363,
+    "user": "I need counterfactual examples to change the label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 364,
+    "user": "Can you show me some counterfactual examples for this data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 365,
+    "user": "What counterfactual examples can alter the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 366,
+    "user": "Provide counterfactual examples for this particular input.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 367,
+    "user": "Can you generate counterfactual examples for this sample?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 368,
+    "user": "Show me counterfactual examples for this data point.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 369,
+    "user": "What are the counterfactual examples that change the output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 370,
+    "user": "Generate counterfactual examples to alter the model's output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 371,
+    "user": "Can you provide counterfactual examples for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 372,
+    "user": "Show me examples that change the label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 373,
+    "user": "What are the counterfactual examples for this specific input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 374,
+    "user": "Generate counterfactual examples for this sample.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 375,
+    "user": "I need counterfactual examples to alter the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 376,
+    "user": "Can you show me some counterfactual examples for this data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 377,
+    "user": "What counterfactual examples can change the prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 378,
+    "user": "Provide counterfactual examples for this specific input.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 379,
+    "user": "Can you generate counterfactual examples for this sample?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 380,
+    "user": "Show me counterfactual examples for this data point.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 381,
+    "user": "What are the counterfactual examples that change the output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 382,
+    "user": "Generate counterfactual examples to alter the model's prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 383,
+    "user": "Can you provide counterfactual examples for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 384,
+    "user": "Show me examples that change the label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 385,
+    "user": "What are the counterfactual examples for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 386,
+    "user": "Generate counterfactual examples for this sample.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 387,
+    "user": "I need counterfactual examples to change the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 388,
+    "user": "Can you show me some counterfactual examples?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 389,
+    "user": "What counterfactual examples can change the output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 390,
+    "user": "Provide counterfactual examples for this input.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 391,
+    "user": "Can you generate counterfactual examples?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 392,
+    "user": "Show me counterfactual examples for this data point.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 393,
+    "user": "What are the counterfactual examples that change the label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 394,
+    "user": "Generate counterfactual examples to alter the model's prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 395,
+    "user": "What minimal tweaks can I apply to get a different model outcome?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 396,
+    "user": "How can this sample be edited to alter the predicted label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 397,
+    "user": "Which input variations would produce a new classifier result?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 398,
+    "user": "Give me counterfactual edits to switch the model’s verdict.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 399,
+    "user": "What feature adjustments would make the prediction change?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 400,
+    "user": "Show me how to vary this record for a different output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 401,
+    "user": "Which modifications cause the model to flip its decision?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 402,
+    "user": "How could this instance be perturbed for an alternate label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 403,
+    "user": "Suggest input changes that result in a different prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 404,
+    "user": "What edits would reroute the classifier to choose differently?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 405,
+    "user": "Identify the smallest change needed to flip this sample’s class.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 406,
+    "user": "How might I reshape this feature set to change its prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 407,
+    "user": "Provide alternative feature values for a new classification.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 408,
+    "user": "What transformations yield the opposite predicted label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 409,
+    "user": "Which attributes should I alter to invert the model’s output?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 410,
+    "user": "Explain how to adjust this data for a different predicted class.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 411,
+    "user": "What hypothetical feature shifts produce a new label here?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 412,
+    "user": "Show minimal edits needed to switch this instance’s prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 413,
+    "user": "How to tune this input to get another classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 414,
+    "user": "Which data tweaks invert the classifier’s verdict?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 415,
+    "user": "Offer a list of changes that result in a flipped prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 416,
+    "user": "What edits to feature X cause the model to pick a different label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 417,
+    "user": "How can I revise this example for an alternate predicted class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 418,
+    "user": "Suggest small perturbations that alter the classification.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 419,
+    "user": "What specific changes lead to a new model decision?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 420,
+    "user": "Which feature substitutions flip this sample’s outcome?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 421,
+    "user": "How could altering these inputs produce a different result?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 422,
+    "user": "What minimal variant of this record gives another label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 423,
+    "user": "Demonstrate edits that shift the model’s prediction here.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 424,
+    "user": "What perturbations reroute the classifier to the opposite class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 425,
+    "user": "List the necessary feature edits for a flipped classification.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 426,
+    "user": "How do I morph this input to change the predicted class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 427,
+    "user": "Which data changes result in a different prediction outcome?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 428,
+    "user": "Show me counterfactual feature edits for an alternate label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 429,
+    "user": "What minor adjustments shift the model’s verdict?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 430,
+    "user": "Explain which inputs are pivotal to flip its classification.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 431,
+    "user": "Provide variations of this instance for a new predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 432,
+    "user": "How might editing feature Y affect the model’s output here?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 433,
+    "user": "What edits are required to make the classifier change its mind?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 434,
+    "user": "Which feature-level changes invert this sample’s classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 435,
+    "user": "Describe the smallest feature shift needed for a different prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 436,
+    "user": "How can I adjust attribute values to flip this record’s label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 437,
+    "user": "What substitutions in this data point change its predicted class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 438,
+    "user": "Suggest feature variants that yield an opposite model decision.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 439,
+    "user": "How would modifying input Z produce a different classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 440,
+    "user": "Identify potential edits to change this sample’s prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 441,
+    "user": "What minimal counterfactual cases flip the predicted label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 442,
+    "user": "Which simple edits lead to a new output from the model?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 443,
+    "user": "Show what needs to be altered to change the model’s verdict.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 444,
+    "user": "How to modify this feature set to obtain another prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 445,
+    "user": "Can you provide counterfactual examples for this input?",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 446,
+    "user": "What are the counterfactual examples for this data point?",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 447,
+    "user": "Show me how to change the model prediction for this sample.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 448,
+    "user": "I need counterfactual examples that alter the prediction.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 449,
+    "user": "Generate counterfactual examples for this input.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 450,
+    "user": "What changes would flip the predicted label?",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 451,
+    "user": "Provide counterfactual examples to change the prediction.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 452,
+    "user": "I want to see counterfactual examples for this data.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 453,
+    "user": "Can you show counterfactual examples affecting the prediction?",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 454,
+    "user": "List the counterfactual examples for this input.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 455,
+    "user": "How can I change the model prediction with counterfactual examples?",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 456,
+    "user": "Show me counterfactual examples that would change the label.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 457,
+    "user": "Give me counterfactual examples for this input.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 458,
+    "user": "What are some counterfactual examples affecting the prediction?",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 459,
+    "user": "I need to see counterfactual examples for this data point.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 460,
+    "user": "Provide counterfactual examples to alter the predicted label.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 461,
+    "user": "Can you generate counterfactual examples for this input?",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 462,
+    "user": "Show me how to change the prediction with counterfactual examples.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 463,
+    "user": "List counterfactual examples for this sample.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 464,
+    "user": "How can I alter the model prediction using counterfactual examples?",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 465,
+    "user": "Provide counterfactual examples that change the prediction.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 466,
+    "user": "I want to see counterfactual examples for this input.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 467,
+    "user": "What are the counterfactual examples that affect the prediction?",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 468,
+    "user": "Show me counterfactual examples to flip the predicted label.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 469,
+    "user": "Generate counterfactual examples that alter the prediction.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 470,
+    "user": "Provide counterfactual examples for this data point.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 471,
+    "user": "Can you list counterfactual examples that change the label?",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 472,
+    "user": "How do I change the model prediction with counterfactual examples?",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 473,
+    "user": "Show me counterfactual examples for this input.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 474,
+    "user": "I need counterfactual examples to alter the prediction.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 475,
+    "user": "Generate counterfactual examples affecting the predicted label.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 476,
+    "user": "Provide counterfactual examples that flip the prediction.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 477,
+    "user": "List counterfactual examples for this sample.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 478,
+    "user": "How can counterfactual examples change the model prediction?",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 479,
+    "user": "Show me counterfactual examples that alter the label.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 480,
+    "user": "I want to see counterfactual examples for this input.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 481,
+    "user": "What are the counterfactual examples affecting the prediction?",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 482,
+    "user": "Provide counterfactual examples to change the predicted label.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 483,
+    "user": "Can you generate counterfactual examples for this data point?",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 484,
+    "user": "Show me how to alter the prediction with counterfactual examples.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 485,
+    "user": "List counterfactual examples that change the label.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 486,
+    "user": "How do I use counterfactual examples to change the model prediction?",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 487,
+    "user": "Generate counterfactual examples for this input.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 488,
+    "user": "Provide counterfactual examples affecting the predicted label.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 489,
+    "user": "Can you show me counterfactual examples that flip the prediction?",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 490,
+    "user": "I need counterfactual examples to change the prediction.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 491,
+    "user": "Show me counterfactual examples for this sample.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 492,
+    "user": "List counterfactual examples that alter the model prediction.",
+    "parsed": "[cfe(input, label)]"
+  },
+  {
+    "idx": 493,
+    "user": "What minimal change in this data flips the model’s label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 494,
+    "user": "Could you list small adjustments that change the predicted class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 495,
+    "user": "What feature edits would swap the classifier’s output here?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 496,
+    "user": "How can I nudge this input so the model predicts something else?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 497,
+    "user": "Show possible tweaks to get a different prediction on this sample.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 498,
+    "user": "Which small feature changes invert the model’s verdict?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 499,
+    "user": "What edits reroute the classifier to choose the opposite label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 500,
+    "user": "Offer alternative inputs that yield another classification.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 501,
+    "user": "How do I adjust this record for a new model outcome?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 502,
+    "user": "What counterfactual feature sets give a reversed prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 503,
+    "user": "Which variable shifts change this instance’s predicted class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 504,
+    "user": "Identify edits needed to flip the model’s decision here.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 505,
+    "user": "Show how modifying this sample produces a different label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 506,
+    "user": "What attribute changes yield an alternate prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 507,
+    "user": "Can you propose tweaks for a new model verdict?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 508,
+    "user": "How would slight input variations alter the classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 509,
+    "user": "List minimal edits that switch this data point’s class.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 510,
+    "user": "What small substitutions invert the predicted outcome?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 511,
+    "user": "Suggest how adjusting fields leads to a new prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 512,
+    "user": "Which changes reroute the classifier to a different result?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 513,
+    "user": "What counterfactuals would change this example’s label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 514,
+    "user": "Show minimal feature tweaks for an alternate classification.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 515,
+    "user": "Which input edits cause the model to flip its label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 516,
+    "user": "How do I bend this instance so the model outputs differently?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 517,
+    "user": "What modifications swap the predicted class here?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 518,
+    "user": "Provide feature-level perturbations for a new model outcome.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 519,
+    "user": "Which changes in the record flip its classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 520,
+    "user": "Explain edits needed to alter this sample’s prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 521,
+    "user": "What simplest edits invert the classifier’s decision?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 522,
+    "user": "Can you detail how to perturb this input for another label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 523,
+    "user": "Which minimal tweaks produce an opposite prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 524,
+    "user": "What feature adjustments reroute the model’s verdict?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 525,
+    "user": "Offer a list of changes that yield a different predicted class.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 526,
+    "user": "How should I modify this instance to change its label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 527,
+    "user": "Which perturbations invert this data point’s outcome?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 528,
+    "user": "Show adjustments that lead to another classifier result.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 529,
+    "user": "What edits flip the model’s prediction for this example?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 530,
+    "user": "Which small modifications switch the predicted class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 531,
+    "user": "Describe minimal changes that alter the model’s output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 532,
+    "user": "What alternative inputs result in a different prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 533,
+    "user": "Can you list the smallest edits to change this classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 534,
+    "user": "Which field adjustments lead to a flipped verdict?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 535,
+    "user": "What feature-level edits produce an alternate label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 536,
+    "user": "Show how minor value shifts change the predicted class.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 537,
+    "user": "Which counterfactual tweaks swap the model’s decision?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 538,
+    "user": "What edits are needed to reroute the classifier’s choice?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 539,
+    "user": "Offer counterfactual scenarios for a new prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 540,
+    "user": "Which attribute changes produce another classification?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 541,
+    "user": "How might perturbing this record alter its predicted class?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 542,
+    "user": "List possible edits that flip the outcome of this sample.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 543,
+    "user": "Can you generate counterfactual examples for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 544,
+    "user": "What changes would alter the prediction for this sample?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 545,
+    "user": "Show me how to change the input to get a different prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 546,
+    "user": "Could you provide counterfactual examples for this data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 547,
+    "user": "How can I modify this sample to change its predicted label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 548,
+    "user": "Generate counterfactual examples to change the model's prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 549,
+    "user": "What counterfactual examples would change this prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 550,
+    "user": "Can you show me counterfactual examples for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 551,
+    "user": "How can I alter this input to get a different label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 552,
+    "user": "Provide counterfactual examples that change the model's output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 553,
+    "user": "What are the counterfactual examples for this data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 554,
+    "user": "Generate examples that would change this sample's predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 555,
+    "user": "Can you create counterfactual examples for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 556,
+    "user": "How do I modify this input to change its label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 557,
+    "user": "Show me counterfactual examples to alter the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 558,
+    "user": "What counterfactual examples can change this sample's prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 559,
+    "user": "Could you create counterfactual examples for this data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 560,
+    "user": "How can I change this input to get a different prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 561,
+    "user": "Provide counterfactual examples to change the model's prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 562,
+    "user": "What are the counterfactual examples for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 563,
+    "user": "Generate examples that alter the predicted label for this sample.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 564,
+    "user": "Can you show me counterfactual examples for this data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 565,
+    "user": "How do I modify this sample to change its prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 566,
+    "user": "Provide counterfactual examples that change the label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 567,
+    "user": "What counterfactual examples would alter this input's prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 568,
+    "user": "Could you generate counterfactual examples for this sample?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 569,
+    "user": "How can I change this data point to get a different label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 570,
+    "user": "Show me counterfactual examples to change the model's output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 571,
+    "user": "What are the counterfactual examples for this sample?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 572,
+    "user": "Generate examples that would change this input's predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 573,
+    "user": "Can you create counterfactual examples for this data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 574,
+    "user": "How do I modify this input to change its prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 575,
+    "user": "Provide counterfactual examples to alter the model's prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 576,
+    "user": "What counterfactual examples can change this sample's label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 577,
+    "user": "Could you show me counterfactual examples for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 578,
+    "user": "How can I alter this data point to get a different prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 579,
+    "user": "Generate counterfactual examples that change the model's output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 580,
+    "user": "What are the counterfactual examples for this input?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 581,
+    "user": "Provide examples that alter the predicted label for this sample.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 582,
+    "user": "Can you create counterfactual examples for this data point?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 583,
+    "user": "How do I modify this sample to change its label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 584,
+    "user": "Show me counterfactual examples to change the prediction.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 585,
+    "user": "What counterfactual examples would alter this input's prediction?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 586,
+    "user": "Could you generate counterfactual examples for this sample?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 587,
+    "user": "How can I change this data point to get a different label?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 588,
+    "user": "Provide counterfactual examples to change the model's output.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 589,
+    "user": "What are the counterfactual examples for this sample?",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 590,
+    "user": "Generate examples that would change this input's predicted label.",
+    "parsed": "explain_how_to_be_that"
+  },
+  {
+    "idx": 591,
+    "user": "Can you show me counterfactual examples for this data point?",
+    "parsed": "explain_how_to_be_that"
+  }
+]

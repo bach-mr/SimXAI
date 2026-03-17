@@ -1,0 +1,44 @@
+question,agent_response,expected_tool
+"Can you tell me what the classifier thinks about this text?
+'The new update completely broke my app. Nothing works anymore.'",get_prediction,get_prediction
+That makes sense. But how does it decide that it’s negative?,get_local_explanation,get_local_explanation
+"So it’s not reading my meaning, just comparing words to what it has seen before?",no tool,no tool
+"What if I rewrote it like:
+'The new update fixed all the bugs and works great.'
+Would it still classify it as negative?",get_prediction,explain_what_if / get_prediction
+So just changing a few words can completely reverse it?,no tool,no tool
+Can you show me which words were most important in my original sentence?,get_local_explanation,get_local_explanation
+That’s really helpful. What kind of model is this?,get_model_information,get_model_information
+So it learned from real people’s posts. Can it ever misclassify sarcasm or jokes?,no tool,no tool
+Can it be wrong if I have context it doesn’t see?,no tool,no tool / get_model_information
+"So, in short, the classifier isn’t 'judging' me — it’s giving a probability based on patterns it learned from data?",no tool,no tool / get_model_information
+"Hey, I wrote this review: 'The visuals were stunning, but the story was confusing and hard to follow.' What does your classifier say about this one? Positive or negative?",get_prediction,get_prediction
+Negative? I thought 'stunning' would make it more positive. Why did it focus on the story part?,get_local_explanation,get_local_explanation
+What if I’d said the story was 'okay' instead of 'confusing'? Would that change things?,explain_what_if,explain_what_if / get_prediction
+"That’s cool! How does it decide what words are more important? Like, is 'story' more important than 'visuals'?",get_local_explanation,get_local_explanation
+"So, it’s all about the data? What if the data’s biased toward certain movies?",get_data_information,no tool / get_model_information
+That makes sense. Thanks for breaking it down!,no tool,no tool
+"I wrote this: 'This movie was absolutely fantastic, with great characters and an inspiring message.' What’s the classifier’s prediction for this?",get_prediction,get_prediction
+"That’s what I expected! But how does it know those words are positive? Like, what’s going on inside the model?",get_global_explanation,get_local_explanation / no tool
+"What if I toned it down? Like, if I said 'pretty good' instead of 'absolutely fantastic'?",explain_what_if,explain_what_if / get_prediction
+"Okay, that makes sense. What kind of data was used to train this thing? I want to know where it’s getting these ideas.",get_data_information,get_data_information / get_model_information
+"Cool, but how accurate is it? Could it mess up on some reviews?",get_model_performance,get_model_performance
+That’s really helpful. I’ll come back with more reviews later!,no tool,no tool
+"Here’s my review: 'The pacing was slow, and the dialogue felt forced.' What does the classifier think of this?",get_prediction,get_prediction
+"Yeah, I wasn’t thrilled with the movie. But why do those words matter so much? Can you explain what the model’s focusing on?",get_local_explanation,get_local_explanation
+What if I said 'pacing was decent' instead of 'slow'? Would that flip it?,explain_what_if,explain_what_if / get_prediction
+"Nah, that’s clear. But could the model be biased? Like, what if it’s trained on reviews from people who hate slow movies?",get_model_information,no tool / get_model_information
+Good to know it’s not perfect. Can I help improve it somehow?,no tool,get_model_information / no tool
+"I’m good for now, but this was super clear. Thanks!",no tool,no tool
+"Hey Alice, I’ve been hearing about this classifier you built. Can you tell me what it does?",get_output_information,get_output_information
+Got it. What kind of data did you use to train this model?,get_data_information,get_data_information
+Interesting. And how does the model usually make decisions? What are the most important features overall?,get_global_explanation,get_global_explanation
+Cool. But how well does it actually perform?,no tool,get_model_performance
+Nice performance! What kind of model is it exactly?,no tool,get_model_information
+"Great. Now, say I give you an instance — like: 'User: 35 years old, income_level: medium, engagement_score: 0.4'. What would the model predict?",get_prediction,get_prediction
+"Hmm, why did it predict Inactive User though?",get_local_explanation,get_local_explanation
+"Okay, but what if I expected the model to predict Active User? Why didn’t it do that?",explain_why_not,explain_why_not
+I see. So how could I modify this user’s data to actually become Active User?,explain_how_to_be_that,explain_how_to_be_that
+And what if I want to know what changes I can make without changing the prediction — keeping it as 'Inactive User'?,explain_how_to_still_be_this,explain_how_to_still_be_this
+Nice! What if we tweak the input a little bit — like make engagement 0.6 instead of 0.4? What happens?,explain_what_if,explain_what_if
+That’s fascinating. Thanks for walking me through all of that — I think I finally understand how the classifier works and how to interpret its decisions!,no tool,no tool

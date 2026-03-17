@@ -1,0 +1,326 @@
+[
+  {
+    "idx": 0,
+    "user": "testing accuracy",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 1,
+    "user": "give me the accuracy on the data",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 2,
+    "user": "give me the accuracy on the training data",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 3,
+    "user": "testing accuracy please",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 4,
+    "user": "nice! could you give me the test accuracy on the training data?",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 5,
+    "user": "training accuracy please",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 6,
+    "user": "how often are you right?",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 7,
+    "user": "how often are you correct?",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 8,
+    "user": "what's the rate you do correct predictions?",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 9,
+    "user": "how frequently do you get it correct?",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 10,
+    "user": "how accurate is the model on all the data?",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 11,
+    "user": "how accurate is the model over all the instances in the data?",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 12,
+    "user": "how accurate are you in predicting the class {class_names}?",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 13,
+    "user": "when scoring {class_names}, what's the model's accuracy?",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 14,
+    "user": "nice! could you give me the test f1?",
+    "parsed": "get_model_performance",
+    "input": "f1"
+  },
+  {
+    "idx": 15,
+    "user": "display score",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 16,
+    "user": "show me the test set performance",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 17,
+    "user": "testing f1",
+    "parsed": "get_model_performance",
+    "input": "f1"
+  },
+  {
+    "idx": 18,
+    "user": "I meant what is the f1 score on the evaluation data",
+    "parsed": "get_model_performance",
+    "input": "f1"
+  },
+  {
+    "idx": 19,
+    "user": "what is the f1 score on the evaluation data",
+    "parsed": "get_model_performance",
+    "input": "f1"
+  },
+  {
+    "idx": 20,
+    "user": "What is the F1 score?",
+    "parsed": "get_model_performance",
+    "input": "f1"
+  },
+  {
+    "idx": 21,
+    "user": "can you show me the precision on the data?",
+    "parsed": "get_model_performance",
+    "input": "precision"
+  },
+  {
+    "idx": 22,
+    "user": "can you show me the precision on the training data?",
+    "parsed": "get_model_performance",
+    "input": "precision"
+  },
+  {
+    "idx": 23,
+    "user": "What is the precision?",
+    "parsed": "get_model_performance",
+    "input": "precision"
+  },
+  {
+    "idx": 24,
+    "user": "give the recall score",
+    "parsed": "get_model_performance",
+    "input": "recall"
+  },
+  {
+    "idx": 25,
+    "user": "testing recall score",
+    "parsed": "get_model_performance",
+    "input": "recall"
+  },
+  {
+    "idx": 26,
+    "user": "What is the recall?",
+    "parsed": "get_model_performance",
+    "input": "recall"
+  },
+  {
+    "idx": 27,
+    "user": "can you show me the roc score on the testing data?",
+    "parsed": "get_model_performance",
+    "input": "roc"
+  },
+  {
+    "idx": 28,
+    "user": "what's the roc score",
+    "parsed": "get_model_performance",
+    "input": "roc"
+  },
+  {
+    "idx": 29,
+    "user": "I would like to check the accuracy of the model.",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 30,
+    "user": "Can you tell me how accurate the model is?",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 31,
+    "user": "I would like to check the accuracy of the model.",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 32,
+    "user": "What is the F1 score on the data?",
+    "parsed": "get_model_performance",
+    "input": "f1"
+  },
+  {
+    "idx": 33,
+    "user": "I would like to know the level of accuracy of the model.",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 34,
+    "user": "Could you provide me with information regarding the accuracy of the model?",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 35,
+    "user": "Tell me, how accurate is the model?",
+    "parsed": "get_model_performance",
+    "input": "accuracy"
+  },
+  {
+    "idx": 36,
+    "user": "It would be helpful if you could inform me about the model's F1 score.",
+    "parsed": "get_model_performance",
+    "input": "f1"
+  },
+  {
+    "idx": 37,
+    "user": "Can you provide the ROC score for the testing data?",
+    "parsed": "get_model_performance",
+    "input": "roc"
+  },
+  {
+    "idx": 38,
+    "user": "What is the ROC score?",
+    "parsed": "get_model_performance",
+    "input": "roc"
+  },
+  {
+    "idx": 39,
+    "user": "Show me the ROC score on the testing data.",
+    "parsed": "get_model_performance",
+    "input": "roc"
+  },
+  {
+    "idx": 40,
+    "user": "Can you display the ROC score?",
+    "parsed": "get_model_performance",
+    "input": "roc"
+  },
+  {
+    "idx": 41,
+    "user": "What's the F1 score on the evaluation data?",
+    "parsed": "get_model_performance",
+    "input": "f1"
+  },
+  {
+    "idx": 42,
+    "user": "I meant, what is the F1 score on the evaluation data?",
+    "parsed": "get_model_performance",
+    "input": "f1"
+  },
+  {
+    "idx": 43,
+    "user": "Can you provide the F1 score on the evaluation data?",
+    "parsed": "get_model_performance",
+    "input": "f1"
+  },
+  {
+    "idx": 44,
+    "user": "What is the F1 score?",
+    "parsed": "get_model_performance",
+    "input": "f1"
+  },
+  {
+    "idx": 45,
+    "user": "Provide the recall score.",
+    "parsed": "get_model_performance",
+    "input": "recall"
+  },
+  {
+    "idx": 46,
+    "user": "What's the recall score for testing?",
+    "parsed": "get_model_performance",
+    "input": "recall"
+  },
+  {
+    "idx": 47,
+    "user": "Recall score?",
+    "parsed": "get_model_performance",
+    "input": "recall"
+  },
+  {
+    "idx": 48,
+    "user": "Provide the precision score.",
+    "parsed": "get_model_performance",
+    "input": "precision"
+  },
+  {
+    "idx": 49,
+    "user": "Can you display the precision on the training data?",
+    "parsed": "get_model_performance",
+    "input": "precision"
+  },
+  {
+    "idx": 50,
+    "user": "What is the precision value?",
+    "parsed": "get_model_performance",
+    "input": "precision"
+  },
+  {
+    "idx": 51,
+    "user": "Show me the precision score.",
+    "parsed": "get_model_performance",
+    "input": "precision"
+  },
+  {
+    "idx": 52,
+    "user": "What's the precision on the data?",
+    "parsed": "get_model_performance",
+    "input": "precision"
+  },
+  {
+    "idx": 53,
+    "user": "Precision score",
+    "parsed": "get_model_performance",
+    "input": "precision"
+  }
+]

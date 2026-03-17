@@ -32,7 +32,7 @@ class ToolACEModel:
             num_return_sequences=1, 
             eos_token_id=self.tokenizer.eos_token_id
         )
-        
+        decoded_inputs = self.tokenizer.decode(inputs[0], skip_special_tokens=True)
         response = self.tokenizer.decode(
             outputs[0][len(inputs[0]):], 
             skip_special_tokens=True

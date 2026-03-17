@@ -1,0 +1,242 @@
+[
+  {
+    "idx": 0,
+    "user": "what are the labels for all the data",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 1,
+    "user": "Please show what the gold labels are",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 2,
+    "user": "Could you show me how the data is labelled?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 3,
+    "user": "What are the true labels in the dataset and how often do they occur?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 4,
+    "user": "Show how often which target label appears in the entire dataset",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 5,
+    "user": "What labels do we have?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 6,
+    "user": "Tell me about the dataset labels, please.",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 7,
+    "user": "What classification labels do we have at our disposal?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 8,
+    "user": "What are the different labeling options we have?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 9,
+    "user": "What label options do we currently have access to?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 10,
+    "user": "What classification labels do we have at our disposal?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 11,
+    "user": "What are the different labeling options we have?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 12,
+    "user": "What label options do we currently have access to?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 13,
+    "user": "Tell me something about the label distribution",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 14,
+    "user": "What are the labels for all the data items?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 15,
+    "user": "Could you show the gold labels?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 16,
+    "user": "How is the data labeled?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 17,
+    "user": "What are the true labels in the dataset and how often do they occur?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 18,
+    "user": "What is the frequency of each target label in the entire dataset?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 19,
+    "user": "What are the labels in the dataset?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 20,
+    "user": "Could you provide information about the dataset labels?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 21,
+    "user": "What classification labels do we have available?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 22,
+    "user": "What are the different label options we have?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 23,
+    "user": "What label options do we currently have access to?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 24,
+    "user": "What classification labels do we have available?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 25,
+    "user": "What are the different label options we have?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 26,
+    "user": "What label options do we currently have access to?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 27,
+    "user": "Could you tell me about the label distribution?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 28,
+    "user": "Can you display the gold labels?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 29,
+    "user": "What is the labeling of the data?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 30,
+    "user": "What are the actual labels in the dataset and their occurrence rates?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 31,
+    "user": "What is the distribution of each target label across the dataset?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 32,
+    "user": "What labels are present in the dataset?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 33,
+    "user": "Could you provide the true labels?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 34,
+    "user": "How are the data points labeled?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 35,
+    "user": "What are the real labels in the dataset and their frequencies?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 36,
+    "user": "Can you show the occurrence of each target label in the dataset?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 37,
+    "user": "What labels are used in the dataset?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 38,
+    "user": "what labels are assigned to the data?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 39,
+    "user": "Could you display the gold labels?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 40,
+    "user": "What are the true labels in the dataset and their frequencies?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 41,
+    "user": "Show the frequency of each target label in the dataset",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 42,
+    "user": "What labels are available?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 43,
+    "user": "Provide information about the dataset labels, please.",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 44,
+    "user": "What are the available classification labels?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 45,
+    "user": "What labeling options are there?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 46,
+    "user": "Which label options can we access?",
+    "parsed": "get_data_information"
+  },
+  {
+    "idx": 47,
+    "user": "Can you tell me about the label distribution?",
+    "parsed": "get_data_information"
+  }
+]

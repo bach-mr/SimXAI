@@ -1,19 +1,51 @@
-from tools.tool_numbers import *
-xai = PrizePredictor()
-# def get_prediction(num1, num2, num3):
-#     """
-#     Call this whenever you neet to get model prediction on the given instance, for example, user asked "What is the prediction for this instance?"
-#     Get prize based on three numbers (0-9).
-    
-#     Args:
-#         num1: First number (0-9)
-#         num2: Second number (0-9)
-#         num3: Third number (0-9)
-    
-#     Returns:
-#         str: Prize level ('first prize', 'second prize', 'third prize', or 'no prize')
-#     """
-#     return xai.get_prediction(num1, num2, num3)
+"""Tool functions exposed to the ToolACE agent.
+
+This file keeps a stable tool API (get_prediction, explanations, counterfactuals, etc.)
+while routing calls to the currently active rule-based model.
+"""
+
+# --- Old tasks (kept as requested) ---
+# from tools.tool_numbers import *
+# from tools.tool_heart_rate import HeartRateMonitor
+# heart_monitor = HeartRateMonitor()
+
+# --- New tasks: COMPAS + Sentiment ---
+from tools.tool_compas import COMPASRuleModel
+from tools.tool_sentiment import SentimentRuleModel
+from tools.tool_heart_rate import HeartRateMonitor
+
+compas_model = COMPASRuleModel()
+sentiment_model = SentimentRuleModel()
+heart_model = HeartRateMonitor()
+
+
+# Default context
+xai = sentiment_model
+
+
+def switch_context(context: str) -> str:
+    """Switch active model context.
+
+    Args:
+        context: One of 'sentiment' or 'compas'
+
+    Returns:
+        Confirmation message.
+    """
+
+    global xai
+    ctx = (context or "").strip().lower()
+    if ctx in {"sentiment", "imdb", "sa"}:
+        xai = sentiment_model
+        return "Switched to Sentiment Analysis context."
+    if ctx in {"compas", "recidivism", "risk"}:
+        xai = compas_model
+        return "Switched to COMPAS (recidivism risk) context."
+    if ctx in {"heart", "heart rate"}:
+        xai = heart_model
+        return "Switched to Heart Rate context."
+    return "Unknown context. Use 'sentiment', 'compas', or 'heart'."
+
 def get_prediction(instance: str) -> str:
     """
     Call this whenever you neet to get model prediction on the given instance, for example, user asked "What is the prediction for this instance?"
@@ -34,7 +66,7 @@ def get_global_explanation() -> dict:
         e.g., which features are important globally or what the overall structure is.
     """
     return xai.get_global_explanation()
-def get_local_explanation(prediction_label: str = None) -> dict:
+def get_local_explanation(instance: str, prediction_label: str = None) -> dict:
     """
     Call this whenever you need reason for the prediction, such as features contributed most to a specific prediction made by the model, for example, user asked "Why did the model predict this for the given instance?"
 
@@ -58,12 +90,12 @@ def explain_why_not(instance: str, expected_label: str = None) -> dict:
     Output:
         Explanation of which features or patterns prevented the desired prediction.
     """
-    why = xai.get_important_features()
+    why = xai.get_important_features(expected_label)
     if expected_label:
         cf = xai.get_counterfactuals(instance, expected_label.lower())
     else:
         cf = xai.get_counterfactuals(instance)
-    return "The reason for the current prediction is: " + why + ". To achieve the expected prediction, consider the following changes: " + ", ".join(cf)
+    return "The reason for the current prediction is: " + why + ". To achieve the expected prediction, consider the following changes: " + ", ".join(str(item) for item in cf)
 
 def explain_how_to_be_that(instance: str, target_label: str = None, number_of_iterations: int = 1) -> str:
     """
@@ -78,7 +110,7 @@ def explain_how_to_be_that(instance: str, target_label: str = None, number_of_it
     Output:
         Counterfactual changes (e.g., "increase feature X by 0.2").
     """
-    return xai.get_counterfactuals(instance, target_label.lower(), number_of_iterations)
+    return xai.get_counterfactuals(instance, target_label, number_of_iterations)
 
 
 def explain_how_to_still_be_this(instance: str = None) -> str:
@@ -121,10 +153,10 @@ def get_model_performance(metric) -> str:
 def get_data_information() -> str:
     """
     Call this whenever you need to access the data information used to train and evaluate the model. For example, user asked "What data was used to train the model?"
-    The tool provides details like summary statistics, feature distributions, class balance, and potential biases.
+    The tool provides details about the data like used features, labels, summary statistics, feature distributions, class balance, and potential biases.
     
     Output:
-        Summary statistics, feature distributions, class balance, and potential biases in the data.
+        Summary statistics, feature distributions, class balance, labels, and potential biases in the data.
     """
     return xai.get_data_information()
 def get_model_information() -> str:
@@ -142,9 +174,41 @@ def get_model_information() -> str:
 def get_output_information() -> str:
     """
     Call this whenver you need to know any information about the model’s output such as type, purpose or how to interpret it in the whole system. For example, user asked "What does the model output mean?"
-   
+    This function provides details on how the output of the system will be used further or how the output/results are integrated into other systems.
+    
     Output:
         Guidance on interpretation, usage, or next actions.
     """
     return xai.get_output_information()
 
+def count_mistakes()-> str:
+    """
+    Call this whenever you need to count the number of mistakes made by the model on a given dataset. For example, user asked "How many mistakes did the model make on this dataset?"
+    
+    Output:
+        The number of mistakes made by the model.
+    """
+    if hasattr(xai, "count_mistakes"):
+        return str(xai.count_mistakes())
+    return "This model does not support mistake counting."
+def sample_mistakes(n: int) -> str:
+    """
+    Call this whenever you need to sample a few mistakes made by the model on a given dataset. For example, user asked "Can you show me some examples of mistakes made by the model?"
+    
+    Args:
+        n: Number of mistakes to sample.
+    
+    Output:
+        Examples of mistakes made by the model.
+    """
+    if hasattr(xai, "sample_mistakes"):
+        return str(xai.sample_mistakes(n))
+    return "This model does not support mistake sampling."
+def get_system_information() -> str:
+    """
+    Call this whenever you need to provide comprehensive information about the entire system, including how the model integrates with other components, its deployment environment, and overall architecture. For example, user asked "Can you explain how the whole system works?"
+    
+    Output:
+        Comprehensive overview of the system architecture, integration points, and deployment details.
+    """
+    return xai.get_system_information()

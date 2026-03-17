@@ -1,0 +1,179 @@
+[
+  {
+    "idx": 0,
+    "dialogues": [
+      "What is the sentiment of this sentence: 'A fascinating documentary that educates and entertains.'",
+      "Could you provide me feature importance score for it?",
+      "Could you generate counterfactual examples for this sample?"
+    ],
+    "parsing": [
+      "predict",
+      "importance",
+      "cfe"
+    ],
+    "input": [
+      "A fascinating documentary that educates and entertains.",
+      "A fascinating documentary that educates and entertains.",
+      "A fascinating documentary that educates and entertains."
+    ]
+  },
+  {
+    "idx": 1,
+    "dialogues": [
+      "What's the prediction for 'The movie was an exercise in tedium and boredom.'",
+      "Can you give a counterfactual for it",
+      "Could you tell me why the model predicts it?"
+    ],
+    "parsing": [
+      "predict",
+      "cfe",
+      "importance"
+    ],
+    "input": [
+      "The movie was an exercise in tedium and boredom",
+      "The movie was an exercise in tedium and boredom",
+      "The movie was an exercise in tedium and boredom"
+    ]
+  },
+  {
+    "idx": 2,
+    "dialogues": [
+      "I want a prediction for whether 'A fascinating documentary that educates and entertains.'",
+      "How much can the input vary and still get the same prediction?"
+    ],
+    "parsing": [
+      "predict",
+      "still"
+    ],
+    "input": [
+      "A fascinating documentary that educates and entertains.",
+      "A fascinating documentary that educates and entertains."
+    ]
+  },
+  {
+    "idx": 3,
+    "dialogues": [
+      "unflinchingly bleak and desperate. What is the sentiment prediction for this phrase?",
+      "Generate counterfactual examples that change the model's output.",
+      "another one?"
+    ],
+    "parsing": [
+      "predict",
+      "cfe",
+      "cfe"
+    ],
+    "input": [
+      "unflinchingly bleak and desperate",
+      "unflinchingly bleak and desperate",
+      "unflinchingly bleak and desperate"
+    ]
+  },
+  {
+    "idx": 4,
+    "dialogues": [
+      "What is the maximum allowable change to 'The humor was juvenile and unfunny.' while still getting the same prediction?",
+      "I don't like this, give me another one"
+    ],
+    "parsing": [
+      "still",
+      "still"
+    ],
+    "input": [
+      "The humor was juvenile and unfunny.",
+      "The humor was juvenile and unfunny."
+    ]
+  },
+  {
+    "idx": 5,
+    "dialogues": [
+      "Could you please generate a counterfactual for 'The script was weak and full of clichés.'",
+      "show me important tokens for the decision"
+    ],
+    "parsing": [
+      "cfe",
+      "importance"
+    ],
+    "input": [
+      "The script was weak and full of clichés.",
+      "The script was weak and full of clichés."
+    ]
+  },
+  {
+    "idx": 5,
+    "dialogues": [
+      "Can you provide the feature importance score for 'The moon affects the ocean tides on Earth'?",
+      "Can you provide the range of permissible input modifications for this result?",
+      "or doing last year 's taxes with your ex-wife . What is the sentiment of this?"
+    ],
+    "parsing": [
+      "importance",
+      "still",
+      "predict"
+    ],
+    "input": [
+      "The moon affects the ocean tides on Earth",
+      "The moon affects the ocean tides on Earth",
+      "or doing last year 's taxes with your ex-wife ."
+    ]
+  },
+  {
+    "idx": 6,
+    "dialogues": [
+      "Could you give me the feature attribution for 'The Amazon rainforest, often referred to as the lungs of the Earth, plays a crucial role in regulating the planet's climate by absorbing carbon dioxide'?",
+      "I'd like a counterfactual example for 'A delightful blend of humor and drama.'"
+    ],
+    "parsing": [
+      "importance",
+      "cfe"
+    ],
+    "input": [
+      "The Amazon rainforest, often referred to as the lungs of the Earth, plays a crucial role in regulating the planet's climate by absorbing carbon dioxide",
+      "A delightful blend of humor and drama."
+    ]
+  },
+  {
+    "idx": 7,
+    "dialogues": [
+      "Can you give a counterfactual for 'The movie was an exercise in tedium and boredom.'",
+      "What minor or major adjustments can I make, and the prediction still not change?"
+    ],
+    "parsing": [
+      "cfe",
+      "still"
+    ],
+    "input": [
+      "The movie was an exercise in tedium and boredom.",
+      "The movie was an exercise in tedium and boredom."
+    ]
+  },
+  {
+    "idx": 8,
+    "dialogues": [
+      "What is the scope of the system's capability?",
+      "Please provide a counterfactual example for 'An unforgettable journey of self-discovery.'"
+    ],
+    "parsing": [
+      "system",
+      "cfe"
+    ],
+    "input": [
+      "",
+      "An unforgettable journey of self-discovery."
+    ]
+  },
+  {
+    "idx": 9,
+    "dialogues": [
+      "What is the allowed variability in 'seldom has a movie so closely matched the spirit of a man and his work .' to achieve the same result?",
+      "why is this prediction?"
+    ],
+    "parsing": [
+      "still",
+      "importance"
+    ],
+    "input": [
+      "seldom has a movie so closely matched the spirit of a man and his work .",
+      "seldom has a movie so closely matched the spirit of a man and his work ."
+    ]
+  }
+]

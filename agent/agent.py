@@ -21,34 +21,34 @@ class ToolACEAgent:
         # Add user message
         messages.append({'role': 'user', 'content': user_message})
         
-        # Generate response
-        response = self.model.generate_response(messages)
-        
-        # Parse function calls
-        function_calls = parse_function_calls(response)
-        
-        if not function_calls:
-            return response, None, messages
-        
-        # Execute function calls
-        results = []
         tool_names = []
-        for call in function_calls:
-            tool_names.append(call['function'])
-            result = execute_function_call(
-                self.tools_module, 
-                call['function'], 
-                call['parameters']
-            )
-            results.append(f"The result of function {call['function']} is {result}, please use it to answer the user question.")
-        
-        # Add tool results to messages
-        tool_results = "\n".join(results)
-        print("Tool results:", tool_results)
-        messages.append({"role": "tool", "name": function_calls, "content": tool_results})
-        print("Messages after tool results:", messages)
-        # Generate final response with tool results
-        final_response = self.model.generate_response(messages)
+        while True:
+            # Generate response
+            response = self.model.generate_response(messages)
+            
+            # Parse function calls
+            function_calls = parse_function_calls(response)
+            
+            if not function_calls:
+                final_response = response
+                break
+            
+            # Execute function calls
+            results = []
+            for call in function_calls:
+                tool_names.append(call['function'])
+                result = execute_function_call(
+                    self.tools_module, 
+                    call['function'], 
+                    call['parameters']
+                )
+            results.append(f"{call['function']}:'{result}'.")
+            
+            # Add tool results to messages
+            tool_results = "\n".join(results)
+            print("Tool results:", tool_results)
+            messages.append({"role": "tool", "name": call['function'], "content": tool_results})
+            print("Messages after tool results:", messages)
         print("Final response:", final_response)
         messages.append({'role': 'assistant', 'content': final_response})
         
