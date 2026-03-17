@@ -3,7 +3,7 @@
 
 This repository provides the codebase and evaluation suite to reproduce the results from the paper:
 
-> **SimXAI: A Simple Conversational XAI Framework**
+> **SimXAI: SimXAI: A Simple Drop-in Layer Increases Interaction Quality and Understanding in Conversational XAI**
 
 ---
 
